@@ -1,0 +1,21 @@
+/* blink.css | MIT License */
+
+.bs-\.0625r,
+.bs-\.0625r\:h:hover {
+	box-shadow: 0 .0625rem .0625rem 0 hsla(0, 0%, 0%, .125)
+}
+
+.bs-\.125r,
+.bs-\.125r\:h:hover {
+	box-shadow: 0 .0625rem .125rem 0 hsla(0, 0%, 0%, .125)
+}
+
+.bs-\.25r,
+.bs-\.25r\:h:hover {
+	box-shadow: 0 .0625rem .25rem 0 hsla(0, 0%, 0%, .125)
+}
+
+.bs-\.5r,
+.bs-\.5r\:h:hover {
+	box-shadow: 0 .0625rem .5rem 0 hsla(0, 0%, 0%, .125)
+}

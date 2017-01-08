@@ -1,0 +1,78 @@
+/* TYPOGRAPHY */
+
+@import "modules/font-family.css";
+@import "modules/font-size.css";
+@import "modules/line-height.css";
+@import "modules/font-weight.css";
+@import "modules/font-style.css";
+@import "modules/text-align.css";
+@import "modules/text-transform.css";
+@import "modules/letter-spacing.css";
+
+/* LAYOUT */
+
+
+/* Spacing and Dimensions */
+
+@import "modules/margin.css";
+@import "modules/margin_child.css";
+@import "modules/padding.css";
+@import "modules/width.css";
+@import "modules/max-width.css";
+@import "modules/height.css";
+
+
+/* Positioning */
+
+@import "modules/display.css";
+@import "modules/position.css";
+@import "modules/z-index.css";
+@import "modules/top.css";
+@import "modules/right.css";
+@import "modules/bottom.css";
+@import "modules/left.css";
+@import "modules/float.css";
+@import "modules/overflow.css";
+@import "modules/white-space.css";
+
+/* Flexbox */
+
+@import "modules/flex-direction.css";
+@import "modules/flex-wrap.css";
+@import "modules/justify-content.css";
+@import "modules/align-items.css";
+@import "modules/align-self.css";
+@import "modules/flex-grow.css";
+@import "modules/flex-shrink.css";
+@import "modules/flex-basis.css";
+@import "modules/order.css";/*2do: demo, add responsive classes*/
+
+/* THEMING */
+
+
+/* Borders */
+
+@import "modules/border-width.css";
+@import "modules/border-radius.css";/*2do: demo*/
+@import "modules/box-shadow.css";/*2do: demo*/
+
+
+/* Colors */
+
+@import "modules/color.css";
+@import "modules/background-color.css";
+@import "modules/border-color.css";
+
+
+/* Backgrounds */
+
+
+/* Breakpoint template
+
+@media screen and (min-width: 40rem) {}
+
+@media screen and (min-width: 60rem) {}
+
+@media screen and (min-width: 80rem) {}
+
+*/

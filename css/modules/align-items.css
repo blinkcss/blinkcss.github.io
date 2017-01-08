@@ -1,0 +1,75 @@
+/* blink.css | MIT License */
+
+.ai-b {
+	align-items: baseline
+}
+
+.ai-fs {
+	align-items: flex-start
+}
+
+.ai-c {
+	align-items: center
+}
+
+.ai-fe {
+	align-items: flex-end
+}
+
+.ai-s {
+	align-items: stretch
+}
+
+@media screen and (min-width: 40rem) {
+	.ai-b\@sm {
+		align-items: baseline
+	}
+	.ai-fs\@sm {
+		align-items: flex-start
+	}
+	.ai-c\@sm {
+		align-items: center
+	}
+	.ai-fe\@sm {
+		align-items: flex-end
+	}
+	.ai-s\@sm {
+		align-items: stretch
+	}
+}
+
+@media screen and (min-width: 60rem) {
+	.ai-b\@md {
+		align-items: baseline
+	}
+	.ai-fs\@md {
+		align-items: flex-start
+	}
+	.ai-c\@md {
+		align-items: center
+	}
+	.ai-fe\@md {
+		align-items: flex-end
+	}
+	.ai-s\@md {
+		align-items: stretch
+	}
+}
+
+@media screen and (min-width: 80rem) {
+	.ai-b\@lg {
+		align-items: baseline
+	}
+	.ai-fs\@lg {
+		align-items: flex-start
+	}
+	.ai-c\@lg {
+		align-items: center
+	}
+	.ai-fe\@lg {
+		align-items: flex-end
+	}
+	.ai-s\@lg {
+		align-items: stretch
+	}
+}

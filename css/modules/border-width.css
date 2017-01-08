@@ -1,0 +1,406 @@
+/* blink.css | MIT License */
+
+.bw-0 {
+	border-width: 0
+}
+
+.btw-0 {
+	border-top-width: 0
+}
+
+.brw-0 {
+	border-right-width: 0
+}
+
+.bbw-0 {
+	border-bottom-width: 0
+}
+
+.blw-0 {
+	border-left-width: 0
+}
+
+.bxw-0 {
+	border-right-width: 0;
+	border-left-width: 0
+}
+
+.byw-0 {
+	border-top-width: 0;
+	border-bottom-width: 0
+}
+
+.bw-thin {
+	border-width: .0625rem
+}
+
+.btw-thin {
+	border-top-width: .0625rem
+}
+
+.brw-thin {
+	border-right-width: .0625rem
+}
+
+.bbw-thin {
+	border-bottom-width: .0625rem
+}
+
+.blw-thin {
+	border-left-width: .0625rem
+}
+
+.bxw-thin {
+	border-right-width: .0625rem;
+	border-left-width: .0625rem
+}
+
+.byw-thin {
+	border-top-width: .0625rem;
+	border-bottom-width: .0625rem
+}
+
+.bw-medium {
+	border-width: .25rem
+}
+
+.btw-medium {
+	border-top-width: .25rem
+}
+
+.brw-medium {
+	border-right-width: .25rem
+}
+
+.bbw-medium {
+	border-bottom-width: .25rem
+}
+
+.blw-medium {
+	border-left-width: .25rem
+}
+
+.bxw-medium {
+	border-right-width: .25rem;
+	border-left-width: .25rem
+}
+
+.byw-medium {
+	border-top-width: .25rem;
+	border-bottom-width: .25rem
+}
+
+.bw-thick {
+	border-width: .5rem
+}
+
+.btw-thick {
+	border-top-width: .5rem
+}
+
+.brw-thick {
+	border-right-width: .5rem
+}
+
+.bbw-thick {
+	border-bottom-width: .5rem
+}
+
+.blw-thick {
+	border-left-width: .5rem
+}
+
+.bxw-thick {
+	border-right-width: .5rem;
+	border-left-width: .5rem
+}
+
+.byw-thick {
+	border-top-width: .5rem;
+	border-bottom-width: .5rem
+}
+
+@media screen and (min-width: 40rem) {
+	.bw-0\@md {
+		border-width: 0
+	}
+	.btw-0\@md {
+		border-top-width: 0
+	}
+	.brw-0\@md {
+		border-right-width: 0
+	}
+	.bbw-0\@md {
+		border-bottom-width: 0
+	}
+	.blw-0\@md {
+		border-left-width: 0
+	}
+	.bxw-0\@md {
+		border-right-width: 0;
+		border-left-width: 0
+	}
+	.byw-0\@md {
+		border-top-width: 0;
+		border-bottom-width: 0
+	}
+	.bw-thin\@md {
+		border-width: .0625rem
+	}
+	.btw-thin\@md {
+		border-top-width: .0625rem
+	}
+	.brw-thin\@md {
+		border-right-width: .0625rem
+	}
+	.bbw-thin\@md {
+		border-bottom-width: .0625rem
+	}
+	.blw-thin\@md {
+		border-left-width: .0625rem
+	}
+	.bxw-thin\@md {
+		border-right-width: .0625rem;
+		border-left-width: .0625rem
+	}
+	.byw-thin\@md {
+		border-top-width: .0625rem;
+		border-bottom-width: .0625rem
+	}
+	.bw-medium\@md {
+		border-width: .25rem
+	}
+	.btw-medium\@md {
+		border-top-width: .25rem
+	}
+	.brw-medium\@md {
+		border-right-width: .25rem
+	}
+	.bbw-medium\@md {
+		border-bottom-width: .25rem
+	}
+	.blw-medium\@md {
+		border-left-width: .25rem
+	}
+	.bxw-medium\@md {
+		border-right-width: .25rem;
+		border-left-width: .25rem
+	}
+	.byw-medium\@md {
+		border-top-width: .25rem;
+		border-bottom-width: .25rem
+	}
+	.bw-thick\@md {
+		border-width: .5rem
+	}
+	.btw-thick\@md {
+		border-top-width: .5rem
+	}
+	.brw-thick\@md {
+		border-right-width: .5rem
+	}
+	.bbw-thick\@md {
+		border-bottom-width: .5rem
+	}
+	.blw-thick\@md {
+		border-left-width: .5rem
+	}
+	.bxw-thick\@md {
+		border-right-width: .5rem;
+		border-left-width: .5rem
+	}
+	.byw-thick\@md {
+		border-top-width: .5rem;
+		border-bottom-width: .5rem
+	}
+}
+
+@media screen and (min-width: 60rem) {
+	.bw-0\@lg {
+		border-width: 0
+	}
+	.btw-0\@lg {
+		border-top-width: 0
+	}
+	.brw-0\@lg {
+		border-right-width: 0
+	}
+	.bbw-0\@lg {
+		border-bottom-width: 0
+	}
+	.blw-0\@lg {
+		border-left-width: 0
+	}
+	.bxw-0\@lg {
+		border-right-width: 0;
+		border-left-width: 0
+	}
+	.byw-0\@lg {
+		border-top-width: 0;
+		border-bottom-width: 0
+	}
+	.bw-thin\@lg {
+		border-width: .0625rem
+	}
+	.btw-thin\@lg {
+		border-top-width: .0625rem
+	}
+	.brw-thin\@lg {
+		border-right-width: .0625rem
+	}
+	.bbw-thin\@lg {
+		border-bottom-width: .0625rem
+	}
+	.blw-thin\@lg {
+		border-left-width: .0625rem
+	}
+	.bxw-thin\@lg {
+		border-right-width: .0625rem;
+		border-left-width: .0625rem
+	}
+	.byw-thin\@lg {
+		border-top-width: .0625rem;
+		border-bottom-width: .0625rem
+	}
+	.bw-medium\@lg {
+		border-width: .25rem
+	}
+	.btw-medium\@lg {
+		border-top-width: .25rem
+	}
+	.brw-medium\@lg {
+		border-right-width: .25rem
+	}
+	.bbw-medium\@lg {
+		border-bottom-width: .25rem
+	}
+	.blw-medium\@lg {
+		border-left-width: .25rem
+	}
+	.bxw-medium\@lg {
+		border-right-width: .25rem;
+		border-left-width: .25rem
+	}
+	.byw-medium\@lg {
+		border-top-width: .25rem;
+		border-bottom-width: .25rem
+	}
+	.bw-thick\@lg {
+		border-width: .5rem
+	}
+	.btw-thick\@lg {
+		border-top-width: .5rem
+	}
+	.brw-thick\@lg {
+		border-right-width: .5rem
+	}
+	.bbw-thick\@lg {
+		border-bottom-width: .5rem
+	}
+	.blw-thick\@lg {
+		border-left-width: .5rem
+	}
+	.bxw-thick\@lg {
+		border-right-width: .5rem;
+		border-left-width: .5rem
+	}
+	.byw-thick\@lg {
+		border-top-width: .5rem;
+		border-bottom-width: .5rem
+	}
+}
+
+@media screen and (min-width: 80rem) {
+	.bw-0\@xl {
+		border-width: 0
+	}
+	.btw-0\@xl {
+		border-top-width: 0
+	}
+	.brw-0\@xl {
+		border-right-width: 0
+	}
+	.bbw-0\@xl {
+		border-bottom-width: 0
+	}
+	.blw-0\@xl {
+		border-left-width: 0
+	}
+	.bxw-0\@xl {
+		border-right-width: 0;
+		border-left-width: 0
+	}
+	.byw-0\@xl {
+		border-top-width: 0;
+		border-bottom-width: 0
+	}
+	.bw-thin\@xl {
+		border-width: .0625rem
+	}
+	.btw-thin\@xl {
+		border-top-width: .0625rem
+	}
+	.brw-thin\@xl {
+		border-right-width: .0625rem
+	}
+	.bbw-thin\@xl {
+		border-bottom-width: .0625rem
+	}
+	.blw-thin\@xl {
+		border-left-width: .0625rem
+	}
+	.bxw-thin\@xl {
+		border-right-width: .0625rem;
+		border-left-width: .0625rem
+	}
+	.byw-thin\@xl {
+		border-top-width: .0625rem;
+		border-bottom-width: .0625rem
+	}
+	.bw-medium\@xl {
+		border-width: .25rem
+	}
+	.btw-medium\@xl {
+		border-top-width: .25rem
+	}
+	.brw-medium\@xl {
+		border-right-width: .25rem
+	}
+	.bbw-medium\@xl {
+		border-bottom-width: .25rem
+	}
+	.blw-medium\@xl {
+		border-left-width: .25rem
+	}
+	.bxw-medium\@xl {
+		border-right-width: .25rem;
+		border-left-width: .25rem
+	}
+	.byw-medium\@xl {
+		border-top-width: .25rem;
+		border-bottom-width: .25rem
+	}
+	.bw-thick\@xl {
+		border-width: .5rem
+	}
+	.btw-thick\@xl {
+		border-top-width: .5rem
+	}
+	.brw-thick\@xl {
+		border-right-width: .5rem
+	}
+	.bbw-thick\@xl {
+		border-bottom-width: .5rem
+	}
+	.blw-thick\@xl {
+		border-left-width: .5rem
+	}
+	.bxw-thick\@xl {
+		border-right-width: .5rem;
+		border-left-width: .5rem
+	}
+	.byw-thick\@xl {
+		border-top-width: .5rem;
+		border-bottom-width: .5rem
+	}
+}

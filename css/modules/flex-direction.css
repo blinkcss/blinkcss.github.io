@@ -1,0 +1,62 @@
+/* blink.css | MIT License */
+
+.fd-c {
+	flex-direction: column
+}
+
+.fd-r {
+	flex-direction: row
+}
+
+.fd-cr {
+	flex-direction: column-reverse
+}
+
+.fd-rr {
+	flex-direction: row-reverse
+}
+
+@media screen and (min-width: 40rem) {
+	.fd-c\@md {
+		flex-direction: column
+	}
+	.fd-r\@md {
+		flex-direction: row
+	}
+	.fd-cr\@md {
+		flex-direction: column-reverse
+	}
+	.fd-rr\@md {
+		flex-direction: row-reverse
+	}
+}
+
+@media screen and (min-width: 60rem) {
+	.fd-c\@lg {
+		flex-direction: column
+	}
+	.fd-r\@lg {
+		flex-direction: row
+	}
+	.fd-cr\@lg {
+		flex-direction: column-reverse
+	}
+	.fd-rr\@lg {
+		flex-direction: row-reverse
+	}
+}
+
+@media screen and (min-width: 80rem) {
+	.fd-c\@xl {
+		flex-direction: column
+	}
+	.fd-r\@xl {
+		flex-direction: row
+	}
+	.fd-cr\@xl {
+		flex-direction: column-reverse
+	}
+	.fd-rr\@xl {
+		flex-direction: row-reverse
+	}
+}
