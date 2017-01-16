@@ -53,8 +53,8 @@
 /* Borders */
 
 @import "modules/border-width.css";
-@import "modules/border-radius.css";/*2do: demo*/
-@import "modules/box-shadow.css";/*2do: demo*/
+@import "modules/border-radius.css";
+@import "modules/box-shadow.css";
 
 
 /* Colors */
