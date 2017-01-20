@@ -8,25 +8,25 @@
 	<link href="css/blank.css" rel="stylesheet">
 	<style>
 		/* Basic site layout: */
-		
+
 		header#top,
 		nav#toc {
 			padding: var(--2);
 		}
-		
-		header > h2 {
+
+		header>h2 {
 			padding: var(--2);
 			background-color: var(--color-text);
 			color: var(--bg-color);
 			margin-top: var(--8);
 			margin-bottom: var(--4);
 		}
-		
+
 		main {
 			background-color: var(--darken);
 			padding-bottom: var(--2);
 		}
-		
+
 		article {
 			padding: var(--2);
 			max-width: calc(64 * var(--1));
@@ -36,45 +36,45 @@
 			margin-bottom: var(--4);
 			background-color: var(--bg-color);
 		}
-		
-		body > footer {
+
+		body>footer {
 			background-color: var(--color-text);
 			color: var(--bg-color);
 			padding: var(--2);
 		}
 		/* Table of contents navigation list: */
-		
-		nav#toc > ul > li {
+
+		nav#toc>ul>li {
 			margin-right: var(--1);
 			margin-bottom: var(--1);
 			width: var(--16);
 		}
-		
+
 		nav#toc a {
 			padding-top: var(--\.5);
 			padding-bottom: var(--\.5);
 			display: block;
 		}
 		/* Back to top links: */
-		
-		article > footer {
+
+		article>footer {
 			text-align: right;
 			margin-bottom: -2rem;
 		}
-		
-		article > footer > nav {
+
+		article>footer>nav {
 			display: inline-block;
 			padding: var(--1);
 			background-color: var(--darken);
 		}
 		/* Fake page transition (fade-in): */
-		
+
 		@keyframes fade {
 			from {
 				opacity: 0;
 			}
 		}
-		
+
 		body {
 			animation: 1s fade ease-in-out
 		}
@@ -156,8 +156,10 @@
 					<h3>Paragraphs</h3> </header>
 				<div>
 					<p>The p element represents a paragraph.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed diam tortor. Donec ante arcu, eleifend vitae sapien at, commodo gravida nunc. Morbi malesuada nibh enim, ac ullamcorper lectus aliquam quis. Nunc leo leo, fermentum ut lacus quis, sagittis gravida magna. Duis massa erat, porta eget aliquet at, facilisis non ipsum.</p>
-					<p>Sed nulla diam, facilisis sit amet est vitae, blandit imperdiet libero. Fusce vel porta arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi id nisl sed justo lacinia rutrum. Aenean facilisis turpis ut metus blandit, vitae vulputate ante accumsan. In pharetra ipsum non velit pellentesque, et aliquam velit fringilla.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed diam tortor. Donec ante arcu, eleifend vitae sapien at, commodo gravida nunc. Morbi malesuada nibh enim, ac ullamcorper lectus aliquam quis. Nunc leo leo, fermentum ut lacus quis,
+						sagittis gravida magna. Duis massa erat, porta eget aliquet at, facilisis non ipsum.</p>
+					<p>Sed nulla diam, facilisis sit amet est vitae, blandit imperdiet libero. Fusce vel porta arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi id nisl sed justo lacinia rutrum. Aenean facilisis turpis ut
+						metus blandit, vitae vulputate ante accumsan. In pharetra ipsum non velit pellentesque, et aliquam velit fringilla.</p>
 				</div>
 				<footer>
 					<nav><a href="#top">&uarr; Top</a></nav>
@@ -193,7 +195,8 @@
 					<h3>Lists</h3></header>
 				<div>
 					<h4>Definition list</h4>
-					<p>The dl element represents an association list consisting of zero or more name-value groups (a description list). A name-value group consists of one or more names (dt elements) followed by one or more values (dd elements), ignoring any nodes other than dt and dd elements. Within a single dl element, there should not be more than one dt element for each name.</p>
+					<p>The dl element represents an association list consisting of zero or more name-value groups (a description list). A name-value group consists of one or more names (dt elements) followed by one or more values (dd elements), ignoring any nodes other
+						than dt and dd elements. Within a single dl element, there should not be more than one dt element for each name.</p>
 					<dl> <dt><dfn>happiness</dfn></dt>
 						<dd>/'hæ p. nes/</dd>
 						<dd><abbr>n.</abbr></dd>
@@ -254,7 +257,7 @@
 				<div>
 					<p>The <kbd>kbd</kbd> element represents user input (typically keyboard input, although it may also be used to represent other input, such as voice commands).</p>
 					<p>The <code>code</code> element represents a fragment of computer code. This could be an XML element name, a file name, a computer program, or any other string that a computer would recognize.</p>
-					<p>The <samp>samp</samp> element represents sample or quoted output from another program or computing system.</p> <pre>The &lt;pre&gt; element represents a block of preformatted text, in which structure is represented by typographic conventions rather than by elements.</pre> </div>
+					<p>The <samp>samp</samp> element represents sample or quoted output from another program or computing system.</p> <pre>The &lt;pre&gt; element represents a block of preformatted text, in which structure is represented by typographic conventions rather than by elements.</pre>					</div>
 				<footer>
 					<nav><a href="#top">&uarr; Top</a></nav>
 				</footer>
@@ -263,8 +266,14 @@
 				<header>
 					<h3>Inline elements</h3></header>
 				<div>
-					<p style="column-count: 2;"> If the <a href="https://www.w3.org/TR/html/" target="_blank">a element</a> has an href attribute, then it represents a hyperlink (a hypertext anchor) labeled by its contents. &para; The <strong>strong</strong> element represents strong importance, seriousness, or urgency for its contents. &para; The <em>em</em> element represents stress emphasis of its contents. &para; The <b>b element</b> represents a span of text to which attention is being drawn for utilitarian purposes without conveying any extra importance and with no implication of an alternate voice or mood, such as key words in a document abstract, product names in a review, actionable words in interactive text-driven software, or an article lede. &para; The <i>i element</i> represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts. &para; The <u>u element</u> represents a span of text with an unarticulated, though explicitly rendered, non-textual annotation, such as labeling the text as being a proper name in Chinese text (a Chinese proper name mark), or labeling the text as being misspelt. &para; The <del>del element</del> represents a removal from the document. &para; The <ins>ins element</ins> represents an addition to the document. &para; The <s>s element</s> represents contents that are no longer accurate or no longer relevant. &para; The sup element represents a superscript (e.g. e=mc<sup>2</sup>) and the sub element represents a subscript (e.g. H<sub>2</sub>O). &para; <small>The small element represents side comments such as small print.</small> &para; The <abbr title="abbreviation">abbr</abbr> element represents an abbreviation or acronym, optionally with its expansion. &para; The cite element represents a reference to a creative work (e.g. The following sentence is taken from the <cite>W3C Recommendation: <a href="https://www.w3.org/TR/html/" target="_blank">w3.org</a></cite>). &para; <q cite="https://www.w3.org/TR/html/textlevel-semantics.html#textlevel-semantics">The q element represents some phrasing content quoted from another source.</q> &para; The <dfn title="The dfn element represents the defining instance of a term.">dfn element</dfn> element represents the defining instance of a term. &para; The
-						<mark>mark&nbsp;element</mark> represents a run of text in one document marked or highlighted for reference purposes, due to its relevance in another context. &para; The var element represents a variable (e.g. <var>x</var> = <var>y</var>). &para; The time element represents its contents, along with a machine-readable form of those contents in the datetime attribute (e.g.
+					<p style="column-count: 2;"> If the <a href="https://www.w3.org/TR/html/" target="_blank">a element</a> has an href attribute, then it represents a hyperlink (a hypertext anchor) labeled by its contents. &para; The <strong>strong</strong> element represents strong importance,
+						seriousness, or urgency for its contents. &para; The <em>em</em> element represents stress emphasis of its contents. &para; The <b>b element</b> represents a span of text to which attention is being drawn for utilitarian purposes without conveying
+						any extra importance and with no implication of an alternate voice or mood, such as key words in a document abstract, product names in a review, actionable words in interactive text-driven software, or an article lede. &para; The <i>i element</i>						represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language,
+						transliteration, a thought, or a ship name in Western texts. &para; The <u>u element</u> represents a span of text with an unarticulated, though explicitly rendered, non-textual annotation, such as labeling the text as being a proper name in Chinese
+						text (a Chinese proper name mark), or labeling the text as being misspelt. &para; The <del>del element</del> represents a removal from the document. &para; The <ins>ins element</ins> represents an addition to the document. &para; The <s>s element</s>						represents contents that are no longer accurate or no longer relevant. &para; The sup element represents a superscript (e.g. e=mc<sup>2</sup>) and the sub element represents a subscript (e.g. H<sub>2</sub>O). &para; <small>The small element represents side comments such as small print.</small>						&para; The <abbr title="abbreviation">abbr</abbr> element represents an abbreviation or acronym, optionally with its expansion. &para; The cite element represents a reference to a creative work (e.g. The following sentence is taken from the <cite>W3C Recommendation: <a href="https://www.w3.org/TR/html/" target="_blank">w3.org</a></cite>).
+						&para; <q cite="https://www.w3.org/TR/html/textlevel-semantics.html#textlevel-semantics">The q element represents some phrasing content quoted from another source.</q> &para; The <dfn title="The dfn element represents the defining instance of a term.">dfn element</dfn>						element represents the defining instance of a term. &para; The
+						<mark>mark&nbsp;element</mark> represents a run of text in one document marked or highlighted for reference purposes, due to its relevance in another context. &para; The var element represents a variable (e.g. <var>x</var> = <var>y</var>). &para;
+						The time element represents its contents, along with a machine-readable form of those contents in the datetime attribute (e.g.
 						<time datetime="2020-12-31">New Year's Eve 2020</time>). </p>
 				</div>
 				<footer>
@@ -430,21 +439,26 @@
 					<h3>Images</h3></header>
 				<div>
 					<h4>No <code>&lt;figure&gt;</code> element</h4>
-					<p>An img element represents an image and its fallback content.</p> <img src="https://images.unsplash.com/photo-1470332119358-ff1482a9fd5d?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=511&q=80&cs=tinysrgb" alt="Image alt text"> <img src="https://images.unsplash.com/photo-1473635863681-df02324c5f87?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=575&q=80&cs=tinysrgb" alt="Image alt text" width="100"> <img src="https://images.unsplash.com/photo-1473514483695-024f62e674ea?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=511&q=80&cs=tinysrgb" alt="Image alt text" width="200"> <img src="https://images.unsplash.com/photo-1470100568678-c2bc2ba890c1?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=575&q=80&cs=tinysrgb" alt="Image alt text" width="100">
-					<h4>Wrapped in a <code>&lt;figure&gt;</code> element, no <code>&lt;figcaption&gt;</code></h4>
-					<figure><img src="https://images.unsplash.com/photo-1453791232035-0bd4996082a6?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=512&q=80&cs=tinysrgb" alt="Image alt text"></figure>
-					<h4>Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>&lt;figcaption&gt;</code></h4>
-					<p>The figure element represents some flow content, optionally with a caption, that is self-contained (like a complete sentence) and is typically referenced as a single unit from the main flow of the document.</p>
-					<figure> <img src="https://images.unsplash.com/photo-1462331321792-cc44368b8894?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=467&q=80&cs=tinysrgb" alt="Image alt text">
-						<figcaption>The figcaption element represents a caption or legend for the rest of the contents of the figcaption element’s parent figure element, if any.</figcaption>
-					</figure>
-					<h4>Wrapped in a <code>&lt;picture&gt;</code> element</h4>
-					<p>The picture element is a container which provides multiples sources to its contained img element to allow authors to declaratively custom or give hints to the user agent about which image resource to use, based on the screen pixel density, viewport size, image format, and other factors.</p>
-					<picture>
-						<source srcset="https://images.unsplash.com/photo-1454085375097-48248e6239ff?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=511&q=80&cs=tinysrgb">
-						<!-- img tag for browsers that do not support picture element --><img src="https://images.unsplash.com/photo-1462850105991-0e1239c8656f?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=431&q=80&cs=tinysrgb" alt="Image alt text"> </picture>
-					<h4>Background-image</h4>
-					<p style="background-image: url(https://images.unsplash.com/uploads/1413160014464b0eddda1/7fe403d2?dpr=2&auto=format&crop=entropy&fit=crop&w=767&h=510&q=80&cs=tinysrgb); background-size: cover; width 100%; padding: var(--2); font-size: var(--4); text-align: center; color: var(--bg-color);"><b>Wood.</b></p>
+					<p>An img element represents an image and its fallback content.</p> <img src="https://images.unsplash.com/photo-1470332119358-ff1482a9fd5d?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=511&q=80&cs=tinysrgb" alt="Image alt text">
+					<img src="https://images.unsplash.com/photo-1473635863681-df02324c5f87?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=575&q=80&cs=tinysrgb"
+									alt="Image alt text" width="100"> <img src="https://images.unsplash.com/photo-1473514483695-024f62e674ea?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=511&q=80&cs=tinysrgb" alt="Image alt text" width="200">
+						<img src="https://images.unsplash.com/photo-1470100568678-c2bc2ba890c1?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=575&q=80&cs=tinysrgb"
+										alt="Image alt text" width="100">
+							<h4>Wrapped in a <code>&lt;figure&gt;</code> element, no <code>&lt;figcaption&gt;</code></h4>
+							<figure><img src="https://images.unsplash.com/photo-1453791232035-0bd4996082a6?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=512&q=80&cs=tinysrgb" alt="Image alt text"></figure>
+							<h4>Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>&lt;figcaption&gt;</code></h4>
+							<p>The figure element represents some flow content, optionally with a caption, that is self-contained (like a complete sentence) and is typically referenced as a single unit from the main flow of the document.</p>
+							<figure> <img src="https://images.unsplash.com/photo-1462331321792-cc44368b8894?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=467&q=80&cs=tinysrgb" alt="Image alt text">
+								<figcaption>The figcaption element represents a caption or legend for the rest of the contents of the figcaption element’s parent figure element, if any.</figcaption>
+							</figure>
+							<h4>Wrapped in a <code>&lt;picture&gt;</code> element</h4>
+							<p>The picture element is a container which provides multiples sources to its contained img element to allow authors to declaratively custom or give hints to the user agent about which image resource to use, based on the screen pixel density, viewport
+								size, image format, and other factors.</p>
+							<picture>
+								<source srcset="https://images.unsplash.com/photo-1454085375097-48248e6239ff?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=511&q=80&cs=tinysrgb">
+								<!-- img tag for browsers that do not support picture element --><img src="https://images.unsplash.com/photo-1462850105991-0e1239c8656f?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=767&h=431&q=80&cs=tinysrgb" alt="Image alt text"> </picture>
+							<h4>Background-image</h4>
+							<p style="background-image: url(https://images.unsplash.com/uploads/1413160014464b0eddda1/7fe403d2?dpr=2&auto=format&crop=entropy&fit=crop&w=767&h=510&q=80&cs=tinysrgb); background-size: cover; width 100%; padding: var(--2); font-size: var(--4); text-align: center; color: var(--bg-color);"><b>Wood.</b></p>
 				</div>
 				<p><small>(Images source: <a href="https://unsplash.com/">unsplash.com</a>)</small></p>
 				<footer>
@@ -676,7 +690,8 @@
 			<article id="forms__progress">
 				<header>
 					<h3>Progress</h3>
-					<p>The progress element represents the completion progress of a task. The progress is either indeterminate, indicating that progress is being made but that it is not clear how much more work remains to be done before the task is complete (e.g., because the task is waiting for a remote host to respond), or the progress is a number in the range zero to a maximum, giving the fraction of work that has so far been completed.</p>
+					<p>The progress element represents the completion progress of a task. The progress is either indeterminate, indicating that progress is being made but that it is not clear how much more work remains to be done before the task is complete (e.g., because
+						the task is waiting for a remote host to respond), or the progress is a number in the range zero to a maximum, giving the fraction of work that has so far been completed.</p>
 				</header>
 				<div>
 					<progress max="100" value="75">progress</progress>
@@ -688,7 +703,8 @@
 		</section>
 	</main>
 	<footer>
-		<p>The html element overview was inspired by the <a href="http://github.com/cbracco/html5-test-page" target="_blank">html5 test page</a>. Additional element descriptions were taken from <a href="https://www.w3.org/TR/html/" target="_blank">w3.org</a>.</p> <address>Created by <a href="mailto:gerbaulet@hs-ulm.de">Prof. Damian Gerbaulet</a> (Ulm University of Applied Sciences).</address> </footer>
+		<p>The html element overview was inspired by the <a href="http://github.com/cbracco/html5-test-page" target="_blank">html5 test page</a>. Additional element descriptions were taken from <a href="https://www.w3.org/TR/html/" target="_blank">w3.org</a>.</p>
+		<address>Created by <a href="mailto:gerbaulet@hs-ulm.de">Prof. Damian Gerbaulet</a> (Ulm University of Applied Sciences).</address> </footer>
 	<!-- Drawing a circle inside the <canvas> element: -->
 	<script>
 		var c = document.getElementById("myCanvas");
