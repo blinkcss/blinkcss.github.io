@@ -1,62 +1,62 @@
 /* blink.css | MIT License */
 
 .ta-c {
-	text-align: center
+    text-align: center
 }
 
 .ta-j {
-	text-align: justify
+    text-align: justify
 }
 
 .ta-l {
-	text-align: left
+    text-align: left
 }
 
 .ta-r {
-	text-align: right
+    text-align: right
 }
 
 @media screen and (min-width: 40rem) {
-	.ta-c\@md {
-		text-align: center
-	}
-	.ta-j\@md {
-		text-align: justify
-	}
-	.ta-l\@md {
-		text-align: left
-	}
-	.ta-r\@md {
-		text-align: right
-	}
+    .ta-c\@md {
+        text-align: center
+    }
+    .ta-j\@md {
+        text-align: justify
+    }
+    .ta-l\@md {
+        text-align: left
+    }
+    .ta-r\@md {
+        text-align: right
+    }
 }
 
 @media screen and (min-width: 60rem) {
-	.ta-c\@lg {
-		text-align: center
-	}
-	.ta-j\@lg {
-		text-align: justify
-	}
-	.ta-l\@lg {
-		text-align: left
-	}
-	.ta-r\@lg {
-		text-align: right
-	}
+    .ta-c\@lg {
+        text-align: center
+    }
+    .ta-j\@lg {
+        text-align: justify
+    }
+    .ta-l\@lg {
+        text-align: left
+    }
+    .ta-r\@lg {
+        text-align: right
+    }
 }
 
 @media screen and (min-width: 80rem) {
-	.ta-c\@xl {
-		text-align: center
-	}
-	.ta-j\@xl {
-		text-align: justify
-	}
-	.ta-l\@xl {
-		text-align: left
-	}
-	.ta-r\@xl {
-		text-align: right
-	}
+    .ta-c\@xl {
+        text-align: center
+    }
+    .ta-j\@xl {
+        text-align: justify
+    }
+    .ta-l\@xl {
+        text-align: left
+    }
+    .ta-r\@xl {
+        text-align: right
+    }
 }

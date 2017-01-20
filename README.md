@@ -24,10 +24,10 @@ Documentation site for **blink.css** — web and interface design in the blink o
 
 ### Thoughts:
 
-- Check :a and :f consistency 
+- Check :a and :f consistency
 - Steps (8, 16) also in `z-index` and `top`, `right`… modules? (Consistency)
 
-## Add: 
+## Add:
 
 - width, max-width and height should have responsive classes (at least vh + %/vw)
 - max-width should contain breakpoint widths e.g. .mw-md {max-width: --var(breakpoint-md)}

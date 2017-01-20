@@ -1,21 +1,21 @@
 /* blink.css | MIT License */
 
 .jc-fs {
-	justify-content: flex-start
+    justify-content: flex-start
 }
 
 .jc-c {
-	justify-content: center
+    justify-content: center
 }
 
 .jc-fe {
-	justify-content: flex-end
+    justify-content: flex-end
 }
 
 .jc-sa {
-	justify-content: space-around
+    justify-content: space-around
 }
 
 .jc-sb {
-	justify-content: space-between
+    justify-content: space-between
 }

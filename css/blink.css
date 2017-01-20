@@ -21,7 +21,6 @@
 @import "modules/max-width.css";
 @import "modules/height.css";
 
-
 /* Positioning */
 
 @import "modules/display.css";
@@ -56,12 +55,10 @@
 @import "modules/border-radius.css";
 @import "modules/box-shadow.css";
 
-
 /* Colors */
 
 @import "modules/color.css";
 @import "modules/background-color.css";
 @import "modules/border-color.css";
-
 
 /* Backgrounds */
