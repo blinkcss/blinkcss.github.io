@@ -27,8 +27,6 @@ Documentation site for **blink.css** — web and interface design in the blink o
 - Check :a and :f consistency 
 - Steps (8, 16) also at `z-index` and `top`, `right`…? (Consistency)
 
----
-
 ## Add: 
 
 - width, max-width and height should have responsive classes (at least vh + %/vw)
@@ -37,14 +35,10 @@ Documentation site for **blink.css** — web and interface design in the blink o
 - separate section for “add-ons” (like `margin_child.css`)
 - add responsive classes to `order.css`
 
----
-
 ## Demo:
 
 - `margin_child.css`
 - `order.css`
-
----
 
 ## Exceptions:
 
@@ -62,6 +56,3 @@ Documentation site for **blink.css** — web and interface design in the blink o
 
 @media screen and (min-width: 80rem) {}
 ```
-
-
----
