@@ -45,7 +45,7 @@
 @import "modules/flex-grow.css";
 @import "modules/flex-shrink.css";
 @import "modules/flex-basis.css";
-@import "modules/order.css";/*2do: demo, add responsive classes*/
+@import "modules/order.css";
 
 /* THEMING */
 
@@ -65,14 +65,3 @@
 
 
 /* Backgrounds */
-
-
-/* Breakpoint template
-
-@media screen and (min-width: 40rem) {}
-
-@media screen and (min-width: 60rem) {}
-
-@media screen and (min-width: 80rem) {}
-
-*/
