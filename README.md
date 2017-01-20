@@ -53,13 +53,13 @@ Work in progress!
 
 ## Breakpoint template
 
-`
+```css
 @media screen and (min-width: 40rem) {}
 
 @media screen and (min-width: 60rem) {}
 
 @media screen and (min-width: 80rem) {}
-`
+```
 
 
 ---
