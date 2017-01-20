@@ -25,7 +25,7 @@ Documentation site for **blink.css** — web and interface design in the blink o
 ### Thoughts:
 
 - Check :a and :f consistency 
-- Steps (8, 16) also at `z-index` and `top`, `right`…? (Consistency)
+- Steps (8, 16) also in `z-index` and `top`, `right`… modules? (Consistency)
 
 ## Add: 
 
