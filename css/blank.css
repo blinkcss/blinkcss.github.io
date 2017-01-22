@@ -28,7 +28,7 @@ GLOBAL ADJUSTMENTS
 /* Testing different text/background color combinations: */
 
 @media screen and (min-width: 48rem) {
-    :root {
+     :root {
         /*--bg-color: hsl(0, 100%, 80%);
 		--color-text: hsla(0, 0%, 100%, 1);
 		--color-text-lighter: hsla(0, 0%, 100%, .95);*/
@@ -38,10 +38,10 @@ GLOBAL ADJUSTMENTS
 html {
     box-sizing: border-box;
     font-size: 1rem;
-    /* &#8627; 1rem translates to 16px in most browsers – unless the user has adjusted the default font-size to be larger or smaller  */
+    /* › 1rem translates to 16px in most browsers – unless the user has adjusted the default font-size to be larger or smaller  */
     line-height: 1.5;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    /* &#8627; using default system font */
+    /* › using default system font */
     border-style: solid;
     height: 100%;
 }
@@ -82,7 +82,7 @@ body {
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
     text-size-adjust: none;
-    /* &#8627; don't let for example mobile Safari adjust font sizes */
+    /* › don't let for example mobile Safari adjust font sizes */
 }
 
 
@@ -107,7 +107,7 @@ a[href]:not([class]), ins, abbr[title] {
     text-decoration: none;
     border-bottom-width: var(--\.0625);
     padding-bottom: var(--\.0625);
-    /* &#8627; adjust to suit your typeface */
+    /* › adjust to suit your typeface */
 }
 
 
@@ -149,19 +149,19 @@ a {
 h1 {
     font-size: 3rem;
     line-height: 1.125;
-    /* &#8627; smaller line-height for very large type */
+    /* › smaller line-height for very large type */
 }
 
 h2 {
     font-size: 2rem;
     line-height: 1.25;
-    /* &#8627; smaller line-height for large type */
+    /* › smaller line-height for large type */
 }
 
 h3 {
     font-size: 1.5rem;
     line-height: 1.25;
-    /* &#8627; smaller line-height for large type */
+    /* › smaller line-height for large type */
 }
 
 h4 {
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6, legend, p, address, details, details[open] summary, ul, 
 
 p+p {
     margin-top: -.5rem;
-    /* &#8627; better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
+    /* › better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
 }
 
 
@@ -196,7 +196,7 @@ p+p {
 
 *+h1, *+h2, *+h3, *+h4, *+h5, *+h6, *+legend, *+caption {
     margin-top: var(--2);
-    /* &#8627; stay away from preceding content within document flow  */
+    /* › stay away from preceding content within document flow  */
 }
 
 
@@ -216,12 +216,12 @@ hr {
 
 li, dt {
     margin-bottom: var(--\.5);
-    /* &#8627;  vertical rhythm for list elements  */
+    /* ›  vertical rhythm for list elements  */
 }
 
 li>ol, li>ul {
     margin-top: var(--\.5);
-    /* &#8627;  correct vertical rhythm for nested lists  */
+    /* ›  correct vertical rhythm for nested lists  */
     margin-left: var(--1);
 }
 
@@ -236,7 +236,7 @@ ul li::before {
 
 ol {
     margin-left: var(--2);
-    /* &#8627;  adjust if you have very long ordered lists (with more than 3 digits)  */
+    /* ›  adjust if you have very long ordered lists (with more than 3 digits)  */
 }
 
 li>ol {
@@ -250,7 +250,7 @@ dd::before {
 
 dd+dt {
     margin-top: var(--1);
-    /* &#8627;  vertical rhythm in the case, that definition lists consist of more than one definition title  */
+    /* ›  vertical rhythm in the case, that definition lists consist of more than one definition title  */
 }
 
 
@@ -325,7 +325,7 @@ address {
 
 small, figcaption {
     font-size: .75rem;
-    /* &#8627; change unit to "em" if you want relative scaling */
+    /* › change unit to "em" if you want relative scaling */
     letter-spacing: .0375em;
 }
 
@@ -354,7 +354,7 @@ q::after {
 u {
     text-decoration: none;
     font-size: .875em;
-    /* &#8627; adjust for optimal optical alignment */
+    /* › adjust for optimal optical alignment */
     text-transform: uppercase;
     letter-spacing: var(--\.125);
     font-weight: 500;
@@ -378,7 +378,7 @@ sup, sub {
     top: -.75em;
     font-size: .75rem;
     font-weight: 500;
-    /* &#8627; adjust to visually match copy weight */
+    /* › adjust to visually match copy weight */
 }
 
 sub {
@@ -393,7 +393,7 @@ mark {
 
 mark::before, mark::after {
     content: "\00A0";
-    /* &#8627; adding a non-breaking space before and after */
+    /* › adding a non-breaking space before and after */
 }
 
 
@@ -402,20 +402,20 @@ mark::before, mark::after {
 details summary {
     border-bottom-width: var(--\.0625);
     border-style: solid;
-    /* &#8627; needed for Safari */
+    /* › needed for Safari */
     padding: var(--1) var(--2) var(--1) 0;
     background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M1 12 L16 26 L31 12 L27 8 L16 18 L5 8 z'/\>\</svg\>");
-    /* &#8627; fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
+    /* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
     background-size: 1rem;
     background-position: right var(--\.5) center;
-    /* &#8627; tiny indention to the left */
+    /* › tiny indention to the left */
     cursor: pointer;
     transition: var(--transition-short);
 }
 
 details[open] summary {
     background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M1 20 L16 6 L31 20 L27 24 L16 14 L5 24 z'/\>\</svg\>");
-    /* &#8627; fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
+    /* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
 }
 
 details summary::-webkit-details-marker {
@@ -436,7 +436,7 @@ table {
 
 table>* {
     text-align: left;
-    /* &#8627; align all text in tables left */
+    /* › align all text in tables left */
 }
 
 thead {
@@ -450,7 +450,7 @@ tfoot {
 th, td {
     padding: var(--1);
     min-width: var(--8);
-    /* &#8627; adjust to suit your needs */
+    /* › adjust to suit your needs */
 }
 
 th:first-child, td:first-child {
@@ -523,18 +523,18 @@ select, [type="search"] {
 
 select {
     background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M1 12 L16 26 L31 12 L27 8 L16 18 L5 8 z'/\>\</svg\>");
-    /* &#8627; fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
+    /* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
     background-size: 1rem;
     background-position: right var(--1) center;
-    /* &#8627; indention to the left */
+    /* › indention to the left */
     line-height: initial;
-    /* &#8627; prevend descenders from being cut-off on Chrome */
+    /* › prevend descenders from being cut-off on Chrome */
 }
 
 [type="search"]::-webkit-input-placeholder {
     background-repeat: no-repeat;
     background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M12 0 A12 12 0 0 0 0 12 A12 12 0 0 0 12 24 A12 12 0 0 0 18.5 22.25 L28 32 L32 28 L22.25 18.5 A12 12 0 0 0 24 12 A12 12 0 0 0 12 0 M12 4 A8 8 0 0 1 12 20 A8 8 0 0 1 12 4'/\>\</svg\>");
-    /* &#8627; fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
+    /* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
     background-size: 1rem;
     background-position: right center;
 }
@@ -582,7 +582,7 @@ input[type=range]::-webkit-slider-thumb {
     cursor: pointer;
     position: relative;
     top: -.5rem;
-    /* &#8627; better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
+    /* › better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
     background-color: currentColor;
     -webkit-appearance: none;
     border-radius: 100%;
@@ -598,7 +598,7 @@ input[type=range]::-webkit-slider-thumb::before {
     position: absolute;
     top: -.5rem;
     left: -.5rem;
-    /* &#8627; better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
+    /* › better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
     width: var(--2);
     height: var(--2);
     background-color: var(--darken);
