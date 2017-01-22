@@ -59,7 +59,7 @@ html {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
-    border: 0;
+    border-width: 0;
     border-radius: 0;
     border-style: inherit;
     outline: 0;
@@ -549,24 +549,24 @@ input[type=color] {
 }
 
 ::-webkit-color-swatch {
-    border: none;
+    border-width: 0;
     border-bottom-width: var(--\.0625);
     border-bottom-style: solid;
 }
 
 ::-moz-color-swatch {
-    border: none;
+    border-width: 0;
     border-bottom-width: var(--\.0625);
     border-bottom-style: solid;
 }
 
 ::-moz-focus-inner {
-    border: 0;
+    border-width: 0;
     padding: 0;
 }
 
 ::-moz-focus-outer {
-    border: none;
+    border-width: 0;
 }
 
 

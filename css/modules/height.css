@@ -1,69 +1,67 @@
-/* blink.css | MIT License */
-
-.h-1r {
+.h\:1r {
     height: 1rem
 }
 
-.h-2r {
+.h\:2r {
     height: 2rem
 }
 
-.h-4r {
+.h\:4r {
     height: 4rem
 }
 
-.h-8r {
+.h\:8r {
     height: 8rem
 }
 
-.h-16r {
+.h\:16r {
     height: 16rem
 }
 
-.h-25\% {
+.h\:25\% {
     height: 25\%
 }
 
-.h-33\% {
+.h\:33\% {
     height: calc(1/3 * 100%)
 }
 
-.h-50\% {
+.h\:50\% {
     height: 50%
 }
 
-.h-66\% {
+.h\:66\% {
     height: calc(2/3 * 100%)
 }
 
-.h-75\% {
+.h\:75\% {
     height: 75%
 }
 
-.h-100\% {
+.h\:100\% {
     height: 100%
 }
 
-.h-25vh {
+.h\:25vh {
     height: 25vh
 }
 
-.h-33vh {
+.h\:33vh {
     height: calc(1/3 * 100vh)
 }
 
-.h-50vh {
+.h\:50vh {
     height: 50vh
 }
 
-.h-66vh {
+.h\:66vh {
     height: calc(2/3 * 100vh)
 }
 
-.h-75vh {
+.h\:75vh {
     height: 75vh
 }
 
-.h-100vh {
+.h\:100vh {
     height: 100vh
 }

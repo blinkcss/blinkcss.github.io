@@ -1,835 +1,833 @@
-/* blink.css | MIT License */
-
-.p-0 {
+.p\:0 {
     padding: 0
 }
 
-.pt-0 {
+.pt\:0 {
     padding-top: 0
 }
 
-.pr-0 {
+.pr\:0 {
     padding-right: 0
 }
 
-.pb-0 {
+.pb\:0 {
     padding-bottom: 0
 }
 
-.pl-0 {
+.pl\:0 {
     padding-left: 0
 }
 
-.px-0 {
+.px\:0 {
     padding-right: 0;
     padding-left: 0
 }
 
-.py-0 {
+.py\:0 {
     padding-top: 0;
     padding-bottom: 0
 }
 
-.p-\.25r {
+.p\:\.25r {
     padding: .25rem
 }
 
-.pt-\.25r {
+.pt\:\.25r {
     padding-top: .25rem
 }
 
-.pr-\.25r {
+.pr\:\.25r {
     padding-right: .25rem
 }
 
-.pb-\.25r {
+.pb\:\.25r {
     padding-bottom: .25rem
 }
 
-.pl-\.25r {
+.pl\:\.25r {
     padding-left: .25rem
 }
 
-.px-\.25r {
+.px\:\.25r {
     padding-right: .25rem;
     padding-left: .25rem
 }
 
-.py-\.25r {
+.py\:\.25r {
     padding-top: .25rem;
     padding-bottom: .25rem
 }
 
-.p-\.5r {
+.p\:\.5r {
     padding: .5rem
 }
 
-.pt-\.5r {
+.pt\:\.5r {
     padding-top: .5rem
 }
 
-.pr-\.5r {
+.pr\:\.5r {
     padding-right: .5rem
 }
 
-.pb-\.5r {
+.pb\:\.5r {
     padding-bottom: .5rem
 }
 
-.pl-\.5r {
+.pl\:\.5r {
     padding-left: .5rem
 }
 
-.px-\.5r {
+.px\:\.5r {
     padding-right: .5rem;
     padding-left: .5rem
 }
 
-.py-\.5r {
+.py\:\.5r {
     padding-top: .5rem;
     padding-bottom: .5rem
 }
 
-.p-1r {
+.p\:1r {
     padding: 1rem
 }
 
-.pt-1r {
+.pt\:1r {
     padding-top: 1rem
 }
 
-.pr-1r {
+.pr\:1r {
     padding-right: 1rem
 }
 
-.pb-1r {
+.pb\:1r {
     padding-bottom: 1rem
 }
 
-.pl-1r {
+.pl\:1r {
     padding-left: 1rem
 }
 
-.px-1r {
+.px\:1r {
     padding-right: 1rem;
     padding-left: 1rem
 }
 
-.py-1r {
+.py\:1r {
     padding-top: 1rem;
     padding-bottom: 1rem
 }
 
-.p-2r {
+.p\:2r {
     padding: 2rem
 }
 
-.pt-2r {
+.pt\:2r {
     padding-top: 2rem
 }
 
-.pr-2r {
+.pr\:2r {
     padding-right: 2rem
 }
 
-.pb-2r {
+.pb\:2r {
     padding-bottom: 2rem
 }
 
-.pl-2r {
+.pl\:2r {
     padding-left: 2rem
 }
 
-.px-2r {
+.px\:2r {
     padding-right: 2rem;
     padding-left: 2rem
 }
 
-.py-2r {
+.py\:2r {
     padding-top: 2rem;
     padding-bottom: 2rem
 }
 
-.p-4r {
+.p\:4r {
     padding: 4rem
 }
 
-.pt-4r {
+.pt\:4r {
     padding-top: 4rem
 }
 
-.pr-4r {
+.pr\:4r {
     padding-right: 4rem
 }
 
-.pb-4r {
+.pb\:4r {
     padding-bottom: 4rem
 }
 
-.pl-4r {
+.pl\:4r {
     padding-left: 4rem
 }
 
-.px-4r {
+.px\:4r {
     padding-right: 4rem;
     padding-left: 4rem
 }
 
-.py-4r {
+.py\:4r {
     padding-top: 4rem;
     padding-bottom: 4rem
 }
 
-.p-8r {
+.p\:8r {
     padding: 8rem
 }
 
-.pt-8r {
+.pt\:8r {
     padding-top: 8rem
 }
 
-.pr-8r {
+.pr\:8r {
     padding-right: 8rem
 }
 
-.pb-8r {
+.pb\:8r {
     padding-bottom: 8rem
 }
 
-.pl-8r {
+.pl\:8r {
     padding-left: 8rem
 }
 
-.px-8r {
+.px\:8r {
     padding-right: 8rem;
     padding-left: 8rem
 }
 
-.py-8r {
+.py\:8r {
     padding-top: 8rem;
     padding-bottom: 8rem
 }
 
-.py-8r {
+.py\:8r {
     padding-top: 8rem;
     padding-bottom: 8rem
 }
 
-.p-16r {
+.p\:16r {
     padding: 16rem
 }
 
-.pt-16r {
+.pt\:16r {
     padding-top: 16rem
 }
 
-.pr-16r {
+.pr\:16r {
     padding-right: 16rem
 }
 
-.pb-16r {
+.pb\:16r {
     padding-bottom: 16rem
 }
 
-.pl-16r {
+.pl\:16r {
     padding-left: 16rem
 }
 
-.px-16r {
+.px\:16r {
     padding-right: 16rem;
     padding-left: 16rem
 }
 
-.py-16r {
+.py\:16r {
     padding-top: 16rem;
     padding-bottom: 16rem
 }
 
-.py-16r {
+.py\:16r {
     padding-top: 16rem;
     padding-bottom: 16rem
 }
 
 @media screen and (min-width: 40rem) {
-    .p-0\@md {
+    .p\:0\@md {
         padding: 0
     }
-    .pt-0\@md {
+    .pt\:0\@md {
         padding-top: 0
     }
-    .pr-0\@md {
+    .pr\:0\@md {
         padding-right: 0
     }
-    .pb-0\@md {
+    .pb\:0\@md {
         padding-bottom: 0
     }
-    .pl-0\@md {
+    .pl\:0\@md {
         padding-left: 0
     }
-    .px-0\@md {
+    .px\:0\@md {
         padding-right: 0;
         padding-left: 0
     }
-    .py-0\@md {
+    .py\:0\@md {
         padding-top: 0;
         padding-bottom: 0
     }
-    .p-\.25r\@md {
+    .p\:\.25r\@md {
         padding: .25rem
     }
-    .pt-\.25r\@md {
+    .pt\:\.25r\@md {
         padding-top: .25rem
     }
-    .pr-\.25r\@md {
+    .pr\:\.25r\@md {
         padding-right: .25rem
     }
-    .pb-\.25r\@md {
+    .pb\:\.25r\@md {
         padding-bottom: .25rem
     }
-    .pl-\.25r\@md {
+    .pl\:\.25r\@md {
         padding-left: .25rem
     }
-    .px-\.25r\@md {
+    .px\:\.25r\@md {
         padding-right: .25rem;
         padding-left: .25rem
     }
-    .py-\.25r\@md {
+    .py\:\.25r\@md {
         padding-top: .25rem;
         padding-bottom: .25rem
     }
-    .p-\.5r\@md {
+    .p\:\.5r\@md {
         padding: .5rem
     }
-    .pt-\.5r\@md {
+    .pt\:\.5r\@md {
         padding-top: .5rem
     }
-    .pr-\.5r\@md {
+    .pr\:\.5r\@md {
         padding-right: .5rem
     }
-    .pb-\.5r\@md {
+    .pb\:\.5r\@md {
         padding-bottom: .5rem
     }
-    .pl-\.5r\@md {
+    .pl\:\.5r\@md {
         padding-left: .5rem
     }
-    .px-\.5r\@md {
+    .px\:\.5r\@md {
         padding-right: .5rem;
         padding-left: .5rem
     }
-    .py-\.5r\@md {
+    .py\:\.5r\@md {
         padding-top: .5rem;
         padding-bottom: .5rem
     }
-    .p-1r\@md {
+    .p\:1r\@md {
         padding: 1rem
     }
-    .pt-1r\@md {
+    .pt\:1r\@md {
         padding-top: 1rem
     }
-    .pr-1r\@md {
+    .pr\:1r\@md {
         padding-right: 1rem
     }
-    .pb-1r\@md {
+    .pb\:1r\@md {
         padding-bottom: 1rem
     }
-    .pl-1r\@md {
+    .pl\:1r\@md {
         padding-left: 1rem
     }
-    .px-1r\@md {
+    .px\:1r\@md {
         padding-right: 1rem;
         padding-left: 1rem
     }
-    .py-1r\@md {
+    .py\:1r\@md {
         padding-top: 1rem;
         padding-bottom: 1rem
     }
-    .p-2r\@md {
+    .p\:2r\@md {
         padding: 2rem
     }
-    .pt-2r\@md {
+    .pt\:2r\@md {
         padding-top: 2rem
     }
-    .pr-2r\@md {
+    .pr\:2r\@md {
         padding-right: 2rem
     }
-    .pb-2r\@md {
+    .pb\:2r\@md {
         padding-bottom: 2rem
     }
-    .pl-2r\@md {
+    .pl\:2r\@md {
         padding-left: 2rem
     }
-    .px-2r\@md {
+    .px\:2r\@md {
         padding-right: 2rem;
         padding-left: 2rem
     }
-    .py-2r\@md {
+    .py\:2r\@md {
         padding-top: 2rem;
         padding-bottom: 2rem
     }
-    .p-4r\@md {
+    .p\:4r\@md {
         padding: 4rem
     }
-    .pt-4r\@md {
+    .pt\:4r\@md {
         padding-top: 4rem
     }
-    .pr-4r\@md {
+    .pr\:4r\@md {
         padding-right: 4rem
     }
-    .pb-4r\@md {
+    .pb\:4r\@md {
         padding-bottom: 4rem
     }
-    .pl-4r\@md {
+    .pl\:4r\@md {
         padding-left: 4rem
     }
-    .px-4r\@md {
+    .px\:4r\@md {
         padding-right: 4rem;
         padding-left: 4rem
     }
-    .py-4r\@md {
+    .py\:4r\@md {
         padding-top: 4rem;
         padding-bottom: 4rem
     }
-    .p-8r\@md {
+    .p\:8r\@md {
         padding: 8rem
     }
-    .pt-8r\@md {
+    .pt\:8r\@md {
         padding-top: 8rem
     }
-    .pr-8r\@md {
+    .pr\:8r\@md {
         padding-right: 8rem
     }
-    .pb-8r\@md {
+    .pb\:8r\@md {
         padding-bottom: 8rem
     }
-    .pl-8r\@md {
+    .pl\:8r\@md {
         padding-left: 8rem
     }
-    .px-8r\@md {
+    .px\:8r\@md {
         padding-right: 8rem;
         padding-left: 8rem
     }
-    .py-8r\@md {
+    .py\:8r\@md {
         padding-top: 8rem;
         padding-bottom: 8rem
     }
-    .py-8r\@md {
+    .py\:8r\@md {
         padding-top: 8rem;
         padding-bottom: 8rem
     }
-    .p-16r\@md {
+    .p\:16r\@md {
         padding: 16rem
     }
-    .pt-16r\@md {
+    .pt\:16r\@md {
         padding-top: 16rem
     }
-    .pr-16r\@md {
+    .pr\:16r\@md {
         padding-right: 16rem
     }
-    .pb-16r\@md {
+    .pb\:16r\@md {
         padding-bottom: 16rem
     }
-    .pl-16r\@md {
+    .pl\:16r\@md {
         padding-left: 16rem
     }
-    .px-16r\@md {
+    .px\:16r\@md {
         padding-right: 16rem;
         padding-left: 16rem
     }
-    .py-16r\@md {
+    .py\:16r\@md {
         padding-top: 16rem;
         padding-bottom: 16rem
     }
-    .py-16r\@md {
+    .py\:16r\@md {
         padding-top: 16rem;
         padding-bottom: 16rem
     }
 }
 
 @media screen and (min-width: 60rem) {
-    .p-0\@lg {
+    .p\:0\@lg {
         padding: 0
     }
-    .pt-0\@lg {
+    .pt\:0\@lg {
         padding-top: 0
     }
-    .pr-0\@lg {
+    .pr\:0\@lg {
         padding-right: 0
     }
-    .pb-0\@lg {
+    .pb\:0\@lg {
         padding-bottom: 0
     }
-    .pl-0\@lg {
+    .pl\:0\@lg {
         padding-left: 0
     }
-    .px-0\@lg {
+    .px\:0\@lg {
         padding-right: 0;
         padding-left: 0
     }
-    .py-0\@lg {
+    .py\:0\@lg {
         padding-top: 0;
         padding-bottom: 0
     }
-    .p-\.25r\@lg {
+    .p\:\.25r\@lg {
         padding: .25rem
     }
-    .pt-\.25r\@lg {
+    .pt\:\.25r\@lg {
         padding-top: .25rem
     }
-    .pr-\.25r\@lg {
+    .pr\:\.25r\@lg {
         padding-right: .25rem
     }
-    .pb-\.25r\@lg {
+    .pb\:\.25r\@lg {
         padding-bottom: .25rem
     }
-    .pl-\.25r\@lg {
+    .pl\:\.25r\@lg {
         padding-left: .25rem
     }
-    .px-\.25r\@lg {
+    .px\:\.25r\@lg {
         padding-right: .25rem;
         padding-left: .25rem
     }
-    .py-\.25r\@lg {
+    .py\:\.25r\@lg {
         padding-top: .25rem;
         padding-bottom: .25rem
     }
-    .p-\.5r\@lg {
+    .p\:\.5r\@lg {
         padding: .5rem
     }
-    .pt-\.5r\@lg {
+    .pt\:\.5r\@lg {
         padding-top: .5rem
     }
-    .pr-\.5r\@lg {
+    .pr\:\.5r\@lg {
         padding-right: .5rem
     }
-    .pb-\.5r\@lg {
+    .pb\:\.5r\@lg {
         padding-bottom: .5rem
     }
-    .pl-\.5r\@lg {
+    .pl\:\.5r\@lg {
         padding-left: .5rem
     }
-    .px-\.5r\@lg {
+    .px\:\.5r\@lg {
         padding-right: .5rem;
         padding-left: .5rem
     }
-    .py-\.5r\@lg {
+    .py\:\.5r\@lg {
         padding-top: .5rem;
         padding-bottom: .5rem
     }
-    .p-1r\@lg {
+    .p\:1r\@lg {
         padding: 1rem
     }
-    .pt-1r\@lg {
+    .pt\:1r\@lg {
         padding-top: 1rem
     }
-    .pr-1r\@lg {
+    .pr\:1r\@lg {
         padding-right: 1rem
     }
-    .pb-1r\@lg {
+    .pb\:1r\@lg {
         padding-bottom: 1rem
     }
-    .pl-1r\@lg {
+    .pl\:1r\@lg {
         padding-left: 1rem
     }
-    .px-1r\@lg {
+    .px\:1r\@lg {
         padding-right: 1rem;
         padding-left: 1rem
     }
-    .py-1r\@lg {
+    .py\:1r\@lg {
         padding-top: 1rem;
         padding-bottom: 1rem
     }
-    .p-2r\@lg {
+    .p\:2r\@lg {
         padding: 2rem
     }
-    .pt-2r\@lg {
+    .pt\:2r\@lg {
         padding-top: 2rem
     }
-    .pr-2r\@lg {
+    .pr\:2r\@lg {
         padding-right: 2rem
     }
-    .pb-2r\@lg {
+    .pb\:2r\@lg {
         padding-bottom: 2rem
     }
-    .pl-2r\@lg {
+    .pl\:2r\@lg {
         padding-left: 2rem
     }
-    .px-2r\@lg {
+    .px\:2r\@lg {
         padding-right: 2rem;
         padding-left: 2rem
     }
-    .py-2r\@lg {
+    .py\:2r\@lg {
         padding-top: 2rem;
         padding-bottom: 2rem
     }
-    .p-4r\@lg {
+    .p\:4r\@lg {
         padding: 4rem
     }
-    .pt-4r\@lg {
+    .pt\:4r\@lg {
         padding-top: 4rem
     }
-    .pr-4r\@lg {
+    .pr\:4r\@lg {
         padding-right: 4rem
     }
-    .pb-4r\@lg {
+    .pb\:4r\@lg {
         padding-bottom: 4rem
     }
-    .pl-4r\@lg {
+    .pl\:4r\@lg {
         padding-left: 4rem
     }
-    .px-4r\@lg {
+    .px\:4r\@lg {
         padding-right: 4rem;
         padding-left: 4rem
     }
-    .py-4r\@lg {
+    .py\:4r\@lg {
         padding-top: 4rem;
         padding-bottom: 4rem
     }
-    .p-8r\@lg {
+    .p\:8r\@lg {
         padding: 8rem
     }
-    .pt-8r\@lg {
+    .pt\:8r\@lg {
         padding-top: 8rem
     }
-    .pr-8r\@lg {
+    .pr\:8r\@lg {
         padding-right: 8rem
     }
-    .pb-8r\@lg {
+    .pb\:8r\@lg {
         padding-bottom: 8rem
     }
-    .pl-8r\@lg {
+    .pl\:8r\@lg {
         padding-left: 8rem
     }
-    .px-8r\@lg {
+    .px\:8r\@lg {
         padding-right: 8rem;
         padding-left: 8rem
     }
-    .py-8r\@lg {
+    .py\:8r\@lg {
         padding-top: 8rem;
         padding-bottom: 8rem
     }
-    .py-8r\@lg {
+    .py\:8r\@lg {
         padding-top: 8rem;
         padding-bottom: 8rem
     }
-    .p-16r\@lg {
+    .p\:16r\@lg {
         padding: 16rem
     }
-    .pt-16r\@lg {
+    .pt\:16r\@lg {
         padding-top: 16rem
     }
-    .pr-16r\@lg {
+    .pr\:16r\@lg {
         padding-right: 16rem
     }
-    .pb-16r\@lg {
+    .pb\:16r\@lg {
         padding-bottom: 16rem
     }
-    .pl-16r\@lg {
+    .pl\:16r\@lg {
         padding-left: 16rem
     }
-    .px-16r\@lg {
+    .px\:16r\@lg {
         padding-right: 16rem;
         padding-left: 16rem
     }
-    .py-16r\@lg {
+    .py\:16r\@lg {
         padding-top: 16rem;
         padding-bottom: 16rem
     }
-    .py-16r\@lg {
+    .py\:16r\@lg {
         padding-top: 16rem;
         padding-bottom: 16rem
     }
 }
 
 @media screen and (min-width: 80rem) {
-    .p-0\@xl {
+    .p\:0\@xl {
         padding: 0
     }
-    .pt-0\@xl {
+    .pt\:0\@xl {
         padding-top: 0
     }
-    .pr-0\@xl {
+    .pr\:0\@xl {
         padding-right: 0
     }
-    .pb-0\@xl {
+    .pb\:0\@xl {
         padding-bottom: 0
     }
-    .pl-0\@xl {
+    .pl\:0\@xl {
         padding-left: 0
     }
-    .px-0\@xl {
+    .px\:0\@xl {
         padding-right: 0;
         padding-left: 0
     }
-    .py-0\@xl {
+    .py\:0\@xl {
         padding-top: 0;
         padding-bottom: 0
     }
-    .p-\.25r\@xl {
+    .p\:\.25r\@xl {
         padding: .25rem
     }
-    .pt-\.25r\@xl {
+    .pt\:\.25r\@xl {
         padding-top: .25rem
     }
-    .pr-\.25r\@xl {
+    .pr\:\.25r\@xl {
         padding-right: .25rem
     }
-    .pb-\.25r\@xl {
+    .pb\:\.25r\@xl {
         padding-bottom: .25rem
     }
-    .pl-\.25r\@xl {
+    .pl\:\.25r\@xl {
         padding-left: .25rem
     }
-    .px-\.25r\@xl {
+    .px\:\.25r\@xl {
         padding-right: .25rem;
         padding-left: .25rem
     }
-    .py-\.25r\@xl {
+    .py\:\.25r\@xl {
         padding-top: .25rem;
         padding-bottom: .25rem
     }
-    .p-\.5r\@xl {
+    .p\:\.5r\@xl {
         padding: .5rem
     }
-    .pt-\.5r\@xl {
+    .pt\:\.5r\@xl {
         padding-top: .5rem
     }
-    .pr-\.5r\@xl {
+    .pr\:\.5r\@xl {
         padding-right: .5rem
     }
-    .pb-\.5r\@xl {
+    .pb\:\.5r\@xl {
         padding-bottom: .5rem
     }
-    .pl-\.5r\@xl {
+    .pl\:\.5r\@xl {
         padding-left: .5rem
     }
-    .px-\.5r\@xl {
+    .px\:\.5r\@xl {
         padding-right: .5rem;
         padding-left: .5rem
     }
-    .py-\.5r\@xl {
+    .py\:\.5r\@xl {
         padding-top: .5rem;
         padding-bottom: .5rem
     }
-    .p-1r\@xl {
+    .p\:1r\@xl {
         padding: 1rem
     }
-    .pt-1r\@xl {
+    .pt\:1r\@xl {
         padding-top: 1rem
     }
-    .pr-1r\@xl {
+    .pr\:1r\@xl {
         padding-right: 1rem
     }
-    .pb-1r\@xl {
+    .pb\:1r\@xl {
         padding-bottom: 1rem
     }
-    .pl-1r\@xl {
+    .pl\:1r\@xl {
         padding-left: 1rem
     }
-    .px-1r\@xl {
+    .px\:1r\@xl {
         padding-right: 1rem;
         padding-left: 1rem
     }
-    .py-1r\@xl {
+    .py\:1r\@xl {
         padding-top: 1rem;
         padding-bottom: 1rem
     }
-    .p-2r\@xl {
+    .p\:2r\@xl {
         padding: 2rem
     }
-    .pt-2r\@xl {
+    .pt\:2r\@xl {
         padding-top: 2rem
     }
-    .pr-2r\@xl {
+    .pr\:2r\@xl {
         padding-right: 2rem
     }
-    .pb-2r\@xl {
+    .pb\:2r\@xl {
         padding-bottom: 2rem
     }
-    .pl-2r\@xl {
+    .pl\:2r\@xl {
         padding-left: 2rem
     }
-    .px-2r\@xl {
+    .px\:2r\@xl {
         padding-right: 2rem;
         padding-left: 2rem
     }
-    .py-2r\@xl {
+    .py\:2r\@xl {
         padding-top: 2rem;
         padding-bottom: 2rem
     }
-    .p-4r\@xl {
+    .p\:4r\@xl {
         padding: 4rem
     }
-    .pt-4r\@xl {
+    .pt\:4r\@xl {
         padding-top: 4rem
     }
-    .pr-4r\@xl {
+    .pr\:4r\@xl {
         padding-right: 4rem
     }
-    .pb-4r\@xl {
+    .pb\:4r\@xl {
         padding-bottom: 4rem
     }
-    .pl-4r\@xl {
+    .pl\:4r\@xl {
         padding-left: 4rem
     }
-    .px-4r\@xl {
+    .px\:4r\@xl {
         padding-right: 4rem;
         padding-left: 4rem
     }
-    .py-4r\@xl {
+    .py\:4r\@xl {
         padding-top: 4rem;
         padding-bottom: 4rem
     }
-    .p-8r\@xl {
+    .p\:8r\@xl {
         padding: 8rem
     }
-    .pt-8r\@xl {
+    .pt\:8r\@xl {
         padding-top: 8rem
     }
-    .pr-8r\@xl {
+    .pr\:8r\@xl {
         padding-right: 8rem
     }
-    .pb-8r\@xl {
+    .pb\:8r\@xl {
         padding-bottom: 8rem
     }
-    .pl-8r\@xl {
+    .pl\:8r\@xl {
         padding-left: 8rem
     }
-    .px-8r\@xl {
+    .px\:8r\@xl {
         padding-right: 8rem;
         padding-left: 8rem
     }
-    .py-8r\@xl {
+    .py\:8r\@xl {
         padding-top: 8rem;
         padding-bottom: 8rem
     }
-    .py-8r\@xl {
+    .py\:8r\@xl {
         padding-top: 8rem;
         padding-bottom: 8rem
     }
-    .p-16r\@xl {
+    .p\:16r\@xl {
         padding: 16rem
     }
-    .pt-16r\@xl {
+    .pt\:16r\@xl {
         padding-top: 16rem
     }
-    .pr-16r\@xl {
+    .pr\:16r\@xl {
         padding-right: 16rem
     }
-    .pb-16r\@xl {
+    .pb\:16r\@xl {
         padding-bottom: 16rem
     }
-    .pl-16r\@xl {
+    .pl\:16r\@xl {
         padding-left: 16rem
     }
-    .px-16r\@xl {
+    .px\:16r\@xl {
         padding-right: 16rem;
         padding-left: 16rem
     }
-    .py-16r\@xl {
+    .py\:16r\@xl {
         padding-top: 16rem;
         padding-bottom: 16rem
     }
-    .py-16r\@xl {
+    .py\:16r\@xl {
         padding-top: 16rem;
         padding-bottom: 16rem
     }

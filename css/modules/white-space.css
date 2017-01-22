@@ -1,13 +1,11 @@
-/* blink.css | MIT License */
-
-.ws-n {
+.ws\:n {
     white-space: normal
 }
 
-.ws-nw {
+.ws\:nw {
     white-space: nowrap
 }
 
-.ws-p {
+.ws\:p {
     white-space: pre
 }

@@ -1,114 +1,112 @@
-/* blink.css | MIT License */
-
-.fs-\.75r {
+.fs\:\.75r {
     font-size: .75rem
 }
 
-.fs-\.875r {
+.fs\:\.875r {
     font-size: .875rem
 }
 
-.fs-1r {
+.fs\:1r {
     font-size: 1rem
 }
 
-.fs-1\.5r {
+.fs\:1\.5r {
     font-size: 1.5rem
 }
 
-.fs-2r {
+.fs\:2r {
     font-size: 2rem
 }
 
-.fs-4r {
+.fs\:4r {
     font-size: 4rem
 }
 
-.fs-8r {
+.fs\:8r {
     font-size: 8rem
 }
 
-.fs-16r {
+.fs\:16r {
     font-size: 16rem
 }
 
 @media screen and (min-width: 40rem) {
-    .fs-\.75r\@md {
+    .fs\:\.75r\@md {
         font-size: .75rem
     }
-    .fs-\.875r\@md {
+    .fs\:\.875r\@md {
         font-size: .875rem
     }
-    .fs-1r\@md {
+    .fs\:1r\@md {
         font-size: 1rem
     }
-    .fs-1\.5r\@md {
+    .fs\:1\.5r\@md {
         font-size: 1.5rem
     }
-    .fs-2r\@md {
+    .fs\:2r\@md {
         font-size: 2rem
     }
-    .fs-4r\@md {
+    .fs\:4r\@md {
         font-size: 4rem
     }
-    .fs-8r\@md {
+    .fs\:8r\@md {
         font-size: 8rem
     }
-    .fs-16r\@md {
+    .fs\:16r\@md {
         font-size: 16rem
     }
 }
 
 @media screen and (min-width: 60rem) {
-    .fs-\.75r\@lg {
+    .fs\:\.75r\@lg {
         font-size: .75rem
     }
-    .fs-\.875r\@lg {
+    .fs\:\.875r\@lg {
         font-size: .875rem
     }
-    .fs-1r\@lg {
+    .fs\:1r\@lg {
         font-size: 1rem
     }
-    .fs-1\.5r\@lg {
+    .fs\:1\.5r\@lg {
         font-size: 1.5rem
     }
-    .fs-2r\@lg {
+    .fs\:2r\@lg {
         font-size: 2rem
     }
-    .fs-4r\@lg {
+    .fs\:4r\@lg {
         font-size: 4rem
     }
-    .fs-8r\@lg {
+    .fs\:8r\@lg {
         font-size: 8rem
     }
-    .fs-16r\@lg {
+    .fs\:16r\@lg {
         font-size: 16rem
     }
 }
 
 @media screen and (min-width: 80rem) {
-    .fs-\.75r\@xl {
+    .fs\:\.75r\@xl {
         font-size: .75rem
     }
-    .fs-\.875r\@xl {
+    .fs\:\.875r\@xl {
         font-size: .875rem
     }
-    .fs-1r\@xl {
+    .fs\:1r\@xl {
         font-size: 1rem
     }
-    .fs-1\.5r\@xl {
+    .fs\:1\.5r\@xl {
         font-size: 1.5rem
     }
-    .fs-2r\@xl {
+    .fs\:2r\@xl {
         font-size: 2rem
     }
-    .fs-4r\@xl {
+    .fs\:4r\@xl {
         font-size: 4rem
     }
-    .fs-8r\@xl {
+    .fs\:8r\@xl {
         font-size: 8rem
     }
-    .fs-16r\@xl {
+    .fs\:16r\@xl {
         font-size: 16rem
     }
 }

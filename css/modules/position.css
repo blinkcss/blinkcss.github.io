@@ -1,62 +1,60 @@
-/* blink.css | MIT License */
-
-.p-s {
+.p\:s {
     position: static
 }
 
-.p-r {
+.p\:r {
     position: relative
 }
 
-.p-a {
+.p\:a {
     position: absolute
 }
 
-.p-f {
+.p\:f {
     position: fixed
 }
 
 @media screen and (min-width: 40rem) {
-    .p-s\@md {
+    .p\:s\@md {
         position: static
     }
-    .p-r\@md {
+    .p\:r\@md {
         position: relative
     }
-    .p-a\@md {
+    .p\:a\@md {
         position: absolute
     }
-    .p-f\@md {
+    .p\:f\@md {
         position: fixed
     }
 }
 
 @media screen and (min-width: 60rem) {
-    .p-s\@lg {
+    .p\:s\@lg {
         position: static
     }
-    .p-r\@lg {
+    .p\:r\@lg {
         position: relative
     }
-    .p-a\@lg {
+    .p\:a\@lg {
         position: absolute
     }
-    .p-f\@lg {
+    .p\:f\@lg {
         position: fixed
     }
 }
 
 @media screen and (min-width: 80rem) {
-    .p-s\@xl {
+    .p\:s\@xl {
         position: static
     }
-    .p-r\@xl {
+    .p\:r\@xl {
         position: relative
     }
-    .p-a\@xl {
+    .p\:a\@xl {
         position: absolute
     }
-    .p-f\@xl {
+    .p\:f\@xl {
         position: fixed
     }
 }

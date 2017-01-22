@@ -1,9 +1,7 @@
-/* blink.css | MIT License */
-
-.tt-n {
+.tt\:n {
     text-transform: none
 }
 
-.tt-u {
+.tt\:u {
     text-transform: uppercase
 }

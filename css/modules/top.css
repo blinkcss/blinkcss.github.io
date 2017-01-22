@@ -1,45 +1,43 @@
-/* blink.css | MIT License */
-
-.t--4r {
+.t\:-4r {
     top: -4rem
 }
 
-.t--2r {
+.t\:-2r {
     top: -2rem
 }
 
-.t--1r {
+.t\:-1r {
     top: -1rem
 }
 
-.t--\.5r {
+.t\:-\.5r {
     top: -.5rem
 }
 
-.t--\.25r {
+.t\:-\.25r {
     top: -.25rem
 }
 
-.t-0 {
+.t\:0 {
     top: 0
 }
 
-.t-\.25r {
+.t\:\.25r {
     top: .25rem
 }
 
-.t-\.5r {
+.t\:\.5r {
     top: .5rem
 }
 
-.t-1r {
+.t\:1r {
     top: 1rem
 }
 
-.t-2r {
+.t\:2r {
     top: 2rem
 }
 
-.t-4r {
+.t\:4r {
     top: 4rem
 }

@@ -1,21 +1,19 @@
-/* blink.css | MIT License */
-
-.ls-n {
+.ls\:n {
     letter-spacing: normal
 }
 
-.ls-\.125e {
+.ls\:\.125e {
     letter-spacing: .125em
 }
 
-.ls-\.25e {
+.ls\:\.25e {
     letter-spacing: .25em
 }
 
-.ls-\.5e {
+.ls\:\.5e {
     letter-spacing: .5em
 }
 
-.ls-1e {
+.ls\:1e {
     letter-spacing: 1em
 }

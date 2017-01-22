@@ -1,13 +1,11 @@
-/* blink.css | MIT License */
-
-.fw-nw {
+.fw\:nw {
     flex-wrap: nowrap
 }
 
-.fw-w {
+.fw\:w {
     flex-wrap: wrap
 }
 
-.fw-wr {
+.fw\:wr {
     flex-wrap: wrap-reverse
 }

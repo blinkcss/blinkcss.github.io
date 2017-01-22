@@ -1,9 +1,7 @@
-/* blink.css | MIT License */
-
-.fs-n {
+.fs\:n {
     font-style: normal
 }
 
-.fs-i {
+.fs\:i {
     font-style: italic
 }

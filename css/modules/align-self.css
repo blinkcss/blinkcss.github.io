@@ -1,21 +1,19 @@
-/* blink.css | MIT License */
-
-.as-fs {
+.as\:fs {
     align-self: flex-start
 }
 
-.as-c {
+.as\:c {
     align-self: center
 }
 
-.as-fe {
+.as\:fe {
     align-self: flex-end
 }
 
-.as-b {
+.as\:b {
     align-self: baseline
 }
 
-.as-s {
+.as\:s {
     align-self: stretch
 }

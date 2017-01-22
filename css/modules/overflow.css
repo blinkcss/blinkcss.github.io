@@ -1,49 +1,47 @@
-/* blink.css | MIT License */
-
-.o-a {
+.o\:a {
     overflow: auto
 }
 
-.o-h {
+.o\:h {
     overflow: hidden
 }
 
-.o-s {
+.o\:s {
     overflow: scroll
 }
 
-.o-v {
+.o\:v {
     overflow: visible
 }
 
-.ox-a {
+.ox\:a {
     overflow-x: auto
 }
 
-.ox-h {
+.ox\:h {
     overflow-x: hidden
 }
 
-.ox-s {
+.ox\:s {
     overflow-x: scroll
 }
 
-.ox-v {
+.ox\:v {
     overflow-x: visible
 }
 
-.oy-a {
+.oy\:a {
     overflow-y: auto
 }
 
-.oy-h {
+.oy\:h {
     overflow-y: hidden
 }
 
-.oy-s {
+.oy\:s {
     overflow-y: scroll
 }
 
-.oy-v {
+.oy\:v {
     overflow-y: visible
 }

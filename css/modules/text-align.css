@@ -1,62 +1,60 @@
-/* blink.css | MIT License */
-
-.ta-c {
+.ta\:c {
     text-align: center
 }
 
-.ta-j {
+.ta\:j {
     text-align: justify
 }
 
-.ta-l {
+.ta\:l {
     text-align: left
 }
 
-.ta-r {
+.ta\:r {
     text-align: right
 }
 
 @media screen and (min-width: 40rem) {
-    .ta-c\@md {
+    .ta\:c\@md {
         text-align: center
     }
-    .ta-j\@md {
+    .ta\:j\@md {
         text-align: justify
     }
-    .ta-l\@md {
+    .ta\:l\@md {
         text-align: left
     }
-    .ta-r\@md {
+    .ta\:r\@md {
         text-align: right
     }
 }
 
 @media screen and (min-width: 60rem) {
-    .ta-c\@lg {
+    .ta\:c\@lg {
         text-align: center
     }
-    .ta-j\@lg {
+    .ta\:j\@lg {
         text-align: justify
     }
-    .ta-l\@lg {
+    .ta\:l\@lg {
         text-align: left
     }
-    .ta-r\@lg {
+    .ta\:r\@lg {
         text-align: right
     }
 }
 
 @media screen and (min-width: 80rem) {
-    .ta-c\@xl {
+    .ta\:c\@xl {
         text-align: center
     }
-    .ta-j\@xl {
+    .ta\:j\@xl {
         text-align: justify
     }
-    .ta-l\@xl {
+    .ta\:l\@xl {
         text-align: left
     }
-    .ta-r\@xl {
+    .ta\:r\@xl {
         text-align: right
     }
 }

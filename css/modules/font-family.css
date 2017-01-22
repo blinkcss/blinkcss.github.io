@@ -1,13 +1,11 @@
-/* blink.css | MIT License */
-
-.ff-s {
+.ff\:s {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
 }
 
-.ff-ss {
+.ff\:ss {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
 }
 
-.ff-m {
+.ff\:m {
     font-family: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace
 }

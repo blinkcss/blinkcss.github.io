@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+    border-width: 0;
+    border-style: solid;
+    height: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    border-width: inherit;
+    border-style: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: currentColor;
+}
+
+body {
+    min-height: 100%;
+}
+
+img, video, audio, iframe {
+    max-width: 100%;
+}

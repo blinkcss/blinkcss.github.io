@@ -1,127 +1,125 @@
-/* blink.css | MIT License */
-
-.d-b {
+.d\:b {
     display: block
 }
 
-.d-i {
+.d\:i {
     display: inline
 }
 
-.d-ib {
+.d\:ib {
     display: inline-block
 }
 
-.d-n {
+.d\:n {
     display: none
 }
 
-.d-f {
+.d\:f {
     display: flex
 }
 
-.d-if {
+.d\:if {
     display: inline-flex
 }
 
-.d-t {
+.d\:t {
     display: table
 }
 
-.d-tc {
+.d\:tc {
     display: table-cell
 }
 
-.d-tr {
+.d\:tr {
     display: table-row
 }
 
 @media screen and (min-width: 40rem) {
-    .d-b\@md {
+    .d\:b\@md {
         display: block
     }
-    .d-i\@md {
+    .d\:i\@md {
         display: inline
     }
-    .d-ib\@md {
+    .d\:ib\@md {
         display: inline-block
     }
-    .d-n\@md {
+    .d\:n\@md {
         display: none
     }
-    .d-f\@md {
+    .d\:f\@md {
         display: flex
     }
-    .d-if\@md {
+    .d\:if\@md {
         display: inline-flex
     }
-    .d-t\@md {
+    .d\:t\@md {
         display: table
     }
-    .d-tc\@md {
+    .d\:tc\@md {
         display: table-cell
     }
-    .d-tr\@md {
+    .d\:tr\@md {
         display: table-row
     }
 }
 
 @media screen and (min-width: 60rem) {
-    .d-b\@lg {
+    .d\:b\@lg {
         display: block
     }
-    .d-i\@lg {
+    .d\:i\@lg {
         display: inline
     }
-    .d-ib\@lg {
+    .d\:ib\@lg {
         display: inline-block
     }
-    .d-n\@lg {
+    .d\:n\@lg {
         display: none
     }
-    .d-f\@lg {
+    .d\:f\@lg {
         display: flex
     }
-    .d-if\@lg {
+    .d\:if\@lg {
         display: inline-flex
     }
-    .d-t\@lg {
+    .d\:t\@lg {
         display: table
     }
-    .d-tc\@lg {
+    .d\:tc\@lg {
         display: table-cell
     }
-    .d-tr\@lg {
+    .d\:tr\@lg {
         display: table-row
     }
 }
 
 @media screen and (min-width: 80rem) {
-    .d-b\@xl {
+    .d\:b\@xl {
         display: block
     }
-    .d-i\@xl {
+    .d\:i\@xl {
         display: inline
     }
-    .d-ib\@xl {
+    .d\:ib\@xl {
         display: inline-block
     }
-    .d-n\@xl {
+    .d\:n\@xl {
         display: none
     }
-    .d-f\@xl {
+    .d\:f\@xl {
         display: flex
     }
-    .d-if\@xl {
+    .d\:if\@xl {
         display: inline-flex
     }
-    .d-t\@xl {
+    .d\:t\@xl {
         display: table
     }
-    .d-tc\@xl {
+    .d\:tc\@xl {
         display: table-cell
     }
-    .d-tr\@xl {
+    .d\:tr\@xl {
         display: table-row
     }
 }

@@ -1,141 +1,139 @@
-/* blink.css | MIT License */
-
-.bgc-red, .bgc-red\:h:hover, .bgc-red\:a:active {
+.bgc\:red, .bgc\:red\:h:hover, .bgc\:red\:a:active {
     background-color: hsl(350, 90%, 60%)
 }
 
-.bgc-orange, .bgc-orange\:h:hover, .bgc-orange\:a:active {
+.bgc\:orange, .bgc\:orange\:h:hover, .bgc\:orange\:a:active {
     background-color: hsl(50, 100%, 50%)
 }
 
-.bgc-yellow, .bgc-yellow\:h:hover, .bgc-yellow\:a:active {
+.bgc\:yellow, .bgc\:yellow\:h:hover, .bgc\:yellow\:a:active {
     background-color: hsl(60, 90%, 65%)
 }
 
-.bgc-lime, .bgc-lime\:h:hover, .bgc-lime\:a:active {
+.bgc\:lime, .bgc\:lime\:h:hover, .bgc\:lime\:a:active {
     background-color: hsl(80, 90%, 60%)
 }
 
-.bgc-green, .bgc-green\:h:hover, .bgc-green\:a:active {
+.bgc\:green, .bgc\:green\:h:hover, .bgc\:green\:a:active {
     background-color: hsl(120, 70%, 60%)
 }
 
-.bgc-teal, .bgc-teal\:h:hover, .bgc-teal\:a:active {
+.bgc\:teal, .bgc\:teal\:h:hover, .bgc\:teal\:a:active {
     background-color: hsl(160, 80%, 60%)
 }
 
-.bgc-cyan, .bgc-cyan\:h:hover, .bgc-cyan\:a:active {
+.bgc\:cyan, .bgc\:cyan\:h:hover, .bgc\:cyan\:a:active {
     background-color: hsl(190, 85%, 70%)
 }
 
-.bgc-blue, .bgc-blue\:h:hover, .bgc-blue\:a:active {
+.bgc\:blue, .bgc\:blue\:h:hover, .bgc\:blue\:a:active {
     background-color: hsl(220, 100%, 65%)
 }
 
-.bgc-indigo, .bgc-indigo\:h:hover, .bgc-indigo\:a:active {
+.bgc\:indigo, .bgc\:indigo\:h:hover, .bgc\:indigo\:a:active {
     background-color: hsl(240, 70%, 60%)
 }
 
-.bgc-violet, .bgc-violet\:h:hover, .bgc-violet\:a:active {
+.bgc\:violet, .bgc\:violet\:h:hover, .bgc\:violet\:a:active {
     background-color: hsl(270, 70%, 60%)
 }
 
-.bgc-magenta, .bgc-magenta\:h:hover, .bgc-magenta\:a:active {
+.bgc\:magenta, .bgc\:magenta\:h:hover, .bgc\:magenta\:a:active {
     background-color: hsl(300, 85%, 75%)
 }
 
-.bgc-pink, .bgc-pink\:h:hover, .bgc-pink\:a:active {
+.bgc\:pink, .bgc\:pink\:h:hover, .bgc\:pink\:a:active {
     background-color: hsl(330, 90%, 60%)
 }
 
-.bgc-t {
+.bgc\:t {
     background-color: transparent
 }
 
-.bgc-w, .bgc-w\:h:hover, .bgc-w\:a:active {
+.bgc\:w, .bgc\:w\:h:hover, .bgc\:w\:a:active {
     background-color: hsl(0, 0%, 98%)
 }
 
-.bgc-w\.9, .bgc-w\.9\:h:hover, .bgc-w\.9\:a:active {
+.bgc\:w\.9, .bgc\:w\.9\:h:hover, .bgc\:w\.9\:a:active {
     background-color: hsla(0, 0%, 98%, .9)
 }
 
-.bgc-w\.8, .bgc-w\.8\:h:hover, .bgc-w\.8\:a:active {
+.bgc\:w\.8, .bgc\:w\.8\:h:hover, .bgc\:w\.8\:a:active {
     background-color: hsla(0, 0%, 98%, .8)
 }
 
-.bgc-w\.7, .bgc-w\.7\:h:hover, .bgc-w\.7\:a:active {
+.bgc\:w\.7, .bgc\:w\.7\:h:hover, .bgc\:w\.7\:a:active {
     background-color: hsla(0, 0%, 98%, .7)
 }
 
-.bgc-w\.6, .bgc-w\.6\:h:hover, .bgc-w\.6\:a:active {
+.bgc\:w\.6, .bgc\:w\.6\:h:hover, .bgc\:w\.6\:a:active {
     background-color: hsla(0, 0%, 98%, .6)
 }
 
-.bgc-w\.5, .bgc-w\.5\:h:hover, .bgc-w\.5\:a:active {
+.bgc\:w\.5, .bgc\:w\.5\:h:hover, .bgc\:w\.5\:a:active {
     background-color: hsla(0, 0%, 98%, .5)
 }
 
-.bgc-w\.4, .bgc-w\.4\:h:hover, .bgc-w\.4\:a:active {
+.bgc\:w\.4, .bgc\:w\.4\:h:hover, .bgc\:w\.4\:a:active {
     background-color: hsla(0, 0%, 98%, .4)
 }
 
-.bgc-w\.3, .bgc-w\.3\:h:hover, .bgc-w\.3\:a:active {
+.bgc\:w\.3, .bgc\:w\.3\:h:hover, .bgc\:w\.3\:a:active {
     background-color: hsla(0, 0%, 98%, .3)
 }
 
-.bgc-w\.2, .bgc-w\.2\:h:hover, .bgc-w\.2\:a:active {
+.bgc\:w\.2, .bgc\:w\.2\:h:hover, .bgc\:w\.2\:a:active {
     background-color: hsla(0, 0%, 98%, .2)
 }
 
-.bgc-w\.1, .bgc-w\.1\:h:hover, .bgc-w\.1\:a:active {
+.bgc\:w\.1, .bgc\:w\.1\:h:hover, .bgc\:w\.1\:a:active {
     background-color: hsla(0, 0%, 98%, .1)
 }
 
-.bgc-b, .bgc-b\:h:hover, .bgc-b\:a:active {
+.bgc\:b, .bgc\:b\:h:hover, .bgc\:b\:a:active {
     background-color: hsl(0, 0%, 15%)
 }
 
-.bgc-b\.9, .bgc-b\.9\:h:hover, .bgc-b\.9\:a:active {
+.bgc\:b\.9, .bgc\:b\.9\:h:hover, .bgc\:b\.9\:a:active {
     background-color: hsla(0, 0%, 15%, .9)
 }
 
-.bgc-b\.8, .bgc-b\.8\:h:hover, .bgc-b\.8\:a:active {
+.bgc\:b\.8, .bgc\:b\.8\:h:hover, .bgc\:b\.8\:a:active {
     background-color: hsla(0, 0%, 15%, .8)
 }
 
-.bgc-b\.7, .bgc-b\.7\:h:hover, .bgc-b\.7\:a:active {
+.bgc\:b\.7, .bgc\:b\.7\:h:hover, .bgc\:b\.7\:a:active {
     background-color: hsla(0, 0%, 15%, .7)
 }
 
-.bgc-b\.6, .bgc-b\.6\:h:hover, .bgc-b\.6\:a:active {
+.bgc\:b\.6, .bgc\:b\.6\:h:hover, .bgc\:b\.6\:a:active {
     background-color: hsla(0, 0%, 15%, .6)
 }
 
-.bgc-b\.5, .bgc-b\.5\:h:hover, .bgc-b\.5\:a:active {
+.bgc\:b\.5, .bgc\:b\.5\:h:hover, .bgc\:b\.5\:a:active {
     background-color: hsla(0, 0%, 15%, .5)
 }
 
-.bgc-b\.4, .bgc-b\.4\:h:hover, .bgc-b\.4\:a:active {
+.bgc\:b\.4, .bgc\:b\.4\:h:hover, .bgc\:b\.4\:a:active {
     background-color: hsla(0, 0%, 15%, .4)
 }
 
-.bgc-b\.3, .bgc-b\.3\:h:hover, .bgc-b\.3\:a:active {
+.bgc\:b\.3, .bgc\:b\.3\:h:hover, .bgc\:b\.3\:a:active {
     background-color: hsla(0, 0%, 15%, .3)
 }
 
-.bgc-b\.2, .bgc-b\.2\:h:hover, .bgc-b\.2\:a:active {
+.bgc\:b\.2, .bgc\:b\.2\:h:hover, .bgc\:b\.2\:a:active {
     background-color: hsla(0, 0%, 15%, .2)
 }
 
-.bgc-b\.1, .bgc-b\.1\:h:hover, .bgc-b\.1\:a:active {
+.bgc\:b\.1, .bgc\:b\.1\:h:hover, .bgc\:b\.1\:a:active {
     background-color: hsla(0, 0%, 15%, .1)
 }
 
-.bgc-b\.05, .bgc-b\.05\:h:hover, .bgc-b\.05\:a:active {
+.bgc\:b\.05, .bgc\:b\.05\:h:hover, .bgc\:b\.05\:a:active {
     background-color: hsla(0, 0%, 15%, .05)
 }
 
-.bgc-b\.025, .bgc-b\.025\:h:hover, .bgc-b\.025\:a:active {
+.bgc\:b\.025, .bgc\:b\.025\:h:hover, .bgc\:b\.025\:a:active {
     background-color: hsla(0, 0%, 15%, .025)
 }

@@ -1,75 +1,73 @@
-/* blink.css | MIT License */
-
-.ai-b {
+.ai\:b {
     align-items: baseline
 }
 
-.ai-fs {
+.ai\:fs {
     align-items: flex-start
 }
 
-.ai-c {
+.ai\:c {
     align-items: center
 }
 
-.ai-fe {
+.ai\:fe {
     align-items: flex-end
 }
 
-.ai-s {
+.ai\:s {
     align-items: stretch
 }
 
 @media screen and (min-width: 40rem) {
-    .ai-b\@sm {
+    .ai\:b\@md {
         align-items: baseline
     }
-    .ai-fs\@sm {
+    .ai\:fs\@md {
         align-items: flex-start
     }
-    .ai-c\@sm {
+    .ai\:c\@md {
         align-items: center
     }
-    .ai-fe\@sm {
+    .ai\:fe\@md {
         align-items: flex-end
     }
-    .ai-s\@sm {
+    .ai\:s\@md {
         align-items: stretch
     }
 }
 
 @media screen and (min-width: 60rem) {
-    .ai-b\@md {
+    .ai\:b\@lg {
         align-items: baseline
     }
-    .ai-fs\@md {
+    .ai\:fs\@lg {
         align-items: flex-start
     }
-    .ai-c\@md {
+    .ai\:c\@lg {
         align-items: center
     }
-    .ai-fe\@md {
+    .ai\:fe\@lg {
         align-items: flex-end
     }
-    .ai-s\@md {
+    .ai\:s\@lg {
         align-items: stretch
     }
 }
 
 @media screen and (min-width: 80rem) {
-    .ai-b\@lg {
+    .ai\:b\@xl {
         align-items: baseline
     }
-    .ai-fs\@lg {
+    .ai\:fs\@xl {
         align-items: flex-start
     }
-    .ai-c\@lg {
+    .ai\:c\@xl {
         align-items: center
     }
-    .ai-fe\@lg {
+    .ai\:fe\@xl {
         align-items: flex-end
     }
-    .ai-s\@lg {
+    .ai\:s\@xl {
         align-items: stretch
     }
 }
