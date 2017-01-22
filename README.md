@@ -10,7 +10,7 @@ Documentation site for **blink.css** — web and interface design in the blink o
 
 We suggest using `blank.css` as a reset stylesheet. It is included in the “css” folder.
 
-If you don't want to use it, this should happily get you started (most important here are `box-sizing` and `border-style`):
+If you should not want to use blank.css, the following css will get you started (most important here are `box-sizing` and `border-style`):
 
 ```css
 html {
@@ -40,7 +40,7 @@ body {
 img, video, audio, iframe {
     max-width: 100%;
 }
-``
+```
 
 ---
 
