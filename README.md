@@ -1,8 +1,8 @@
-# blinkcss.github.io
+# blinkUI.github.io
 
-Documentation site for **blink.css** — web and interface design in the blink of an eye.
+Documentation site for **blink UI** — web and interface design in the blink of an eye.
 
-[blinkcss.github.io](https://blinkcss.github.io)
+[blinkUI.github.io](https://blinkui.github.io)
 
 *Work in progress!*
 
