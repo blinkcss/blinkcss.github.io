@@ -79,8 +79,6 @@ body {
     margin: 0;
     color: var(--color-text);
     background-color: var(--bg-color);
-    -webkit-text-size-adjust: none;
-    -ms-text-size-adjust: none;
     text-size-adjust: none;
     /* › don't let for example mobile Safari adjust font sizes */
 }
