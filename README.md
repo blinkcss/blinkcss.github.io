@@ -84,6 +84,7 @@ img, video, audio, iframe {
 ## Make responsive?:
 
 - `flex-grow`
+- `z-index`
 
 ## Demo:
 
