@@ -7,7 +7,8 @@
 }
 
 .o\:s {
-    overflow: scroll
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch
 }
 
 .o\:v {
@@ -23,7 +24,8 @@
 }
 
 .ox\:s {
-    overflow-x: scroll
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch
 }
 
 .ox\:v {
@@ -39,7 +41,8 @@
 }
 
 .oy\:s {
-    overflow-y: scroll
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch
 }
 
 .oy\:v {
