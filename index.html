@@ -33,17 +33,6 @@
 		article:nth-child(odd) {
 			background-color: var(--darken);
 		}
-		/* Navigation list for table of contents: */
-
-		nav#toc>ul>li {
-			margin: 0 var(--1) var(--1) 0;
-			width: var(--16);
-		}
-
-		nav#toc a {
-			padding: var(--\.5) 0;
-			display: block;
-		}
 
 		article>header>h3 {
 			display: inline-block;
@@ -77,10 +66,10 @@
 		<h1 class="m:0 c:red c:w:h fw:700 ls:-.0625e" style="font-family: 'Avenir Next', Avenir">blink<span class="c:b.3 fw:200 tt:u">ui</span></h1>
 		<p class="m:0 "><u>Web and interface design in the <span class="c:red:h ">blink</span> of an eye.</u></p>
 	</header>
-	<nav id="toc" class="p:2r ox:s ws:nw brw:medium brw:0@xl bc:red">
+	<nav id="toc" class="p:2r ox:s ws:nw brw:medium brw:0@xl bc:red c:b.3 fs:1.5r@xl">
 		<ul>
-			<li> <b><a href="#typo">Typography</a></b>
-				<ul>
+			<li class="d:f mr_1r mb_1r"> <b><a href="#typo">Typography</a></b>
+				<ul class="d:f mr_.5r">
 					<li><a href="#typo__font-family">font-family</a></li>
 					<li><a href="#typo__font-size">font-size</a></li>
 					<li><a href="#typo__line-height">line-height</a></li>
@@ -91,16 +80,16 @@
 					<li><a href="#typo__letter-spacing">letter-spacing</a></li>
 				</ul>
 			</li>
-			<li> <b><a href="#layout">Layout: Spacing &amp; dimensions</a></b>
-				<ul>
+			<li class="d:f mr_1r mb_1r"> <b><a href="#layout">Layout: Spacing &amp; dimensions</a></b>
+				<ul class="d:f mr_1r">
 					<li><a href="#layout__margin">margin</a></li>
 					<li><a href="#layout__padding">padding</a></li>
 					<li><a href="#layout__width">width</a></li>
 					<li><a href="#layout__max-width">max-width</a></li>
 					<li><a href="#layout__height">height</a></li>
 				</ul>
-				<li> <b><a href="#layout">Layout: Positioning</a></b>
-					<ul>
+				<li class="d:f mr_1r mb_1r"> <b><a href="#layout">Layout: Positioning</a></b>
+					<ul class="d:f mr_1r">
 						<li><a href="#layout__display">display</a></li>
 						<li><a href="#layout__position">position</a></li>
 						<li><a href="#layout__z-index">z-index</a></li>
@@ -115,8 +104,8 @@
 						<li><a href="#layout__white-space">white-space</a></li>
 					</ul>
 				</li>
-				<li> <b><a href="#layout__flexbox">Layout: Flexbox</a></b>
-					<ul>
+				<li class="d:f mr_1r mb_1r"> <b><a href="#layout__flexbox">Layout: Flexbox</a></b>
+					<ul class="d:f mr_1r">
 						<li><a href="#layout__flex-direction">flex-direction</a></li>
 						<li><a href="#layout__flex-wrap">flex-wrap</a></li>
 						<li><a href="#layout__justify-content">justify-content</a></li>
@@ -127,8 +116,8 @@
 						<li><a href="#layout__flex-basis">flex-basis</a></li>
 					</ul>
 				</li>
-				<li> <b><a href="#theme">Theming</a></b>
-					<ul>
+				<li class="d:f mr_1r"> <b><a href="#theme">Theming</a></b>
+					<ul class="d:f mr_1r">
 						<li><a href="#theme__border-width">border-width</a></li>
 						<li><a href="#theme__border-radius">border-radius</a></li>
 						<li><a href="#theme__box-shadow">box-shadow</a></li>
