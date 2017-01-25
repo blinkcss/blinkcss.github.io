@@ -4,7 +4,11 @@ Documentation site for **blink UI** — web and interface design in the blink of
 
 [blinkUI.github.io](https://blinkui.github.io)
 
+![](screenshot.png)
+
 *Work in progress!*
+
+
 
 ---
 
