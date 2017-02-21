@@ -2,48 +2,96 @@
     background-color: hsl(350, 90%, 60%)
 }
 
+.bgc\:redgradient, .bgc\:redgradient\:h:hover, .bgc\:redgradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(350, 90%, 60%) 50%, hsl(30, 100%, 50%))
+}
+
 .bgc\:orange, .bgc\:orange\:h:hover, .bgc\:orange\:a:active {
     background-color: hsl(50, 100%, 50%)
+}
+
+.bgc\:orangegradient, .bgc\:orangegradient\:h:hover, .bgc\:orangegradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(50, 100%, 50%) 50%, hsl(60, 90%, 65%))
 }
 
 .bgc\:yellow, .bgc\:yellow\:h:hover, .bgc\:yellow\:a:active {
     background-color: hsl(60, 90%, 65%)
 }
 
+.bgc\:yellowgradient, .bgc\:yellowgradient\:h:hover, .bgc\:yellowgradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(60, 90%, 65%) 50%, hsl(50, 100%, 70%))
+}
+
 .bgc\:lime, .bgc\:lime\:h:hover, .bgc\:lime\:a:active {
     background-color: hsl(80, 90%, 60%)
+}
+
+.bgc\:limegradient, .bgc\:limegradient\:h:hover, .bgc\:limegradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(80, 90%, 60%) 50%, hsl(60, 90%, 65%))
 }
 
 .bgc\:green, .bgc\:green\:h:hover, .bgc\:green\:a:active {
     background-color: hsl(120, 70%, 60%)
 }
 
+.bgc\:greengradient, .bgc\:greengradient\:h:hover, .bgc\:greengradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(120, 70%, 60%) 50%, hsl(80, 90%, 60%))
+}
+
 .bgc\:teal, .bgc\:teal\:h:hover, .bgc\:teal\:a:active {
     background-color: hsl(160, 80%, 60%)
+}
+
+.bgc\:tealgradient, .bgc\:tealgradient\:h:hover, .bgc\:tealgradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(160, 80%, 60%) 50%, hsl(190, 85%, 80%))
 }
 
 .bgc\:cyan, .bgc\:cyan\:h:hover, .bgc\:cyan\:a:active {
     background-color: hsl(190, 85%, 70%)
 }
 
+.bgc\:cyangradient, .bgc\:cyangradient\:h:hover, .bgc\:cyangradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(190, 85%, 70%) 50%, hsl(160, 80%, 80%))
+}
+
 .bgc\:blue, .bgc\:blue\:h:hover, .bgc\:blue\:a:active {
     background-color: hsl(220, 100%, 65%)
+}
+
+.bgc\:bluegradient, .bgc\:bluegradient\:h:hover, .bgc\:bluegradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(220, 100%, 65%) 50%, hsl(200, 85%, 70%))
 }
 
 .bgc\:indigo, .bgc\:indigo\:h:hover, .bgc\:indigo\:a:active {
     background-color: hsl(240, 70%, 60%)
 }
 
+.bgc\:indigogradient, .bgc\:indigogradient\:h:hover, .bgc\:indigogradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(240, 70%, 60%) 50%, hsl(220, 100%, 65%))
+}
+
 .bgc\:violet, .bgc\:violet\:h:hover, .bgc\:violet\:a:active {
     background-color: hsl(270, 70%, 60%)
+}
+
+.bgc\:violetgradient, .bgc\:violetgradient\:h:hover, .bgc\:violetgradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(270, 70%, 60%) 50%, hsl(285, 85%, 75%))
 }
 
 .bgc\:magenta, .bgc\:magenta\:h:hover, .bgc\:magenta\:a:active {
     background-color: hsl(300, 85%, 75%)
 }
 
+.bgc\:magentagradient, .bgc\:magentagradient\:h:hover, .bgc\:magentagradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(300, 85%, 75%) 50%, hsl(330, 90%, 85%))
+}
+
 .bgc\:pink, .bgc\:pink\:h:hover, .bgc\:pink\:a:active {
     background-color: hsl(330, 90%, 60%)
+}
+
+.bgc\:pinkgradient, .bgc\:pinkgradient\:h:hover, .bgc\:pinkgradient\:a:active {
+    background-image: linear-gradient(15deg, hsl(330, 90%, 60%) 50%, hsl(300, 85%, 75%))
 }
 
 .bgc\:t {
