@@ -67,3 +67,8 @@
 /* Backgrounds */
 
 @import "modules/background-image.css";
+@import "modules/border-image.css";
+
+/* Other */
+
+@import "modules/opacity.css";

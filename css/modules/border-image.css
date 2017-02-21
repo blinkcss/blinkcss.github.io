@@ -1,0 +1,51 @@
+.bi\:redgradient {
+    border-image: linear-gradient(15deg, hsl(350, 90%, 60%) 50%, hsl(50, 100%, 50%));
+}
+
+.bi\:orangegradient {
+    border-image: linear-gradient(15deg, hsl(50, 100%, 50%) 50%, hsl(60, 90%, 65%))
+}
+
+.bi\:yellowgradient {
+    border-image: linear-gradient(195deg, hsl(60, 90%, 65%) 50%, hsl(50, 100%, 50%))
+}
+
+.bi\:limegradient {
+    border-image: linear-gradient(15deg, hsl(80, 90%, 60%) 50%, hsl(60, 90%, 65%))
+}
+
+.bi\:greengradient {
+    border-image: linear-gradient(15deg, hsl(120, 70%, 60%) 50%, hsl(80, 90%, 60%))
+}
+
+.bi\:tealgradient {
+    border-image: linear-gradient(15deg, hsl(160, 80%, 60%) 50%, hsl(190, 85%, 70%))
+}
+
+.bi\:cyangradient {
+    border-image: linear-gradient(15deg, hsl(190, 85%, 70%) 50%, hsl(160, 80%, 60%))
+}
+
+.bi\:bluegradient {
+    border-image: linear-gradient(15deg, hsl(220, 100%, 65%) 50%, hsl(190, 85%, 70%))
+}
+
+.bi\:indigogradient {
+    border-image: linear-gradient(15deg, hsl(240, 70%, 60%) 50%, hsl(220, 100%, 65%))
+}
+
+.bi\:violetgradient {
+    border-image: linear-gradient(15deg, hsl(270, 70%, 60%) 50%, hsl(300, 85%, 75%))
+}
+
+.bi\:magentagradient {
+    border-image: linear-gradient(195deg, hsl(300, 85%, 75%) 50%, hsl(330, 90%, 60%))
+}
+
+.bi\:pinkgradient {
+    border-image: linear-gradient(15deg, hsl(330, 90%, 60%) 50%, hsl(300, 85%, 75%))
+}
+
+[class*="bi\:"] {
+    border-image-slice: 1
+}
