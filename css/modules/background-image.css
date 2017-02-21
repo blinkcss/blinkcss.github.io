@@ -1,0 +1,47 @@
+.bgi\:redgradient {
+    background-image: linear-gradient(15deg, hsl(350, 90%, 60%) 50%, hsl(30, 100%, 50%))
+}
+
+.bgi\:orangegradient {
+    background-image: linear-gradient(15deg, hsl(50, 100%, 50%) 50%, hsl(60, 90%, 65%))
+}
+
+.bgi\:yellowgradient {
+    background-image: linear-gradient(15deg, hsl(60, 90%, 65%) 50%, hsl(50, 100%, 70%))
+}
+
+.bgi\:limegradient {
+    background-image: linear-gradient(15deg, hsl(80, 90%, 60%) 50%, hsl(60, 90%, 65%))
+}
+
+.bgi\:greengradient {
+    background-image: linear-gradient(15deg, hsl(120, 70%, 60%) 50%, hsl(80, 90%, 60%))
+}
+
+.bgi\:tealgradient {
+    background-image: linear-gradient(15deg, hsl(160, 80%, 60%) 50%, hsl(190, 85%, 80%))
+}
+
+.bgi\:cyangradient {
+    background-image: linear-gradient(15deg, hsl(190, 85%, 70%) 50%, hsl(160, 80%, 80%))
+}
+
+.bgi\:bluegradient {
+    background-image: linear-gradient(15deg, hsl(220, 100%, 65%) 50%, hsl(200, 85%, 70%))
+}
+
+.bgi\:indigogradient {
+    background-image: linear-gradient(15deg, hsl(240, 70%, 60%) 50%, hsl(220, 100%, 65%))
+}
+
+.bgi\:violetgradient {
+    background-image: linear-gradient(15deg, hsl(270, 70%, 60%) 50%, hsl(285, 85%, 75%))
+}
+
+.bgi\:magentagradient {
+    background-image: linear-gradient(15deg, hsl(300, 85%, 75%) 50%, hsl(330, 90%, 85%))
+}
+
+.bgi\:pinkgradient {
+    background-image: linear-gradient(15deg, hsl(330, 90%, 60%) 50%, hsl(300, 85%, 75%))
+}
