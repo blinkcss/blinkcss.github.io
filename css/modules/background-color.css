@@ -46,6 +46,10 @@
     background-color: hsl(330, 90%, 60%)
 }
 
+.bgc\:brown {
+    background-color: hsl(30, 60%, 45%)
+}
+
 .bgc\:t {
     background-color: transparent
 }

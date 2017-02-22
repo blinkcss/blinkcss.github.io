@@ -546,9 +546,9 @@
 					<p>Similar to the width module</p> <code class="fs:1.5r">mw:75%</code> = <code class="fs:1.5r">max-width:75%</code></div>
 				<hr>
 				<h4>Additional classes:</h4>
-				<div class="mw:md c:w bgc:b p:1r">Medium breakpoint (default: 40rem)</div> <code>mw:md</code> </div>
-				<div class="mw:lg c:w bgc:b p:1r mt:.5r">Large breakpoint (default: 60rem)</div> <code>mw:lg</code> </div>
-				<div class="mw:xl c:w bgc:b p:1r mt:.5r">Extra large breakpoint (default: 80rem)</div> <code>mw:xl</code> </div>
+				<div class="mw:md c:w bgc:b p:1r">Medium breakpoint (default: 40rem) <code>mw:md</code> </div>
+				<div class="mw:lg c:w bgc:b p:1r mt:.5r">Large breakpoint (default: 60rem) <code>mw:lg</code> </div>
+				<div class="mw:xl c:w bgc:b p:1r mt:.5r">Extra large breakpoint (default: 80rem) <code>mw:xl</code> </div>
 			</article>
 			<article id="layout__height">
 				<header>
@@ -613,7 +613,7 @@
 				<div><span class="p:a r:1r fs:1.5r">absolute</span> <code>p:a</code></div>
 				<div>
 					<nav>
-						<a class="p:f zi:2 b:1r r:1r h:4r w:4r br:100% bgc:w.8 d:f ai:c jc:c o:.6:h bs:.125r" href="#top" style="-webkit-backdrop-filter: blur(.125rem)">
+						<a class="p:f zi:2 b:1r r:1r h:4r w:4r br:100% bgc:w.8 d:f ai:c jc:c bs:.125r bs:.5r:h" href="#top" style="-webkit-backdrop-filter: blur(.125rem)">
 							<svg data-icon="chevronUp" viewBox="0 0 32 32" class="h:1r w:1r">
 								<title>Arrow pointing upwards</title>
 								<path d="M1 20 L16 6 L31 20 L27 24 L16 14 L5 24 z"></path>
@@ -1246,85 +1246,112 @@
 					<div class="br:100% p:.5r bgc:w c:violet h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">H</div>
 				</header>
 				<!-- transparent -->
-				<div class="p:1r bgc:t bw:thick fw:b fb:20% ta:c bc:w"> transparent
+				<div class="p:1r bgc:t bw:medium fw:b fb:20% ta:c bc:t"> transparent
 					<br> <code class="c:b">bgc:t</code> </div>
 				<!-- colors -->
-				<div class="d:f@md fw:w fw:b c:w">
-					<div class="p:1r bgc:red bgi:white:h bw:thick fb:20% ta:c"> red
+				<div class="d:f@md fw:w fw:b c:w" style="margin-left: -.25rem; margin-right: -.25rem;">
+					<div class="p:1r bgc:red bw:medium fb:20% ta:c"> red
 						<br> <code>bgc:red</code> </div>
-					<div class="p:1r bgc:orange bw:thick fb:20% ta:c"> orange
+					<div class="p:1r bgc:orange bw:medium fb:20% ta:c"> orange
 						<br> <code>bgc:orange</code> </div>
-					<div class="p:1r bgc:yellow bw:thick fb:20% ta:c"> yellow
+					<div class="p:1r bgc:yellow bw:medium fb:20% ta:c"> yellow
 						<br> <code>bgc:yellow</code> </div>
-					<div class="p:1r bgc:lime bw:thick fb:20% ta:c"> lime
+					<div class="p:1r bgc:lime bw:medium fb:20% ta:c"> lime
 						<br> <code>bgc:lime</code> </div>
-					<div class="p:1r bgc:green bw:thick fb:20% ta:c"> green
+					<div class="p:1r bgc:green bw:medium fb:20% ta:c"> green
 						<br> <code>bgc:green</code> </div>
-					<div class="p:1r bgc:teal bw:thick fb:20% ta:c"> teal
+					<div class="p:1r bgc:teal bw:medium fb:20% ta:c"> teal
 						<br> <code>bgc:teal</code> </div>
-					<div class="p:1r bgc:cyan bw:thick fb:20% ta:c"> cyan
+					<div class="p:1r bgc:cyan bw:medium fb:20% ta:c"> cyan
 						<br> <code>bgc:cyan</code> </div>
-					<div class="p:1r bgc:blue bw:thick fb:20% ta:c"> blue
+					<div class="p:1r bgc:blue bw:medium fb:20% ta:c"> blue
 						<br> <code>bgc:blue</code> </div>
-					<div class="p:1r bgc:indigo bw:thick fb:20% ta:c"> indigo
+					<div class="p:1r bgc:indigo bw:medium fb:20% ta:c"> indigo
 						<br> <code>bgc:indigo</code> </div>
-					<div class="p:1r bgc:violet bw:thick fb:20% ta:c"> violet
+					<div class="p:1r bgc:violet bw:medium fb:20% ta:c"> violet
 						<br> <code>bgc:violet</code> </div>
-					<div class="p:1r bgc:magenta bw:thick fb:20% ta:c"> magenta
+					<div class="p:1r bgc:magenta bw:medium fb:20% ta:c"> magenta
 						<br> <code>bgc:magenta</code> </div>
-					<div class="p:1r bgc:pink bw:thick fb:20% ta:c"> pink
+					<div class="p:1r bgc:pink bw:medium fb:20% ta:c"> pink
 						<br> <code>bgc:pink</code> </div>
+					<div class="p:1r bgc:brown bw:medium fb:20% ta:c"> brown
+						<br> <code>bgc:brown</code> </div>
 				</div>
 				<!-- shades of black -->
-				<div class="d:f@md fw:w fw:b c:w">
-					<div class="p:1r bgc:b bw:thick fb:20% ta:c"> black
+				<div class="d:f@md fw:w fw:b c:w" style="margin-left: -.25rem; margin-right: -.25rem;">
+					<div class="p:1r bgc:b bw:medium fb:20% ta:c"> black
 						<br> <code>bgc:b</code> </div>
-					<div class="p:1r bgc:b.9 bw:thick fb:20% ta:c"> black .9
+					<div class="p:1r bgc:b.9 bw:medium fb:20% ta:c"> black .9
 						<br> <code>bgc:b.9</code> </div>
-					<div class="p:1r bgc:b.8 bw:thick fb:20% ta:c"> black .8
+					<div class="p:1r bgc:b.8 bw:medium fb:20% ta:c"> black .8
 						<br> <code>bgc:b.8</code> </div>
-					<div class="p:1r bgc:b.7 bw:thick fb:20% ta:c"> black .7
+					<div class="p:1r bgc:b.7 bw:medium fb:20% ta:c"> black .7
 						<br> <code>bgc:b.7</code> </div>
-					<div class="p:1r bgc:b.6 bw:thick fb:20% ta:c"> black .6
+					<div class="p:1r bgc:b.6 bw:medium fb:20% ta:c"> black .6
 						<br> <code>bgc:b.6</code> </div>
-					<div class="p:1r bgc:b.5 bw:thick fb:20% ta:c"> black .5
+					<div class="p:1r bgc:b.5 bw:medium fb:20% ta:c"> black .5
 						<br> <code>bgc:b.5</code> </div>
-					<div class="p:1r bgc:b.4 bw:thick fb:20% ta:c"> black .4
+					<div class="p:1r bgc:b.4 bw:medium fb:20% ta:c"> black .4
 						<br> <code>bgc:b.4</code> </div>
-					<div class="p:1r bgc:b.3 bw:thick fb:20% ta:c"> black .3
+					<div class="p:1r bgc:b.3 bw:medium fb:20% ta:c"> black .3
 						<br> <code>bgc:b.3</code> </div>
-					<div class="p:1r bgc:b.2 bw:thick fb:20% ta:c"> black .2
+					<div class="p:1r bgc:b.2 bw:medium fb:20% ta:c"> black .2
 						<br> <code>bgc:b.2</code> </div>
-					<div class="p:1r bgc:b.1 bw:thick fb:20% ta:c"> black .1
+					<div class="p:1r bgc:b.1 bw:medium fb:20% ta:c"> black .1
 						<br> <code>bgc:b.1</code> </div>
-					<div class="p:1r bgc:b.05 bw:thick fb:20% ta:c"> black .05
+					<div class="p:1r bgc:b.05 bw:medium fb:20% ta:c"> black .05
 						<br> <code>bgc:b.5</code> </div>
-					<div class="p:1r bgc:b.025 bw:thick fb:20% ta:c"> black .025
+					<div class="p:1r bgc:b.025 bw:medium fb:20% ta:c"> black .025
 						<br> <code>bgc:b.025</code> </div>
 				</div>
 				<!-- shades of white -->
-				<div class="d:f@md fw:w fw:b c:b bgc:b">
-					<div class="p:1r bgc:w bw:thick fb:20% ta:c bc:w"> white
+				<div class="d:f@md fw:w fw:b c:b bgc:b" style="margin-left: -.25rem; margin-right: -.25rem;">
+					<div class="p:1r bgc:w bw:medium fb:20% ta:c bc:w"> white
 						<br> <code>bgc:w</code> </div>
-					<div class="p:1r bgc:w.9 bw:thick fb:20% ta:c bc:w"> white .9
+					<div class="p:1r bgc:w.9 bw:medium fb:20% ta:c bc:w"> white .9
 						<br> <code>bgc:w.9</code> </div>
-					<div class="p:1r bgc:w.8 bw:thick fb:20% ta:c bc:w"> white .8
+					<div class="p:1r bgc:w.8 bw:medium fb:20% ta:c bc:w"> white .8
 						<br> <code>bgc:w.8</code> </div>
-					<div cldiv class="p:1r bgc:w.7 bw:thick fb:20% ta:c bc:w"> white .7
+					<div cldiv class="p:1r bgc:w.7 bw:medium fb:20% ta:c bc:w"> white .7
 						<br <br> <code>bgc:w.7</code> </div>
-					<div class="p:1r bgc:w.6 bw:thick fb:20% ta:c bc:w"> white white .6
+					<div class="p:1r bgc:w.6 bw:medium fb:20% ta:c bc:w"> white white .6
 						<br> <code>bgc:w.6</code> </div>
-					<div class="p:1r bgc:w.5 bw:thick fb:20% ta:c bc:w"> white .5
+					<div class="p:1r bgc:w.5 bw:medium fb:20% ta:c bc:w"> white .5
 						<br> <code>bgc:w.5</code> </div>
-					<div class="p:1r bgc:w.4 bw:thick fb:20% ta:c bc:w"> white .4
+					<div class="p:1r bgc:w.4 bw:medium fb:20% ta:c bc:w"> white .4
 						<br> <code>bgc:w.4</code> </div>
-					<div class="p:1r bgc:w.3 bw:thick fb:20% ta:c bc:w"> white .3
+					<div class="p:1r bgc:w.3 bw:medium fb:20% ta:c bc:w"> white .3
 						<br> <code>bgc:w.3</code> </div>
-					<div class="p:1r bgc:w.2 bw:thick fb:20% ta:c bc:w"> white .2
+					<div class="p:1r bgc:w.2 bw:medium fb:20% ta:c bc:w"> white .2
 						<br> <code>bgc:w.2</code> </div>
-					<div class="p:1r bgc:w.1 bw:thick fb:20% ta:c bc:w"> white .1
+					<div class="p:1r bgc:w.1 bw:medium fb:20% ta:c bc:w"> white .1
 						<br> <code>bgc:w.1</code> </div>
-				</div> <small>The white shades are placed on a black background in order to show the blending effect.</small> </article>
+				</div> <small>The white shades are placed on a black background in order to show the blending effect.</small>
+				<!-- overlay demo -->
+				<h4>Creating tints with a little parent/child nesting trick</h4>
+				<p>For example: <code>bgc:blue + bgc:w.9</code></p>
+				<div class="bgc:blue c:w.5 d:f@lg">
+					<div class="p:1r bgc:w.9"></div>
+					<div class="p:1r bgc:w.8"></div>
+					<div class="p:1r bgc:w.7"></div>
+					<div class="p:1r bgc:w.6"></div>
+					<div class="p:1r bgc:w.5"></div>
+					<div class="p:1r bgc:w.4"></div>
+					<div class="p:1r bgc:w.3"></div>
+					<div class="p:1r bgc:w.2"></div>
+					<div class="p:1r bgc:w.1"></div>
+					<div class="p:1r ta:c tt:u ls:1e fg:1">shades of blue</div>
+					<div class="p:1r bgc:b.1"></div>
+					<div class="p:1r bgc:b.2"></div>
+					<div class="p:1r bgc:b.3"></div>
+					<div class="p:1r bgc:b.4"></div>
+					<div class="p:1r bgc:b.5"></div>
+					<div class="p:1r bgc:b.6"></div>
+					<div class="p:1r bgc:b.7"></div>
+					<div class="p:1r bgc:b.8"></div>
+					<div class="p:1r bgc:b.9"></div>
+				</div>
+			</article>
 			<article id="theme__border-color">
 				<header class="p:r">
 					<h3>border-color</h3>
@@ -1358,6 +1385,8 @@
 						<br> <code>bc:magenta</code> </div>
 					<div class="p:1r bc:pink bw:thick fb:20% ta:c"> pink
 						<br> <code>bc:pink</code> </div>
+					<div class="p:1r bc:brown bw:thick fb:20% ta:c"> brown
+						<br> <code>bc:brown</code> </div>
 				</div>
 				<!-- shades of black -->
 				<div class="d:f@md fw:w fw:b">
@@ -1414,31 +1443,33 @@
 				<header>
 					<h3>background-image</h3> </header>
 				<!-- color gardients -->
-				<div class="d:f@md fw:w fw:b c:w">
-					<div class="p:1r bgi:red bw:thick fb:20% ta:c"> red
+				<div class="d:f@md fw:w fw:b c:w" style="margin-left: -.25rem; margin-right: -.25rem;">
+					<div class="p:1r bgi:red bw:medium fb:20% ta:c bc:t"> red
 						<br> <code>bgi:red</code> </div>
-					<div class="p:1r bgi:orange bw:thick fb:20% ta:c"> orange
+					<div class="p:1r bgi:orange bw:medium fb:20% ta:c bc:t"> orange
 						<br> <code>bgi:orange</code> </div>
-					<div class="p:1r bgi:yellow bw:thick fb:20% ta:c"> yellow
+					<div class="p:1r bgi:yellow bw:medium fb:20% ta:c bc:t"> yellow
 						<br> <code>bgi:yellow</code> </div>
-					<div class="p:1r bgi:lime bw:thick fb:20% ta:c"> lime
+					<div class="p:1r bgi:lime bw:medium fb:20% ta:c bc:t"> lime
 						<br> <code>bgi:lime</code> </div>
-					<div class="p:1r bgi:green bw:thick fb:20% ta:c"> green
+					<div class="p:1r bgi:green bw:medium fb:20% ta:c bc:t"> green
 						<br> <code>bgi:green</code> </div>
-					<div class="p:1r bgi:teal bw:thick fb:20% ta:c"> teal
+					<div class="p:1r bgi:teal bw:medium fb:20% ta:c bc:t"> teal
 						<br> <code>bgi:teal</code> </div>
-					<div class="p:1r bgi:cyan bw:thick fb:20% ta:c"> cyan
+					<div class="p:1r bgi:cyan bw:medium fb:20% ta:c bc:t"> cyan
 						<br> <code>bgi:cyan</code> </div>
-					<div class="p:1r bgi:blue bw:thick fb:20% ta:c"> blue
+					<div class="p:1r bgi:blue bw:medium fb:20% ta:c bc:t"> blue
 						<br> <code>bgi:blue</code> </div>
-					<div class="p:1r bgi:indigo bw:thick fb:20% ta:c"> indigo
+					<div class="p:1r bgi:indigo bw:medium fb:20% ta:c bc:t"> indigo
 						<br> <code>bgi:indigo</code> </div>
-					<div class="p:1r bgi:violet bw:thick fb:20% ta:c"> violet
+					<div class="p:1r bgi:violet bw:medium fb:20% ta:c bc:t"> violet
 						<br> <code>bgi:violet</code> </div>
-					<div class="p:1r bgi:magenta bw:thick fb:20% ta:c"> magenta
+					<div class="p:1r bgi:magenta bw:medium fb:20% ta:c bc:t"> magenta
 						<br> <code>bgi:magenta</code> </div>
-					<div class="p:1r bgi:pink bw:thick fb:20% ta:c"> pink
+					<div class="p:1r bgi:pink bw:medium fb:20% ta:c bc:t"> pink
 						<br> <code>bgi:pink</code> </div>
+					<div class="p:1r bgi:brown bw:medium fb:20% ta:c bc:t"> brown
+						<br> <code>bgi:brown</code> </div>
 				</div>
 			</article>
 			<article id="theme__border-image">
@@ -1470,6 +1501,8 @@
 						<br> <code>bi:magenta</code> </div>
 					<div class="p:1r bi:pink bw:thick fb:20% ta:c"> pink
 						<br> <code>bi:pink</code> </div>
+					<div class="p:1r bi:brown bw:thick fb:20% ta:c"> brown
+						<br> <code>bi:brown</code> </div>
 				</div>
 			</article>
 		</section>

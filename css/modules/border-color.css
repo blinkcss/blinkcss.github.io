@@ -46,6 +46,10 @@
     border-color: hsl(330, 90%, 60%)
 }
 
+.bc\:brown {
+    border-color: hsl(30, 60%, 45%)
+}
+
 .bc\:t {
     border-color: transparent
 }

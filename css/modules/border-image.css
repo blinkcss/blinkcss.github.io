@@ -46,6 +46,10 @@
     border-image: linear-gradient(15deg, hsl(330, 90%, 60%) 50%, hsl(300, 85%, 75%))
 }
 
+.bi\:brown {
+	border-image: linear-gradient(15deg, hsl(30, 60%, 45%) 50%, hsl(50, 100%, 50%))
+}
+
 [class*="bi\:"] {
     border-image-slice: 1
 }

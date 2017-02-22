@@ -261,7 +261,7 @@
     margin-bottom: 16rem
 }
 
-@media screen and (min_width: 40rem)>* {
+@media screen and (min-width: 40rem)>* {
     .mr_a\@md >* {
         margin-right: auto
     }
@@ -466,7 +466,7 @@
     }
 }
 
-@media screen and (min_width: 60rem)>* {
+@media screen and (min-width: 60rem)>* {
     .mr_a\@lg >* {
         margin-right: auto
     }
@@ -671,7 +671,7 @@
     }
 }
 
-@media screen and (min_width: 80rem)>* {
+@media screen and (min-width: 80rem)>* {
     .mr_a\@xl >* {
         margin-right: auto
     }
