@@ -17,68 +17,23 @@
 		nav#toc {
 			margin-bottom: var(--2);
 		}
-
-
-
-
-
-
-
-
-
-
+		
 		header>h2 {
 			margin-top: var(--2);
 		}
-
-
-
-
-
-
-
-
-
-
+		
 		article {
 			padding: var(--2);
 		}
-
-
-
-
-
-
-
-
-
-
+		
 		article:last-of-type {
 			margin-bottom: var(--8);
 		}
-
-
-
-
-
-
-
-
-
-
+		
 		article:nth-child(odd) {
 			background-color: var(--darken);
 		}
-
-
-
-
-
-
-
-
-
-
+		
 		article>header>h3 {
 			display: inline-block;
 			background-color: var(--color-text);
@@ -86,22 +41,13 @@
 			padding: var(--1);
 			font-family: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace
 		}
-
+		
 		@keyframes fade {
 			from {
 				opacity: 0;
 			}
 		}
-
-
-
-
-
-
-
-
-
-
+		
 		body {
 			animation: 1s fade ease-in-out
 		}
@@ -179,6 +125,7 @@
 						<li><a href="#theme__background-color">background-color</a></li>
 						<li><a href="#theme__border-color">border-color</a></li>
 						<li><a href="#theme__background-image">background-image</a></li>
+						<li><a href="#theme__border-image">border-image</a></li>
 					</ul>
 				</li>
 		</ul>
@@ -666,7 +613,7 @@
 				<div><span class="p:a r:1r fs:1.5r">absolute</span> <code>p:a</code></div>
 				<div>
 					<nav>
-						<a class="p:f zi:2 b:1r r:1r h:4r w:4r br:100% bgc:w.9 d:f ai:c jc:c bgc:b:h c:w:h bgc:b.7:a bs:.125r" href="#top">
+						<a class="p:f zi:2 b:1r r:1r h:4r w:4r br:100% bgc:w.9 d:f ai:c jc:c o:.6:h bs:.125r" href="#top">
 							<svg data-icon="chevronUp" viewBox="0 0 32 32" class="h:1r w:1r">
 								<title>Arrow pointing upwards</title>
 								<path d="M1 20 L16 6 L31 20 L27 24 L16 14 L5 24 z"></path>
@@ -1198,7 +1145,8 @@
 					<h3>box-shadow</h3>
 					<div class="br:100% p:.5r bgc:w c:violet h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">H</div>
 				</header>
-				<p>Including <b>hover classes</b>: <code>bs:.25r:h</code><br>Hover over the circles for a demo.</p>
+				<p>Including <b>hover classes</b>: <code>bs:.25r:h</code>
+					<br>Hover over the circles for a demo.</p>
 				<div class="d:f fw:w mr_1r">
 					<div class="bs:.0625r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">.0625rem <code>bs:.0625r</code> </div>
 					<div class="bs:.125r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">.125rem <code>bs:.125r</code> </div>
@@ -1464,71 +1412,69 @@
 			</article>
 			<article id="theme__background-image">
 				<header>
-					<h3>background-image</h3>
-				</header>
-				<!-- color gradients -->
+					<h3>background-image</h3> </header>
+				<!-- color gardients -->
 				<div class="d:f@md fw:w fw:b c:w">
-					<div class="p:1r bgi:redgradient bw:thick fb:20% ta:c"> red
-						<br> <code>bgi:redgradient</code> </div>
-					<div class="p:1r bgi:orangegradient bw:thick fb:20% ta:c"> orange
-						<br> <code>bgi:orangegradient</code> </div>
-					<div class="p:1r bgi:yellowgradient bw:thick fb:20% ta:c"> yellow
-						<br> <code>bgi:yellowgradient</code> </div>
-					<div class="p:1r bgi:limegradient bw:thick fb:20% ta:c"> lime
-						<br> <code>bgi:limegradient</code> </div>
-					<div class="p:1r bgi:greengradient bw:thick fb:20% ta:c"> green
-						<br> <code>bgi:greengradient</code> </div>
-					<div class="p:1r bgi:tealgradient bw:thick fb:20% ta:c"> teal
-						<br> <code>bgi:tealgradient</code> </div>
-					<div class="p:1r bgi:cyangradient bw:thick fb:20% ta:c"> cyan
-						<br> <code>bgi:cyangradient</code> </div>
-					<div class="p:1r bgi:bluegradient bw:thick fb:20% ta:c"> blue
-						<br> <code>bgi:bluegradient</code> </div>
-					<div class="p:1r bgi:indigogradient bw:thick fb:20% ta:c"> indigo
-						<br> <code>bgi:indigogradient</code> </div>
-					<div class="p:1r bgi:violetgradient bw:thick fb:20% ta:c"> violet
-						<br> <code>bgi:violetgradient</code> </div>
-					<div class="p:1r bgi:magentagradient bw:thick fb:20% ta:c"> magenta
-						<br> <code>bgi:magentagradient</code> </div>
-					<div class="p:1r bgi:pinkgradient bw:thick fb:20% ta:c"> pink
-						<br> <code>bgi:pinkgradient</code> </div>
+					<div class="p:1r bgi:red bw:thick fb:20% ta:c"> red
+						<br> <code>bgi:red</code> </div>
+					<div class="p:1r bgi:orange bw:thick fb:20% ta:c"> orange
+						<br> <code>bgi:orange</code> </div>
+					<div class="p:1r bgi:yellow bw:thick fb:20% ta:c"> yellow
+						<br> <code>bgi:yellow</code> </div>
+					<div class="p:1r bgi:lime bw:thick fb:20% ta:c"> lime
+						<br> <code>bgi:lime</code> </div>
+					<div class="p:1r bgi:green bw:thick fb:20% ta:c"> green
+						<br> <code>bgi:green</code> </div>
+					<div class="p:1r bgi:teal bw:thick fb:20% ta:c"> teal
+						<br> <code>bgi:teal</code> </div>
+					<div class="p:1r bgi:cyan bw:thick fb:20% ta:c"> cyan
+						<br> <code>bgi:cyan</code> </div>
+					<div class="p:1r bgi:blue bw:thick fb:20% ta:c"> blue
+						<br> <code>bgi:blue</code> </div>
+					<div class="p:1r bgi:indigo bw:thick fb:20% ta:c"> indigo
+						<br> <code>bgi:indigo</code> </div>
+					<div class="p:1r bgi:violet bw:thick fb:20% ta:c"> violet
+						<br> <code>bgi:violet</code> </div>
+					<div class="p:1r bgi:magenta bw:thick fb:20% ta:c"> magenta
+						<br> <code>bgi:magenta</code> </div>
+					<div class="p:1r bgi:pink bw:thick fb:20% ta:c"> pink
+						<br> <code>bgi:pink</code> </div>
 				</div>
 			</article>
 			<article id="theme__border-image">
 				<header>
-					<h3>border-image</h3>
-				</header>
+					<h3>border-image</h3> </header>
+				<!-- color gardients -->
 				<div class="d:f@md fw:w fw:b">
-					<div class="p:1r bi:redgradient bw:thick fb:20% ta:c"> red
-						<br> <code>bi:redgradient</code> </div>
-					<div class="p:1r bi:orangegradient bw:thick fb:20% ta:c"> orange
-						<br> <code>bi:orangegradient</code> </div>
-					<div class="p:1r bi:yellowgradient bw:thick fb:20% ta:c"> yellow
-						<br> <code>bi:yellowgradient</code> </div>
-					<div class="p:1r bi:limegradient bw:thick fb:20% ta:c"> lime
-						<br> <code>bi:limegradient</code> </div>
-					<div class="p:1r bi:greengradient bw:thick fb:20% ta:c"> green
-						<br> <code>bi:greengradient</code> </div>
-					<div class="p:1r bi:tealgradient bw:thick fb:20% ta:c"> teal
-						<br> <code>bi:tealgradient</code> </div>
-					<div class="p:1r bi:cyangradient bw:thick fb:20% ta:c"> cyan
-						<br> <code>bi:cyangradient</code> </div>
-					<div class="p:1r bi:bluegradient bw:thick fb:20% ta:c"> blue
-						<br> <code>bi:bluegradient</code> </div>
-					<div class="p:1r bi:indigogradient bw:thick fb:20% ta:c"> indigo
-						<br> <code>bi:indigogradient</code> </div>
-					<div class="p:1r bi:violetgradient bw:thick fb:20% ta:c"> violet
-						<br> <code>bi:violetgradient</code> </div>
-					<div class="p:1r bi:magentagradient bw:thick fb:20% ta:c"> magenta
-						<br> <code>bi:magentagradient</code> </div>
-					<div class="p:1r bi:pinkgradient bw:thick fb:20% ta:c"> pink
-						<br> <code>bi:pinkgradient</code> </div>
+					<div class="p:1r bi:red bw:thick fb:20% ta:c"> red
+						<br> <code>bi:red</code> </div>
+					<div class="p:1r bi:orange bw:thick fb:20% ta:c"> orange
+						<br> <code>bi:orange</code> </div>
+					<div class="p:1r bi:yellow bw:thick fb:20% ta:c"> yellow
+						<br> <code>bi:yellow</code> </div>
+					<div class="p:1r bi:lime bw:thick fb:20% ta:c"> lime
+						<br> <code>bi:lime</code> </div>
+					<div class="p:1r bi:green bw:thick fb:20% ta:c"> green
+						<br> <code>bi:green</code> </div>
+					<div class="p:1r bi:teal bw:thick fb:20% ta:c"> teal
+						<br> <code>bi:teal</code> </div>
+					<div class="p:1r bi:cyan bw:thick fb:20% ta:c"> cyan
+						<br> <code>bi:cyan</code> </div>
+					<div class="p:1r bi:blue bw:thick fb:20% ta:c"> blue
+						<br> <code>bi:blue</code> </div>
+					<div class="p:1r bi:indigo bw:thick fb:20% ta:c"> indigo
+						<br> <code>bi:indigo</code> </div>
+					<div class="p:1r bi:violet bw:thick fb:20% ta:c"> violet
+						<br> <code>bi:violet</code> </div>
+					<div class="p:1r bi:magenta bw:thick fb:20% ta:c"> magenta
+						<br> <code>bi:magenta</code> </div>
+					<div class="p:1r bi:pink bw:thick fb:20% ta:c"> pink
+						<br> <code>bi:pink</code> </div>
 				</div>
 			</article>
 		</section>
 	</main>
-	<footer class="p:2r bgc:b c:w">Created by <address class="d:i"><a href="mailto:gerbaulet@hs-ulm.de">Damian Gerbaulet</a> (Professor at the University of Applied Sciences Ulm, Germany)</address> Greatly inspired by <a href="http://basscss.com" target="_blank">basscss</a>,
-		<a href="http://tachyons.io" target="_blank">tachyons</a> and <a href="https://github.com/chantastic/minions.css" target="_blank">minions</a>.</footer>
+	<footer class="p:2r bgc:b c:w">Created by <address class="d:i"><a href="mailto:gerbaulet@hs-ulm.de">Damian Gerbaulet</a> (Professor at the University of Applied Sciences Ulm, Germany)</address> Greatly inspired by <a href="http://basscss.com" target="_blank">basscss</a>, <a href="http://tachyons.io" target="_blank">tachyons</a> and <a href="https://github.com/chantastic/minions.css" target="_blank">minions</a>.</footer>
 </body>
 
 </html>

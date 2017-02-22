@@ -1,48 +1,48 @@
-.bc\:red, .bc\:red\:h:hover, .bc\:red\:a:active {
+.bc\:red {
     border-color: hsl(350, 90%, 60%)
 }
 
-.bc\:orange, .bc\:orange\:h:hover, .bc\:orange\:a:active {
+.bc\:orange {
     border-color: hsl(50, 100%, 50%)
 }
 
-.bc\:yellow, .bc\:yellow\:h:hover, .bc\:yellow\:a:active {
+.bc\:yellow {
     border-color: hsl(60, 90%, 65%)
 }
 
-.bc\:lime, .bc\:lime\:h:hover, .bc\:lime\:a:active {
+.bc\:lime {
     border-color: hsl(80, 90%, 60%)
 }
 
-.bc\:green, .bc\:green\:h:hover, .bc\:green\:a:active {
+.bc\:green {
     border-color: hsl(120, 70%, 60%)
 }
 
-.bc\:teal, .bc\:teal\:h:hover, .bc\:teal\:a:active {
+.bc\:teal {
     border-color: hsl(160, 80%, 60%)
 }
 
-.bc\:cyan, .bc\:cyan\:h:hover, .bc\:cyan\:a:active {
+.bc\:cyan {
     border-color: hsl(190, 85%, 70%)
 }
 
-.bc\:blue, .bc\:blue\:h:hover, .bc\:blue\:a:active {
+.bc\:blue {
     border-color: hsl(220, 100%, 65%)
 }
 
-.bc\:indigo, .bc\:indigo\:h:hover, .bc\:indigo\:a:active {
+.bc\:indigo {
     border-color: hsl(240, 70%, 60%)
 }
 
-.bc\:violet, .bc\:violet\:h:hover, .bc\:violet\:a:active {
+.bc\:violet {
     border-color: hsl(270, 70%, 60%)
 }
 
-.bc\:magenta, .bc\:magenta\:h:hover, .bc\:magenta\:a:active {
+.bc\:magenta {
     border-color: hsl(300, 85%, 75%)
 }
 
-.bc\:pink, .bc\:pink\:h:hover, .bc\:pink\:a:active {
+.bc\:pink {
     border-color: hsl(330, 90%, 60%)
 }
 
@@ -50,90 +50,90 @@
     border-color: transparent
 }
 
-.bc\:w, .bc\:w\:h:hover, .bc\:w\:a:active {
+.bc\:w {
     border-color: hsl(0, 0%, 98%)
 }
 
-.bc\:w\.9, .bc\:w\.9\:h:hover, .bc\:w\.9\:a:active {
+.bc\:w\.9 {
     border-color: hsla(0, 0%, 98%, .9)
 }
 
-.bc\:w\.8, .bc\:w\.8\:h:hover, .bc\:w\.8\:a:active {
+.bc\:w\.8 {
     border-color: hsla(0, 0%, 98%, .8)
 }
 
-.bc\:w\.7, .bc\:w\.7\:h:hover, .bc\:w\.7\:a:active {
+.bc\:w\.7 {
     border-color: hsla(0, 0%, 98%, .7)
 }
 
-.bc\:w\.6, .bc\:w\.6\:h:hover, .bc\:w\.6\:a:active {
+.bc\:w\.6 {
     border-color: hsla(0, 0%, 98%, .6)
 }
 
-.bc\:w\.5, .bc\:w\.5\:h:hover, .bc\:w\.5\:a:active {
+.bc\:w\.5 {
     border-color: hsla(0, 0%, 98%, .5)
 }
 
-.bc\:w\.4, .bc\:w\.4\:h:hover, .bc\:w\.4\:a:active {
+.bc\:w\.4 {
     border-color: hsla(0, 0%, 98%, .4)
 }
 
-.bc\:w\.3, .bc\:w\.3\:h:hover, .bc\:w\.3\:a:active {
+.bc\:w\.3 {
     border-color: hsla(0, 0%, 98%, .3)
 }
 
-.bc\:w\.2, .bc\:w\.2\:h:hover, .bc\:w\.2\:a:active {
+.bc\:w\.2 {
     border-color: hsla(0, 0%, 98%, .2)
 }
 
-.bc\:w\.1, .bc\:w\.1\:h:hover, .bc\:w\.1\:a:active {
+.bc\:w\.1 {
     border-color: hsla(0, 0%, 98%, .1)
 }
 
-.bc\:b, .bc\:b\:h:hover, .bc\:b\:a:active {
+.bc\:b {
     border-color: hsl(0, 0%, 15%)
 }
 
-.bc\:b\.9, .bc\:b\.9\:h:hover, .bc\:b\.9\:a:active {
+.bc\:b\.9 {
     border-color: hsla(0, 0%, 15%, .9)
 }
 
-.bc\:b\.8, .bc\:b\.8\:h:hover, .bc\:b\.8\:a:active {
+.bc\:b\.8 {
     border-color: hsla(0, 0%, 15%, .8)
 }
 
-.bc\:b\.7, .bc\:b\.7\:h:hover, .bc\:b\.7\:a:active {
+.bc\:b\.7 {
     border-color: hsla(0, 0%, 15%, .7)
 }
 
-.bc\:b\.6, .bc\:b\.6\:h:hover, .bc\:b\.6\:a:active {
+.bc\:b\.6 {
     border-color: hsla(0, 0%, 15%, .6)
 }
 
-.bc\:b\.5, .bc\:b\.5\:h:hover, .bc\:b\.5\:a:active {
+.bc\:b\.5 {
     border-color: hsla(0, 0%, 15%, .5)
 }
 
-.bc\:b\.4, .bc\:b\.4\:h:hover, .bc\:b\.4\:a:active {
+.bc\:b\.4 {
     border-color: hsla(0, 0%, 15%, .4)
 }
 
-.bc\:b\.3, .bc\:b\.3\:h:hover, .bc\:b\.3\:a:active {
+.bc\:b\.3 {
     border-color: hsla(0, 0%, 15%, .3)
 }
 
-.bc\:b\.2, .bc\:b\.2\:h:hover, .bc\:b\.2\:a:active {
+.bc\:b\.2 {
     border-color: hsla(0, 0%, 15%, .2)
 }
 
-.bc\:b\.1, .bc\:b\.1\:h:hover, .bc\:b\.1\:a:active {
+.bc\:b\.1 {
     border-color: hsla(0, 0%, 15%, .1)
 }
 
-.bc\:b\.05, .bc\:b\.05\:h:hover, .bc\:b\.05\:a:active {
+.bc\:b\.05 {
     border-color: hsla(0, 0%, 15%, .05)
 }
 
-.bc\:b\.025, .bc\:b\.025\:h:hover, .bc\:b\.025\:a:active {
+.bc\:b\.025 {
     border-color: hsla(0, 0%, 15%, .025)
 }
