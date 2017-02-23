@@ -45,7 +45,7 @@ html {
     border-style: solid;
     height: 100%;
 	-ms-overflow-style: -ms-autohiding-scrollbar;
-	/* › automatically hide scrollbars in Edge, IE10/11 */
+	/* › automatically hide scrollbars in Edge and IE10/11 */
 }
 
 
