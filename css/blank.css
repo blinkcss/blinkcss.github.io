@@ -44,6 +44,8 @@ html {
     /* › using default system font */
     border-style: solid;
     height: 100%;
+	-webkit-overflow-scrolling: touch;
+	/* › smooth scrolling */
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 	/* › automatically hide scrollbars in Edge and IE10/11 */
 }
