@@ -44,6 +44,10 @@ html {
 	/* › using default system font */
 	border-style: solid;
 	height: 100%;
+	-webkit-overflow-scrolling: touch;
+	/* › smooth scrolling on overflow */
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	/* › automatically hide scrollbars in Edge and IE10/11 */
 }
 
 
@@ -73,10 +77,6 @@ html {
 	background-color: transparent;
 	background-repeat: no-repeat;
 	-webkit-tap-highlight-color: transparent;
-	-webkit-overflow-scrolling: touch;
-	/* › smooth scrolling on overflow */
-	-ms-overflow-style: -ms-autohiding-scrollbar;
-	/* › automatically hide scrollbars in Edge and IE10/11 */
 }
 
 body {
