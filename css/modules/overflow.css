@@ -1,50 +1,58 @@
 .o\:a {
-    overflow: auto
+	overflow: auto
 }
 
 .o\:h {
-    overflow: hidden
+	overflow: hidden
 }
 
 .o\:s {
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch
 }
 
 .o\:v {
-    overflow: visible
+	overflow: visible
 }
 
 .ox\:a {
-    overflow-x: auto
+	overflow-x: auto
 }
 
 .ox\:h {
-    overflow-x: hidden
+	overflow-x: hidden
 }
 
 .ox\:s {
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch
 }
 
 .ox\:v {
-    overflow-x: visible
+	overflow-x: visible
 }
 
 .oy\:a {
-    overflow-y: auto
+	overflow-y: auto
 }
 
 .oy\:h {
-    overflow-y: hidden
+	overflow-y: hidden
 }
 
 .oy\:s {
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch
 }
 
 .oy\:v {
-    overflow-y: visible
+	overflow-y: visible
+}
+
+[class^="ox\:"] {
+	-ms-overflow-style: none
+}
+
+[class^="ox\:"] ::-webkit-scrollbar {
+	display: none
 }
