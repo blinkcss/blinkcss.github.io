@@ -6,88 +6,87 @@ GLOBAL ADJUSTMENTS
 */
 
 :root {
-	--color-text: hsl(0, 0%, 15%);
-	--color-text-lighter: hsla(0, 0%, 15%, .5);
-	--bg-color: hsl(0, 0%, 98%);
-	--darken: hsla(0, 0%, 0%, .03125);
-	--lighten: hsla(0, 0%, 100%, .125);
-	--\.0625: calc(.0625 * var(--1));
-	--\.125: calc(.125 * var(--1));
-	--\.25: calc(.25 * var(--1));
-	--\.5: calc(.5 * var(--1));
-	--1: 1rem;
-	--2: calc(2 * var(--1));
-	--4: calc(4 * var(--1));
-	--8: calc(8 * var(--1));
-	--16: calc(16 * var(--1));
-	--transition-short: .125s all ease-in-out;
-	--box-shadow: 0 var(--\.0625) var(--\.25) 0 hsla(0, 0%, 15%, .125);
+    --color-text: hsl(0, 0%, 15%);
+    --color-text-lighter: hsla(0, 0%, 15%, .5);
+    --bg-color: hsl(0, 0%, 98%);
+    --darken: hsla(0, 0%, 0%, .03125);
+    --lighten: hsla(0, 0%, 100%, .125);
+    --\.0625: calc(.0625 * var(--1));
+    --\.125: calc(.125 * var(--1));
+    --\.25: calc(.25 * var(--1));
+    --\.5: calc(.5 * var(--1));
+    --1: 1rem;
+    --2: calc(2 * var(--1));
+    --4: calc(4 * var(--1));
+    --8: calc(8 * var(--1));
+    --16: calc(16 * var(--1));
+    --transition-short: .125s all ease-in-out;
+    --box-shadow: 0 var(--\.0625) var(--\.25) 0 hsla(0, 0%, 15%, .125);
 }
 
 
 /* Testing different text/background color combinations: */
 
-@media screen and (min-width: 48rem) {
-	:root {
-		/*--bg-color: hsl(0, 100%, 80%);
-		--color-text: hsla(0, 0%, 100%, 1);
-		--color-text-lighter: hsla(0, 0%, 100%, .95);*/
-	}
+@media screen and (min-width: 60rem) {
+     :root {
+        /*--bg-color: hsl(210, 40%, 60%);
+        --color-text: hsla(0, 0%, 100%, 1);
+        --color-text-lighter: hsla(0, 0%, 100%, .95);*/
+    }
 }
 
 html {
-	box-sizing: border-box;
-	font-size: 1rem;
-	/* › 1rem translates to 16px in most browsers – unless the user has adjusted the default font-size to be larger or smaller  */
-	line-height: 1.5;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-	/* › using default system font */
-	border-style: solid;
-	height: 100%;
-	-webkit-overflow-scrolling: touch;
-	/* › smooth scrolling on overflow */
-	-ms-overflow-style: -ms-autohiding-scrollbar;
-	/* › automatically hide scrollbars in Edge and IE10/11 */
+    box-sizing: border-box;
+    font-size: 1rem;
+    /* › 1rem translates to 16px in most browsers – unless the user has adjusted the default font-size to be larger or smaller  */
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    /* › using default system font */
+    border-style: solid;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    /* › smooth scrolling on overflow */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* › automatically hide scrollbars in Edge and IE10/11 */
 }
 
 
 /* Increase global font-size (and spacing scale) on large viewports: */
 
-@media screen and (min-width: 48rem) {
-	html {
-		/*font-size: 1.125rem;*/
-	}
+@media screen and (min-width: 60rem) {
+    html {
+        /*font-size: 1.5rem;*/
+    }
 }
 
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
-	margin: 0;
-	padding: 0;
-	border-width: 0;
-	border-radius: 0;
-	border-style: inherit;
-	outline: 0;
-	font-family: inherit;
-	font-size: inherit;
-	line-height: inherit;
-	vertical-align: baseline;
-	color: currentColor;
-	background-color: transparent;
-	background-repeat: no-repeat;
-	-webkit-tap-highlight-color: transparent;
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    border-radius: 0;
+    border-style: inherit;
+    outline: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    vertical-align: baseline;
+    color: currentColor;
+    border-color: currentColor;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
-	min-height: 100%;
-	font-size: 100%;
-	margin: 0;
-	color: var(--color-text);
-	background-color: var(--bg-color);
-	text-size-adjust: none;
-	-webkit-text-size-adjust: none;
-	/* › don't let for example mobile Safari adjust font sizes */
+    min-height: 100%;
+    font-size: 100%;
+    margin: 0;
+    color: var(--color-text);
+    background-color: var(--bg-color);
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    /* › don't let for example mobile Safari adjust font sizes */
 }
 
 
@@ -102,292 +101,236 @@ TEXT
 /* Hyphenation – if supported by browser (set the language attribute, e.g. <html lang="en">): */
 
 p {
-	hyphens: auto;
+    hyphens: auto;
 }
 
 
 /* Underlined elements: */
 
-a[href]:not([class]),
-ins,
-abbr[title] {
-	text-decoration: none;
-	border-bottom-width: var(--\.0625);
-	padding-bottom: var(--\.0625);
-	/* › adjust to suit your typeface */
+a[href]:not([class]), ins, abbr[title] {
+    text-decoration: none;
+    border-bottom-width: var(--\.0625);
+    padding-bottom: var(--\.0625);
+    /* › adjust to suit your typeface */
 }
 
 
 /* Default text links (without a class attribute): */
 
 a[href]:not([class]) {
-	color: currentColor;
-	position: relative;
+    color: currentColor;
+    position: relative;
 }
 
 a[href]:not([class])::after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0%;
-	border-bottom-width: var(--\.125);
-	transition: var(--transition-short);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom-width: var(--\.125);
+    transition: var(--transition-short);
 }
 
 a[href]:not([class]):hover {
-	opacity: initial;
+    opacity: initial;
 }
 
 a[href]:not([class]):hover::after {
-	width: 100%;
+    width: 100%;
 }
 
 
 /* No default underline on links (with a class attribute): */
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 
 /* Headline type scale: */
 
 h1 {
-	font-size: 3rem;
-	line-height: 1.125;
-	/* › smaller line-height for very large type */
+    font-size: 3rem;
+    line-height: 1.125;
+    /* › smaller line-height for very large type */
 }
 
 h2 {
-	font-size: 2rem;
-	line-height: 1.25;
-	/* › smaller line-height for large type */
+    font-size: 2rem;
+    line-height: 1.25;
+    /* › smaller line-height for large type */
 }
 
 h3 {
-	font-size: 1.5rem;
-	line-height: 1.25;
-	/* › smaller line-height for large type */
+    font-size: 1.5rem;
+    line-height: 1.25;
+    /* › smaller line-height for large type */
 }
 
 h4 {
-	font-size: 1rem
+    font-size: 1rem
 }
 
 h5 {
-	font-size: .875rem
+    font-size: .875rem
 }
 
 h6 {
-	font-size: .75rem
+    font-size: .75rem
 }
 
 
 /* Vertical rhythm: */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-legend,
-p,
-address,
-details,
-details[open] summary,
-ul,
-ol,
-dl,
-pre,
-blockquote,
-table,
-figure,
-audio,
-video,
-canvas,
-meter,
-progress,
-iframe,
-input[type],
-button,
-textarea,
-select,
-fieldset {
-	margin-bottom: var(--1);
+h1, h2, h3, h4, h5, h6, legend, p, address, details, details[open] summary, ul, ol, dl, pre, blockquote, table, figure, audio, video, canvas, meter, progress, iframe, input[type], button, textarea, select, fieldset {
+    margin-bottom: var(--1);
 }
 
 
 /* Correcting the vertical rhythm for a more readable paragraph flow : */
 
 p+p {
-	margin-top: -.5rem;
-	/* › better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
+    margin-top: -.5rem;
+    /* › better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
 }
 
 
 /* Vertical rhythm for headlines:  */
 
-*+h1,
-*+h2,
-*+h3,
-*+h4,
-*+h5,
-*+h6,
-*+legend,
-*+caption {
-	margin-top: var(--2);
-	/* › stay away from preceding content within document flow  */
+*+h1, *+h2, *+h3, *+h4, *+h5, *+h6, *+legend, *+caption {
+    margin-top: var(--2);
+    /* › stay away from preceding content within document flow  */
 }
 
 
 /* Font-weight for bold elements: */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-legend,
-caption,
-strong,
-b,
-th {
-	font-weight: 600;
+h1, h2, h3, h4, h5, h6, legend, caption, strong, b, th {
+    font-weight: 600;
 }
 
 hr {
-	border-bottom-width: var(--\.0625);
-	margin: var(--2) 0;
+    border-bottom-width: var(--\.0625);
+    margin: var(--2) 0;
 }
 
 
 /* Lists: */
 
-li,
-dt {
-	margin-bottom: var(--\.5);
-	/* ›  vertical rhythm for list elements  */
+li, dt {
+    margin-bottom: var(--\.5);
+    /* ›  vertical rhythm for list elements  */
 }
 
-li>ol,
-li>ul {
-	margin-top: var(--\.5);
-	/* ›  correct vertical rhythm for nested lists  */
-	margin-left: var(--1);
+li>ol, li>ul {
+    margin-top: var(--\.5);
+    /* ›  correct vertical rhythm for nested lists  */
+    margin-left: var(--1);
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 ul li::before {
-	content: "\00B7";
-	margin-right: var(--\.5);
+    content: "\00B7";
+    margin-right: var(--\.5);
 }
 
 ol {
-	margin-left: var(--2);
-	/* ›  adjust if you have very long ordered lists (with more than 3 digits)  */
+    margin-left: var(--2);
+    /* ›  adjust if you have very long ordered lists (with more than 3 digits)  */
 }
 
 li>ol {
-	list-style-type: lower-alpha;
+    list-style-type: lower-alpha;
 }
 
 dd::before {
-	content: "\2014";
-	margin-right: var(--\.5);
+    content: "\2014";
+    margin-right: var(--\.5);
 }
 
 dd+dt {
-	margin-top: var(--1);
-	/* ›  vertical rhythm in the case, that definition lists consist of more than one definition title  */
+    margin-top: var(--1);
+    /* ›  vertical rhythm in the case, that definition lists consist of more than one definition title  */
 }
 
 
 /* List reset for navigation lists */
 
-nav ul,
-nav ul li {
-	margin: 0;
+nav ul, nav ul li {
+    margin: 0;
 }
 
 nav>ul>li {
-	display: inline-block;
-	vertical-align: top;
-	margin-right: var(--1);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: var(--1);
 }
 
 nav>ul>li:last-child {
-	margin-right: 0;
+    margin-right: 0;
 }
 
 nav ul li::before {
-	content: none;
+    content: none;
 }
 
 
 /* Code: */
 
-pre,
-code,
-samp,
-kbd {
-	font-family: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace;
+pre, code, samp, kbd {
+    font-family: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace;
 }
 
-code,
-samp,
-kbd {
-	font-size: .875em;
-	padding: .125em;
-	background-color: var(--darken);
+code, samp, kbd {
+    font-size: .875em;
+    padding: .125em;
+    background-color: var(--darken);
 }
 
 
 /* Container for <pre> and <blockquote>: */
 
 blockquote {
-	border-left-width: var(--\.25);
-	padding: var(--1);
+    border-left-width: var(--\.25);
+    padding: var(--1);
 }
 
 pre {
-	border-right-width: var(--\.25);
-	padding: var(--1);
-	font-size: .875rem;
-	overflow-x: scroll;
-	background-color: var(--darken);
+    border-right-width: var(--\.25);
+    padding: var(--1);
+    font-size: .875rem;
+    overflow-x: scroll;
+    background-color: var(--darken);
 }
 
 
 /* Blockquote: */
 
 blockquote {
-	font-style: italic;
+    font-style: italic;
 }
 
 blockquote footer {
-	font-style: initial;
+    font-style: initial;
 }
 
 blockquote footer::before {
-	content: "\2014";
-	margin-right: var(--\.5);
+    content: "\2014";
+    margin-right: var(--\.5);
 }
 
 address {
-	font-style: normal;
+    font-style: normal;
 }
 
-small,
-figcaption {
-	font-size: .75rem;
-	/* › change unit to "em" if you want relative scaling */
-	letter-spacing: .0375em;
+small, figcaption {
+    font-size: .75rem;
+    /* › change unit to "em" if you want relative scaling */
+    letter-spacing: .0375em;
 }
 
 
@@ -397,15 +340,15 @@ figcaption {
 /* Correcting generated quotes: */
 
 q {
-	quotes: "\201C" "\201D" "\2018" "\2019";
+    quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 q::before {
-	content: open-quote;
+    content: open-quote;
 }
 
 q::after {
-	content: close-quote;
+    content: close-quote;
 }
 
 
@@ -413,123 +356,117 @@ q::after {
 (Delete if you need underlined text for things like Chinese proper name marks or spell-checking feedback) */
 
 u {
-	text-decoration: none;
-	font-size: .875em;
-	/* › adjust for optimal optical alignment */
-	text-transform: uppercase;
-	letter-spacing: var(--\.125);
-	font-weight: 500;
+    text-decoration: none;
+    font-size: .875em;
+    /* › adjust for optimal optical alignment */
+    text-transform: uppercase;
+    letter-spacing: var(--\.125);
+    font-weight: 500;
 }
 
 abbr[title] {
-	border-style: dotted;
+    border-style: dotted;
 }
 
-del,
-s {
-	text-decoration: none;
-	background-image: linear-gradient(to bottom, currentColor 75%, currentColor 75%);
-	background-repeat: repeat-x;
-	background-size: var(--\.125) var(--\.125);
-	background-position: 0 60%;
+del, s {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, currentColor 75%, currentColor 75%);
+    background-repeat: repeat-x;
+    background-size: var(--\.125) var(--\.125);
+    background-position: 0 60%;
 }
 
-sup,
-sub {
-	vertical-align: baseline;
-	position: relative;
-	top: -.75em;
-	font-size: .75rem;
-	font-weight: 500;
-	/* › adjust to visually match copy weight */
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -.75em;
+    font-size: .75rem;
+    font-weight: 500;
+    /* › adjust to visually match copy weight */
 }
 
 sub {
-	top: .25em;
+    top: .25em;
 }
 
 mark {
-	padding: var(--\.0625);
-	color: var(--bg-color);
-	background-color: var(--color-text);
+    padding: var(--\.0625);
+    color: var(--bg-color);
+    background-color: var(--color-text);
 }
 
-mark::before,
-mark::after {
-	content: "\00A0";
-	/* › adding a non-breaking space before and after */
+mark::before, mark::after {
+    content: "\00A0";
+    /* › adding a non-breaking space before and after */
 }
 
 
 /* Details / Summary: */
 
 details summary {
-	border-bottom-width: var(--\.0625);
-	border-style: solid;
-	/* › needed for Safari */
-	padding: var(--1) var(--2) var(--1) 0;
-	background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M1 12 L16 26 L31 12 L27 8 L16 18 L5 8 z'/\>\</svg\>");
-	/* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
-	background-size: 1rem;
-	background-position: right var(--\.5) center;
-	/* › tiny indention to the left */
-	cursor: pointer;
-	transition: var(--transition-short);
+    border-bottom-width: var(--\.0625);
+    border-style: solid;
+    /* › needed for Safari */
+    padding: var(--1) var(--2) var(--1) 0;
+    background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M1 12 L16 26 L31 12 L27 8 L16 18 L5 8 z'/\>\</svg\>");
+    /* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
+    background-size: 1rem;
+    background-position: right var(--\.5) center;
+    /* › tiny indention to the left */
+    cursor: pointer;
+    transition: var(--transition-short);
 }
 
 details[open] summary {
-	background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M1 20 L16 6 L31 20 L27 24 L16 14 L5 24 z'/\>\</svg\>");
-	/* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
+    background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M1 20 L16 6 L31 20 L27 24 L16 14 L5 24 z'/\>\</svg\>");
+    /* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
 }
 
 details summary::-webkit-details-marker {
-	display: none;
+    display: none;
 }
 
 details[open] {
-	border-bottom-width: var(--\.25);
+    border-bottom-width: var(--\.25);
 }
 
 
 /* Tables: */
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 table>* {
-	text-align: left;
-	/* › align all text in tables left */
+    text-align: left;
+    /* › align all text in tables left */
 }
 
 thead {
-	border-bottom-width: var(--\.0625);
+    border-bottom-width: var(--\.0625);
 }
 
 tfoot {
-	border-top-width: var(--\.0625);
+    border-top-width: var(--\.0625);
 }
 
-th,
-td {
-	padding: var(--1);
-	min-width: var(--8);
-	/* › adjust to suit your needs */
+th, td {
+    padding: var(--1);
+    min-width: var(--8);
+    /* › adjust to suit your needs */
 }
 
-th:first-child,
-td:first-child {
-	padding-left: 0;
+th:first-child, td:first-child {
+    padding-left: 0;
 }
 
-th:last-child,
-td:last-child {
-	padding-right: 0;
+th:last-child, td:last-child {
+    padding-right: 0;
 }
 
 tr:hover {
-	background-color: var(--darken);
+    background-color: var(--darken);
 }
 
 
@@ -540,16 +477,13 @@ EMBEDDED CONTENT
 
 */
 
-img,
-video,
-audio,
-iframe {
-	max-width: 100%;
-	height: auto;
+img, video, audio, iframe {
+    max-width: 100%;
+    height: auto;
 }
 
 svg {
-	fill: currentColor;
+    fill: currentColor;
 }
 
 
@@ -561,216 +495,198 @@ FORM ELEMENTS
 */
 
 label {
-	display: block;
+    display: block;
 }
 
-input[type]:not([type="submit"]):not([type="button"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]),
-textarea,
-select {
-	width: 100%;
+input[type]:not([type="submit"]):not([type="button"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]), textarea, select {
+    width: 100%;
 }
 
-input[type]:not([type="submit"]):not([type="button"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]):not([type="color"]):not([type="range"]):not([type="file"]),
-textarea,
-select {
-	border-bottom-width: var(--\.0625);
-	border-bottom-color: transparent;
-	padding: var(--1);
-	background-color: var(--darken);
-	transition: var(--transition-short);
+input[type]:not([type="submit"]):not([type="button"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]):not([type="color"]):not([type="range"]):not([type="file"]), textarea, select {
+    border-bottom-width: var(--\.0625);
+    border-bottom-color: transparent;
+    padding: var(--1);
+    background-color: var(--darken);
+    transition: var(--transition-short);
 }
 
-input[type]:not([type="submit"]):not([type="button"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]):not([type="color"]):not([type="range"]):not([type="file"]):focus,
-textarea:focus,
-select:focus {
-	background-color: var(--lighten);
-	border-bottom-color: var(--color-text);
-	box-shadow: var(--box-shadow);
+input[type]:not([type="submit"]):not([type="button"]):not([type="reset"]):not([type="checkbox"]):not([type="radio"]):not([type="color"]):not([type="range"]):not([type="file"]):focus, textarea:focus, select:focus {
+    background-color: var(--lighten);
+    border-bottom-color: var(--color-text);
+    box-shadow: var(--box-shadow);
 }
 
 textarea {
-	resize: vertical;
+    resize: vertical;
 }
 
-select,
-[type="search"] {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
+select, [type="search"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 select {
-	background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M1 12 L16 26 L31 12 L27 8 L16 18 L5 8 z'/\>\</svg\>");
-	/* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
-	background-size: 1rem;
-	background-position: right var(--1) center;
-	/* › indention to the left */
-	line-height: initial;
-	/* › prevend descenders from being cut-off on Chrome */
+    background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M1 12 L16 26 L31 12 L27 8 L16 18 L5 8 z'/\>\</svg\>");
+    /* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
+    background-size: 1rem;
+    background-position: right var(--1) center;
+    /* › indention to the left */
+    line-height: initial;
+    /* › prevend descenders from being cut-off on Chrome */
 }
 
 [type="search"]::-webkit-input-placeholder {
-	background-repeat: no-repeat;
-	background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M12 0 A12 12 0 0 0 0 12 A12 12 0 0 0 12 24 A12 12 0 0 0 18.5 22.25 L28 32 L32 28 L22.25 18.5 A12 12 0 0 0 24 12 A12 12 0 0 0 12 0 M12 4 A8 8 0 0 1 12 20 A8 8 0 0 1 12 4'/\>\</svg\>");
-	/* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
-	background-size: 1rem;
-	background-position: right center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,\<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='fill:hsl(0, 0%, 15%);'\>\<path d='M12 0 A12 12 0 0 0 0 12 A12 12 0 0 0 12 24 A12 12 0 0 0 18.5 22.25 L28 32 L32 28 L22.25 18.5 A12 12 0 0 0 24 12 A12 12 0 0 0 12 0 M12 4 A8 8 0 0 1 12 20 A8 8 0 0 1 12 4'/\>\</svg\>");
+    /* › fill color should be: "var(--text-color)" or "currentColor" (both does not work currently) */
+    background-size: 1rem;
+    background-position: right center;
 }
 
 input[type=color] {
-	min-height: var(--2);
-	cursor: pointer;
+    min-height: var(--2);
+    cursor: pointer;
 }
 
 ::-webkit-color-swatch-wrapper {
-	padding: 0;
+    padding: 0;
 }
 
 ::-webkit-color-swatch {
-	border-width: 0;
-	border-bottom-width: var(--\.0625);
-	border-bottom-style: solid;
+    border-width: 0;
+    border-bottom-width: var(--\.0625);
+    border-bottom-style: solid;
 }
 
 ::-moz-color-swatch {
-	border-width: 0;
-	border-bottom-width: var(--\.0625);
-	border-bottom-style: solid;
+    border-width: 0;
+    border-bottom-width: var(--\.0625);
+    border-bottom-style: solid;
 }
 
 ::-moz-focus-inner {
-	border-width: 0;
-	padding: 0;
+    border-width: 0;
+    padding: 0;
 }
 
 ::-moz-focus-outer {
-	border-width: 0;
+    border-width: 0;
 }
 
 
 /* Range slider: */
 
 input[type=range] {
-	-webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 input[type=range]::-webkit-slider-thumb {
-	width: var(--1);
-	height: var(--1);
-	cursor: pointer;
-	position: relative;
-	top: -.5rem;
-	/* › better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
-	background-color: currentColor;
-	-webkit-appearance: none;
-	border-radius: 100%;
-	box-shadow: var(--box-shadow);
+    width: var(--1);
+    height: var(--1);
+    cursor: pointer;
+    position: relative;
+    top: -.5rem;
+    /* › better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
+    background-color: currentColor;
+    -webkit-appearance: none;
+    border-radius: 100%;
+    box-shadow: var(--box-shadow);
 }
 
 
 /* Touchscreen friendly pseudo element: */
 
 input[type=range]::-webkit-slider-thumb::before {
-	content: '';
-	display: block;
-	position: absolute;
-	top: -.5rem;
-	left: -.5rem;
-	/* › better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
-	width: var(--2);
-	height: var(--2);
-	background-color: var(--darken);
-	border-radius: 100%;
+    content: '';
+    display: block;
+    position: absolute;
+    top: -.5rem;
+    left: -.5rem;
+    /* › better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
+    width: var(--2);
+    height: var(--2);
+    background-color: var(--darken);
+    border-radius: 100%;
 }
 
 input[type=range]::-moz-range-thumb {
-	width: var(--1);
-	height: var(--1);
-	cursor: pointer;
-	border-width: var(--\.125);
-	border-color: var(--bg-color);
-	background-color: currentcolor;
-	border-radius: 100%;
+    width: var(--1);
+    height: var(--1);
+    cursor: pointer;
+    border-width: var(--\.125);
+    border-color: var(--bg-color);
+    background-color: currentcolor;
+    border-radius: 100%;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-	height: var(--\.0625);
-	cursor: pointer;
-	background-color: currentColor;
+    height: var(--\.0625);
+    cursor: pointer;
+    background-color: currentColor;
 }
 
 input[type=range]::-moz-range-track {
-	height: var(--\.0625);
-	cursor: pointer;
-	background-color: currentColor;
+    height: var(--\.0625);
+    cursor: pointer;
+    background-color: currentColor;
 }
 
 
 /* Placeholder fixes: */
 
 ::-webkit-input-placeholder {
-	color: currentColor;
-	opacity: .5;
+    color: currentColor;
+    opacity: .5;
 }
 
 ::-moz-placeholder {
-	color: currentColor;
-	opacity: .5;
+    color: currentColor;
+    opacity: .5;
 }
 
 :-ms-input-placeholder {
-	color: currentColor;
-	opacity: .5;
+    color: currentColor;
+    opacity: .5;
 }
 
 :-moz-placeholder {
-	color: currentColor;
-	opacity: .5;
+    color: currentColor;
+    opacity: .5;
 }
 
 
 /* Action elements: */
 
-[type="submit"],
-[type="button"],
-[type="reset"],
-button {
-	padding: var(--1);
-	border-width: var(--\.0625);
-	border-radius: var(--\.125);
-	cursor: pointer;
-	transition: var(--transition-short);
+[type="submit"], [type="button"], [type="reset"], button {
+    padding: var(--1);
+    border-width: var(--\.0625);
+    border-radius: var(--\.125);
+    cursor: pointer;
+    transition: var(--transition-short);
 }
 
-[type="submit"]:hover:not(:disabled),
-[type="button"]:hover:not(:disabled),
-[type="reset"]:hover:not(:disabled),
-button:hover:not(:disabled) {
-	color: var(--bg-color);
-	background-color: var(--color-text);
-	border-color: var(--color-text);
+[type="submit"]:hover:not(:disabled), [type="button"]:hover:not(:disabled), [type="reset"]:hover:not(:disabled), button:hover:not(:disabled) {
+    color: var(--bg-color);
+    background-color: var(--color-text);
+    border-color: var(--color-text);
 }
 
-[type="submit"]:active:not(:disabled),
-[type="button"]:active:not(:disabled),
-[type="reset"]:active:not(:disabled),
-button:active:not(:disabled) {
-	transform: scale(.975);
+[type="submit"]:active:not(:disabled), [type="button"]:active:not(:disabled), [type="reset"]:active:not(:disabled), button:active:not(:disabled) {
+    transform: scale(.975);
 }
 
-input:disabled,
-button:disabled {
-	cursor: not-allowed;
-	color: var(--color-text-lighter);
-	transform: none;
+input:disabled, button:disabled {
+    cursor: not-allowed;
+    color: var(--color-text-lighter);
+    transform: none;
 }
 
 
 /* Checkboxes and radio buttons */
 
-[type="checkbox"],
-[type="radio"] {
-	margin-right: var(--\.25);
+[type="checkbox"], [type="radio"] {
+    margin-right: var(--\.25);
 }
 
 
@@ -779,145 +695,139 @@ button:disabled {
 
 /* Hide default browser checkboxes and radio buttons, if they have no class: */
 
-label input[type=checkbox]:not([class]),
-label input[type=radio]:not([class]) {
-	z-index: -1;
-	opacity: 0;
+label input[type=checkbox]:not([class]), label input[type=radio]:not([class]) {
+    z-index: -1;
+    opacity: 0;
 }
 
 
 /* Custom checkbox and radio button: */
 
-label input[type=checkbox]~span:empty:not([class]),
-label input[type=radio]~span:empty:not([class]) {
-	margin-right: var(--\.5);
-	height: calc(1.5 * var(--1));
-	width: calc(1.5 * var(--1));
-	border-width: var(--\.0625);
-	background-color: var(--bg-color);
-	transition: var(--transition-short);
-	float: left;
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+label input[type=checkbox]~span:empty:not([class]), label input[type=radio]~span:empty:not([class]) {
+    margin-right: var(--\.5);
+    height: calc(1.5 * var(--1));
+    width: calc(1.5 * var(--1));
+    border-width: var(--\.0625);
+    background-color: var(--bg-color);
+    transition: var(--transition-short);
+    float: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 /* Round radio button: */
 
 label input[type=radio]~span:empty:not([class]) {
-	border-radius: 100%;
+    border-radius: 100%;
 }
 
 
 /* Hover and focus: */
 
-label input:hover~span:empty:not([class]),
-label input:focus~span:empty:not([class]) {
-	background-color: var(--color-text);
+label input:hover~span:empty:not([class]), label input:focus~span:empty:not([class]) {
+    background-color: var(--color-text);
 }
 
 
 /* Checked: */
 
 label input:checked~span:empty:not([class]) {
-	background-color: var(--color-text);
+    background-color: var(--color-text);
 }
 
 
 /* Hover when checked (active state): */
 
-label:hover input:not([disabled]):checked~span:empty:not([class]),
-label input:checked:focus~span:empty:not([class]) {
-	opacity: .75;
+label:hover input:not([disabled]):checked~span:empty:not([class]), label input:checked:focus~span:empty:not([class]) {
+    opacity: .75;
 }
 
 
 /* Fade-out disabled state: */
 
-label input[type=checkbox]:disabled~span:empty:not([class]),
-label input[type=radio]:disabled~span:empty:not([class]) {
-	opacity: .25;
-	pointer-events: none;
-	background-color: var(--color-text);
+label input[type=checkbox]:disabled~span:empty:not([class]), label input[type=radio]:disabled~span:empty:not([class]) {
+    opacity: .25;
+    pointer-events: none;
+    background-color: var(--color-text);
 }
 
-label input[type=checkbox]~span:empty:not([class])::after,
-label input[type=radio]~span:empty:not([class])::after {
-	content: '';
-	position: relative;
-	display: none;
+label input[type=checkbox]~span:empty:not([class])::after, label input[type=radio]~span:empty:not([class])::after {
+    content: '';
+    position: relative;
+    display: none;
 }
 
 label input:checked~span:empty:not([class])::after {
-	display: block;
+    display: block;
 }
 
 
 /* Checkbox tick: */
 
 label input[type=checkbox]~span:empty:not([class])::after {
-	align-self: flex-start;
-	width: var(--\.5);
-	height: var(--1);
-	border-color: var(--bg-color);
-	border-right-width: var(--\.125);
-	border-bottom-width: var(--\.125);
-	transform: rotate(45deg);
+    align-self: flex-start;
+    width: var(--\.5);
+    height: var(--1);
+    border-color: var(--bg-color);
+    border-right-width: var(--\.125);
+    border-bottom-width: var(--\.125);
+    transform: rotate(45deg);
 }
 
 
 /* Disabled tick color: */
 
 label input[type=checkbox]:disabled~span:empty:not([class])::after {
-	opacity: .5;
+    opacity: .5;
 }
 
 
 /* Radio button inner circle: */
 
 label input[type=radio]~span:empty:not([class])::after {
-	height: var(--\.5);
-	width: var(--\.5);
-	border-radius: 100%;
-	background-color: var(--bg-color);
+    height: var(--\.5);
+    width: var(--\.5);
+    border-radius: 100%;
+    background-color: var(--bg-color);
 }
 
 
 /* Disabled inner circle color: */
 
 label input[type=radio]:disabled~span:empty:not([class])::after {
-	opacity: .5;
+    opacity: .5;
 }
 
 
 /* Meter: */
 
 meter {
-	width: 100%;
-	height: var(--\.5);
+    width: 100%;
+    height: var(--\.5);
 }
 
 
 /* Progress: */
 
 progress {
-	width: 100%;
-	color: currentColor;
-	height: var(--\.5);
-	border-right-width: var(--\.25);
-	background-color: var(--darken);
+    width: 100%;
+    color: currentColor;
+    height: var(--\.5);
+    border-right-width: var(--\.25);
+    background-color: var(--darken);
 }
 
 progress::-webkit-progress-bar {
-	background-color: transparent;
+    background-color: transparent;
 }
 
 progress::-webkit-progress-value {
-	background-color: var(--color-text);
+    background-color: var(--color-text);
 }
 
 progress::-moz-progress-bar {
-	background-color: var(--color-text);
+    background-color: var(--color-text);
 }

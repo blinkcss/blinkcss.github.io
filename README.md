@@ -74,8 +74,6 @@ img, video, audio, iframe {
 
 ### Thoughts:
 
-- Check :a and :f consistency (bgc,bc,c)
-- :h only modules: box-shadow
 - Steps (8, 16) also in `z-index` and `top`, `right`… modules? (Consistency)
 
 ## Add:
@@ -101,7 +99,7 @@ img, video, audio, iframe {
 - `bgc` (background-color) vs. `bc` (border-color)
 - font-weight: normal (`fw-n`) vs. flex-wrap: nowrap (`fw-nw` also: `ws-nw`)
 
-## Attention:
+## Duplicates:
 
 - `fs`: flex-shrink, font-size, font-style
 - `fw`: font-weight, flex-wrap
