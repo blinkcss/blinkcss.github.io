@@ -52,6 +52,7 @@ body {
 
 img, video, audio, iframe {
     max-width: 100%;
+    height: auto;
 }
 ```
 
