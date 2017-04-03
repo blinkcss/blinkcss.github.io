@@ -1,0 +1,36 @@
+header>h2 {
+    margin-top: var(--2);
+}
+
+article {
+    padding: var(--2);
+}
+
+article:last-of-type {
+    padding-bottom: var(--8);
+}
+
+article:nth-child(odd) {
+    background-color: var(--darken);
+}
+
+article>header>h3 {
+    display: inline-block;
+    background-color: var(--color-text);
+    color: var(--bg-color);
+    padding: var(--1);
+    font-family: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace
+}
+
+
+/* Fake page transition (fade-in): */
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+}
+
+body {
+    animation: 1s fade ease-in-out
+}
