@@ -104,6 +104,7 @@ img, video, audio, iframe {
 - `fs`: flex-shrink, font-size, font-style
 - `fw`: font-weight, flex-wrap
 - `o`: order, opacity
+- `bs`: border-style, box-shadow, box-sizing
 
 ---
 

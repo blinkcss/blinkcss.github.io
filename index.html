@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="fs:1r lh:1.5 ff:ss bw:0 h:100% bs:bb">
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>blink | docs</title>
-	<link href="css/blank.css" rel="stylesheet">
+	<link href="css/blank_minimal.css" rel="stylesheet">
 	<link href="css/layout.css" rel="stylesheet">
 	<link href="css/blink.css" rel="stylesheet">
 	<link rel="apple-touch-icon" href="blink.png">
@@ -23,13 +23,13 @@
 	</nav>
 	<div style="font-family: 'Avenir Next', Avenir" class="bgc:red fs:2r fs:4r@md fs:8r@lg fs:16r@xl fw:100 ff:s c:w.1 p:2r">blink!</div>
 	<header id="top" class="p:2r">
-		<h1 class="m:0 c:red c:w:h fw:700 ls:-.0625e" style="font-family: 'Avenir Next', Avenir">blink<span class="c:b.3 fw:200 tt:u">ui</span></h1>
-		<p class="m:0 lh:1.25"><u>Web and interface design in the <span class="c:red:h">blink</span> of an eye.</u></p>
+		<h1 class="m:0 fs:2r fs:4r@md c:red c:w:h fw:700 ls:-.0625e" style="font-family: 'Avenir Next', Avenir">blink<span class="c:b.3 fw:200 tt:u">ui</span></h1>
+		<p class="m:0 lh:1.25 tt:u ls:.125e">Web and interface design in the <span class="c:red:h">blink</span> of an eye.</p>
 	</header>
 	<nav id="toc" class="mb:2r p:2r ox:s ws:nw brw:medium brw:0@xl bc:red c:b.3 fs:1.5r@xl">
-		<ul>
+		<ul class="lst:n">
 			<li class="d:f mr_1r mb_1r"> <b><a href="#typo">Typography</a></b>
-				<ul class="d:f mr_.5r">
+				<ul class="lst:n d:f mr_.5r">
 					<li><a href="#typo__font-family">font-family</a></li>
 					<li><a href="#typo__font-size">font-size</a></li>
 					<li><a href="#typo__line-height">line-height</a></li>
@@ -37,19 +37,22 @@
 					<li><a href="#typo__font-style">font-style</a></li>
 					<li><a href="#typo__text-align">text-align</a></li>
 					<li><a href="#typo__text-transform">text-transform</a></li>
+					<li><a href="#typo__text-decoration">text-decoration</a></li>
 					<li><a href="#typo__letter-spacing">letter-spacing</a></li>
+					<li><a href="#typo__list-style-type">list-style-type</a></li>
 				</ul>
 			</li>
 			<li class="d:f mr_1r mb_1r"> <b><a href="#layout">Layout: Spacing &amp; dimensions</a></b>
-				<ul class="d:f mr_1r">
+				<ul class="lst:n d:f mr_1r">
 					<li><a href="#layout__margin">margin</a></li>
 					<li><a href="#layout__padding">padding</a></li>
 					<li><a href="#layout__width">width</a></li>
 					<li><a href="#layout__max-width">max-width</a></li>
 					<li><a href="#layout__height">height</a></li>
+					<li><a href="#layout__box-sizing">box-sizing</a></li>
 				</ul>
 				<li class="d:f mr_1r mb_1r"> <b><a href="#layout">Layout: Positioning</a></b>
-					<ul class="d:f mr_1r">
+					<ul class="lst:n d:f mr_1r">
 						<li><a href="#layout__display">display</a></li>
 						<li><a href="#layout__position">position</a></li>
 						<li><a href="#layout__z-index">z-index</a></li>
@@ -65,7 +68,7 @@
 					</ul>
 				</li>
 				<li class="d:f mr_1r mb_1r"> <b><a href="#layout__flexbox">Layout: Flexbox</a></b>
-					<ul class="d:f mr_1r">
+					<ul class="lst:n d:f mr_1r">
 						<li><a href="#layout__flex-direction">flex-direction</a></li>
 						<li><a href="#layout__flex-wrap">flex-wrap</a></li>
 						<li><a href="#layout__justify-content">justify-content</a></li>
@@ -77,8 +80,9 @@
 					</ul>
 				</li>
 				<li class="d:f mr_1r"> <b><a href="#theme">Theming</a></b>
-					<ul class="d:f mr_1r">
+					<ul class="lst:n d:f mr_1r">
 						<li><a href="#theme__border-width">border-width</a></li>
+						<li><a href="#theme__border-style">border-style</a></li>
 						<li><a href="#theme__border-radius">border-radius</a></li>
 						<li><a href="#theme__box-shadow">box-shadow</a></li>
 						<li><a href="#theme__color">color</a></li>
@@ -97,7 +101,7 @@
 				<h2 class="pl:2r fs:4r@lg fw:100@lg mt:4r">Typography</h2> </header>
 			<article id="typo__font-family">
 				<header>
-					<h3>font-family</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">font-family</h3> </header>
 				<div>
 					<p class="lh:.875"> <span class="ff:s fs:2r fs:4r@md">serif</span> <code>ff:s</code> </p>
 					<p class="lh:1"> <span class="ff:ss fs:2r fs:4r@md">sans-serif</span> <code>ff:ss</code> </p>
@@ -106,10 +110,10 @@
 			</article>
 			<article id="typo__font-size">
 				<header class="p:r">
-					<h3>font-size</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">font-size</h3>
 					<div class="br:100% p:.5r bgc:w c:red h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">R</div>
 				</header>
-				<div style="white-space: nowrap;" class="ox:s brw:medium brw:0@lg">
+				<div class="ox:s ws:nw brw:medium brw:0@lg">
 					<p class="lh:.875"> <span class="fs:16r">16rem</span> <code>fs:16r</code> </p>
 					<p class="lh:1"> <span class="fs:8r">8rem</span> <code>fs:8r</code> </p>
 					<p class="lh:1"> <span class="fs:4r">4rem</span> <code>fs:4r</code> </p>
@@ -122,7 +126,7 @@
 			</article>
 			<article id="typo__line-height">
 				<header class="p:r">
-					<h3>line-height</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">line-height</h3>
 					<div class="br:100% p:.5r bgc:w c:red h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">R</div>
 				</header>
 				<div class="ox:s ws:nw brw:medium brw:0@lg">
@@ -136,7 +140,7 @@
 			</article>
 			<article id="typo__font-weight">
 				<header>
-					<h3>font-weight</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">font-weight</h3> </header>
 				<div class="ox:s ws:nw lh:1 brw:medium brw:0@lg">
 					<p> <span class="fw:i fs:2r fs:4r@md">initial</span> <code>fw:i</code> </p>
 					<p> <span class="fw:l fs:2r fs:4r@md">lighter</span> <code>fw:l</code> </p>
@@ -155,7 +159,7 @@
 			</article>
 			<article id="typo__font-style">
 				<header>
-					<h3>font-style</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">font-style</h3> </header>
 				<div class="lh:1">
 					<p> <em class="fs:n fs:2r fs:4r@md">normal</em> <code>fs:n</code> </p>
 					<p> <span class="fs:i fs:2r fs:4r@md">italic</span> <code>fs:i</code> </p>
@@ -163,7 +167,7 @@
 			</article>
 			<article id="typo__text-align">
 				<header class="p:r">
-					<h3>text-align</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">text-align</h3>
 					<div class="br:100% p:.5r bgc:w c:red h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">R</div>
 				</header>
 				<div class="lh:1 w:100%">
@@ -175,13 +179,20 @@
 			</article>
 			<article id="typo__text-transform">
 				<header>
-					<h3>text-transform</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">text-transform</h3> </header>
 				<div><span class="fs:2r fs:4r@md tt:n">none</span> <code>tt:n</code></div>
 				<div><span class="fs:2r fs:4r@md tt:u">uppercase</span> <code>tt:u</code></div>
 			</article>
+			<article id="typo__text-decoration">
+				<header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">text-decoration</h3> </header>
+				<div><del class="fs:2r fs:4r@md td:n td:u:h">none</del> <code>td:n</code></div>
+				<div><span class="fs:2r fs:4r@md td:u">underline</span> <code>td:u</code> <span class="c:b.3 ff:s fs:i">Also available as a hover style (td:u:h).</span></div>
+				<div><span class="fs:2r fs:4r@md td:lt">line-through</span> <code>td:lt</code></div>
+			</article>
 			<article id="typo__letter-spacing">
 				<header>
-					<h3>letter-spacing</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">letter-spacing</h3> </header>
 				<p class="c:b.3 ff:s fs:i">Please notice, that this module makes use of “em” units. Hence the “e”.</p>
 				<div class="fw:100">
 					<div><span class="ls:-.0625e fs:2r fs:4r@md tt:u">-.0625em</span> <code class="fw:i">ls:-.0625<span class="c:red fw:b">e</span></code></div>
@@ -193,13 +204,23 @@
 					<div><span class="ls:1e fs:2r fs:4r@md tt:u">1em</span> <code class="fw:i">ls:1e</code></div>
 				</div>
 			</article>
+			<article id="typo__list-style-type">
+				<header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">list-style-type</h3> </header>
+				<ul class="fs:2r fs:4r@md lst:n">
+					<li>none <code class="fs:1r">lst:n</code></li>
+				</ul>
+				<ul class="fs:2r fs:4r@md lst:d">
+					<li>disc <code class="fs:1r">lst:d</code></li>
+				</ul>
+			</article>
 		</section>
 		<section id="layout">
 			<header>
 				<h2 class="pl:2r fs:4r@lg fw:100@lg mt:4r">Layout</h2> </header>
 			<article id="layout__margin">
 				<header class="p:r">
-					<h3>margin</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">margin</h3>
 					<div class="br:100% p:.5r bgc:w c:red h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">R</div>
 				</header>
 				<h4><code>margin</code></h4>
@@ -399,7 +420,7 @@
 			</article>
 			<article id="layout__padding">
 				<header class="p:r">
-					<h3>padding</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">padding</h3>
 					<div class="br:100% p:.5r bgc:w c:red h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">R</div>
 				</header>
 				<div>
@@ -408,7 +429,7 @@
 			</article>
 			<article id="layout__width">
 				<header>
-					<h3>width</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">width</h3> </header>
 				<div>
 					<div class="w:a c:w bgc:b d:ib">auto (default)</div> <code>w:a</code>
 					<hr>
@@ -443,7 +464,7 @@
 			</article>
 			<article id="layout__max-width">
 				<header>
-					<h3>max-width</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">max-width</h3> </header>
 				<div>
 					<div class="fs:1r w:2r h:2r c:w bgc:red br:100% d:f jc:c ai:c my:1r fw:900">?!</div>
 					<p>Similar to the width module</p> <code class="fs:1.5r">mw:75%</code> = <code class="fs:1.5r">max-width:75%</code></div>
@@ -455,7 +476,7 @@
 			</article>
 			<article id="layout__height">
 				<header>
-					<h3>height</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">height</h3> </header>
 				<div>
 					<div class="h:1r c:w bgc:b d:ib">1rem</div> <code>h:1r</code>
 					<div class="h:2r c:w bgc:b d:ib">2rem</div> <code>h:2r</code>
@@ -480,9 +501,16 @@
 						<div class="h:100vh c:w bgc:b d:ib">100vh</div> <code>h:100vh</code> </div>
 				</div>
 			</article>
+			<article id="layout__box-sizing">
+				<header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">box-sizing</h3> </header>
+				<div class="bs:cb w:16r p:4r ta:c bw:thick d:ib">content-box</div> <code>bs:cb</code> <br>
+				<div class="bs:bb w:16r p:4r ta:c bw:thick d:ib">border-box</div> <code>bs:bb</code>
+				<div><a class="c:b.3 ff:s fs:i" href="https://css-tricks.com/box-sizing/" target="_blank">Box Sizing explained</a></div>
+			</article>
 			<article id="layout__display">
 				<header class="p:r">
-					<h3>display</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">display</h3>
 					<div class="br:100% p:.5r bgc:w c:red h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">R</div>
 				</header>
 				<div> <span class="d:b bgc:b c:w mb:.5r">block <code class="bgc:w.9 c:b">d:b</code></span>
@@ -507,7 +535,7 @@
 			</article>
 			<article id="layout__position">
 				<header class="p:r">
-					<h3>position</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">position</h3>
 					<div class="br:100% p:.5r bgc:w c:red h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">R</div>
 				</header>
 				<div><span class="p:s fs:1.5r">static</span> <code>p:s</code></div>
@@ -523,7 +551,7 @@
 			</article>
 			<article id="layout__z-index">
 				<header>
-					<h3>z-index</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">z-index</h3> </header>
 				<div class="ta:c">
 					<div><span class="zi:9 p:r r:1r py:.5r px:2r bw:thin bgc:b.9 c:w w:4r fs:1.5r">9</span> <code>zi:9</code></div>
 					<div><span class="zi:8 p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.8 c:w fs:1.5r">8</span> <code>zi:8</code></div>
@@ -538,7 +566,7 @@
 			</article>
 			<article id="layout__top">
 				<header>
-					<h3>top</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">top</h3> </header>
 				<div class="ox:s ws:nw brw:medium brw:0@xl py:4r">
 					<div class="p:a w:90% btw:thin bc:cyan"></div>
 					<div class="btw:thin d:ib p:r t:-4r p:.5r"><span>-4rem</span> <code>t:-4r</code></div>
@@ -556,7 +584,7 @@
 			</article>
 			<article id="layout__right">
 				<header>
-					<h3>right</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">right</h3> </header>
 				<div class="d:ib brw:thin bc:cyan ox:v ta:r">
 					<div class="brw:thin p:r r:-4r p:.5r"><span>-4rem</span> <code>r:-4r</code></div>
 					<div class="brw:thin p:r r:-2r p:.5r"><span>-2rem</span> <code>r:-2r</code></div>
@@ -573,7 +601,7 @@
 			</article>
 			<article id="layout__bottom">
 				<header>
-					<h3>bottom</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">bottom</h3> </header>
 				<div class="ox:s ws:nw  brw:medium brw:0@xl py:4r">
 					<div class="bbw:thin d:ib p:r b:-4r p:.5r"><span>-4rem</span> <code>b:-4r</code></div>
 					<div class="bbw:thin d:ib p:r b:-2r p:.5r"><span>-2rem</span> <code>b:-2r</code></div>
@@ -591,7 +619,7 @@
 			</article>
 			<article id="layout__left">
 				<header>
-					<h3>left</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">left</h3> </header>
 				<div class="blw:thin bc:cyan ox:v ml:4r">
 					<div class="blw:thin p:r l:-4r p:.5r"><span>-4rem</span> <code>l:-4r</code></div>
 					<div class="blw:thin p:r l:-2r p:.5r"><span>-2rem</span> <code>l:-2r</code></div>
@@ -608,7 +636,7 @@
 			</article>
 			<article id="layout__float">
 				<header>
-					<h3>float</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">float</h3> </header>
 				<div class="fw:900">
 					<div class="py:.5r"><span class="f:n fs:1.5r px:.5r bw:thin d:ib">none</span> <code class="fw:i">f:n</code> </div>
 					<div class="py:.5r byw:thin bc:b.05"><span class="f:l fs:1.5r px:.5r bw:thin d:ib">left</span> <code class="fw:i">f:l</code></div>
@@ -617,7 +645,7 @@
 			</article>
 			<article id="layout__overflow" class="o:h">
 				<header>
-					<h3>overflow</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">overflow</h3> </header>
 				<div class="fw:900 d:f fw:w">
 					<div class="o:a w:8r h:8r bw:medium d:ib"><span class="fs:4r">auto</span> <code class="fw:i">o:a</code>
 						<div class="w:16r h:8r bgc:b"></div>
@@ -633,7 +661,7 @@
 			</article>
 			<article id="layout__overflow-x" class="o:h">
 				<header>
-					<h3>overflow-x</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">overflow-x</h3> </header>
 				<div class="fw:900 d:f fw:w">
 					<div class="ox:a oy:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">auto</span> <code class="fw:i">ox:a</code>
 						<div class="w:16r h:8r bgc:b"></div>
@@ -651,7 +679,7 @@
 			</article>
 			<article id="layout__overflow-y" class="o:h">
 				<header>
-					<h3>overflow-y</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">overflow-y</h3> </header>
 				<div class="fw:900 d:f fw:w">
 					<div class="oy:a ox:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">auto</span> <code class="fw:i">oy:a</code>
 						<div class="w:16r h:8r bgc:b"></div>
@@ -667,7 +695,7 @@
 			</article>
 			<article id="layout__white-space" class="o:h">
 				<header>
-					<h3>white-space</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">white-space</h3> </header>
 				<div class="ws:n lh:1"><span class="fs:2r fs:4r@md">normal</span> <code>ws:n</code> <span class="c:b.2 fw:200 fs:2r fs:4r@md">normal normal normal normal normal normal normal</span></div>
 				<div class="ws:nw ox:s brw:medium"><span class="fs:2r fs:4r@md">nowrap</span> <code>ws:nw</code> <span class="c:b.2 fw:200 fs:2r fs:4r@md">nowrap nowrap nowrap nowrap nowrap nowrap nowrap nowrap nowrap</span></div>
 				<div class="ws:p"><span class="fs:2r fs:4r@md">pre</span> <code>ws:p</code> <span class="c:b.2 fw:200 fs:2r fs:4r@md">   &middot;   pre   &middot;   pre</span></div>
@@ -678,7 +706,7 @@
 				<h2 class="pl:2r fs:4r@lg fw:100@lg mt:4r">Flexbox</h2> </header>
 			<article id="layout__flex-direction">
 				<header class="p:r">
-					<h3>flex-direction</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-direction</h3>
 					<div class="br:100% p:.5r bgc:w c:red h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">R</div>
 				</header>
 				<div class="my_2r">
@@ -713,7 +741,7 @@
 			</article>
 			<article id="layout__flex-wrap">
 				<header>
-					<h3>flex-wrap</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-wrap</h3> </header>
 				<div class="mb_1r d:f fw:w mr_1r">
 					<div class="d:f fw:nw mw:16r p:2r bw:medium ox:s">
 						<div class="mr:1r">nowrap (default) <code>fw:nw</code></div>
@@ -764,7 +792,7 @@
 			</article>
 			<article id="layout__justify-content">
 				<header>
-					<h3>justify-content</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">justify-content</h3> </header>
 				<div class="mb_1r d:f fw:w mr_1r">
 					<div class="d:f jc:fs fw:w mw:16r p:2r bw:medium">
 						<div class="mr:1r">flex-start <code>jc:fs</code></div>
@@ -845,7 +873,7 @@
 			</article>
 			<article id="layout__align-items">
 				<header>
-					<h3>align-items</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">align-items</h3> </header>
 				<div class="mb_1r d:f fw:w">
 					<div class="d:f ai:fs fw:w mw:16r bw:medium h:16r mr:1r">
 						<div class="p:.5r bgc:b.1 w:100%">flex-start <code>ai:fs</code></div>
@@ -881,7 +909,7 @@
 			</article>
 			<article id="layout__align-self">
 				<header>
-					<h3>align-self</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">align-self</h3> </header>
 				<div class="mb_1r d:f fw:w">
 					<div class="mb_1r d:f fw:w">
 						<div class="d:f ai:c fw:w mw:16r bw:medium h:16r mr:1r">
@@ -901,7 +929,7 @@
 			</article>
 			<article id="layout__flex-grow">
 				<header>
-					<h3>flex-grow</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-grow</h3> </header>
 				<div class="d:f ta:c ox:s">
 					<div class="fg:0 bxw:medium p:1r bs:.125r:h">0 <code>fg:0</code></div>
 					<div class="fg:1 brw:medium p:1r bs:.125r:h">1 <code>fg:1</code></div>
@@ -912,7 +940,7 @@
 			</article>
 			<article id="layout__flex-shrink">
 				<header>
-					<h3>flex-shrink</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-shrink</h3> </header>
 				<div class="mb_1r">
 					<div class="d:f">
 						<div class="fb:50% bgc:b p:1r"></div>
@@ -938,7 +966,7 @@
 			</article>
 			<article id="layout__flex-basis">
 				<header>
-					<h3>flex-basis</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-basis</h3> </header>
 				<div class="d:f fw:w mb_.5r">
 					<div class="fb:a c:w bgc:b d:ib">auto</div> <code>fb:a</code>
 					<div class="fb:100% btw:thin bc:w"></div>
@@ -976,7 +1004,7 @@
 				<h2 class="pl:2r fs:4r@lg fw:100@lg mt:4r">Theming</h2> </header>
 			<article id="theme__border-width">
 				<header class="p:r">
-					<h3>border-width</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-width</h3>
 					<div class="br:100% p:.5r bgc:w c:red h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">R</div>
 				</header>
 				<h4><code>border-width</code></h4>
@@ -1008,16 +1036,22 @@
 				<div class="byw:medium py:.5r d:ib@md mr:1r mb:.5r">medium <code>byw:medium</code></div>
 				<div class="byw:thin py:.5r d:ib@md mr:1r mb:2r">thin <code>byw:thin</code></div>
 			</article>
+			<article id="theme__border-style">
+				<header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-style</h3> </header>
+				<div class="p:2r bw:medium bs:n bgc:b.05 d:ib">none</div> <code>bs:n</code> <br>
+				<div class="p:2r bw:medium bs:s d:ib">solid</div> <code>bs:s</code> <br>
+				<div class="p:2r bw:medium bs:d d:ib">dotted</div> <code>bs:d</code> </article>
 			<article id="theme__border-radius">
 				<header>
-					<h3>border-radius</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-radius</h3> </header>
 				<section>
 					<h4>border-radius</h4>
-					<div class="br:.25r p:.5r c:w bgc:b d:ib"> .25rem <code>br:.25r</code> </div>
-					<div class="br:.5r p:.5r c:w bgc:b d:ib"> .5rem <code>br:.5r</code> </div>
-					<div class="br:1r p:.5r c:w bgc:b d:ib"> 1rem <code>br:1r</code> </div>
-					<div class="br:2r p:.5r c:w bgc:b d:ib"> 2rem <code>br:2r</code> </div>
-					<div class="br:100% mt:1r p:.5r c:w bgc:b d:ib h:8r w:8r d:f ai:c jc:c"> 100% <br><code>br:100%</code> </div>
+					<div class="br:.25r p:.5r c:w bgc:b d:ib">.25rem <code>br:.25r</code> </div>
+					<div class="br:.5r p:.5r c:w bgc:b d:ib">.5rem <code>br:.5r</code> </div>
+					<div class="br:1r p:.5r c:w bgc:b d:ib">1rem <code>br:1r</code> </div>
+					<div class="br:2r p:.5r c:w bgc:b d:ib">2rem <code>br:2r</code> </div>
+					<div class="br:100% mt:1r p:.5r c:w bgc:b d:ib h:8r w:8r d:f fd:c ai:c jc:c">100% <code>br:100%</code> </div>
 				</section>
 				<hr>
 				<section>
@@ -1040,7 +1074,7 @@
 			</article>
 			<article id="theme__box-shadow">
 				<header class="p:r">
-					<h3>box-shadow</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">box-shadow</h3>
 					<div class="br:100% p:.5r bgc:w c:violet h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">H</div>
 				</header>
 				<p>Including <b>hover classes</b>: <code>bs:.25r:h</code> <br>Hover over the circles for a demo.</p>
@@ -1054,7 +1088,7 @@
 			</article>
 			<article id="theme__color">
 				<header>
-					<h3>color</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">color</h3> </header>
 				<!-- transparent -->
 				<div class="p:1r c:t bw:thick fw:b ta:c"> <span class="c:b">transparent <small>(applied to border)</small></span> <br> <code class="c:b">c:t</code> </div>
 				<div class="d:f@md fw:w fw:b">
@@ -1102,7 +1136,7 @@
 			</article>
 			<article id="theme__background-color">
 				<header>
-					<h3>background-color</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">background-color</h3> </header>
 				<!-- transparent -->
 				<div class="p:1r bgc:t bw:medium fw:b fb:20% ta:c bc:t"> transparent <br> <code class="c:b">bgc:t</code> </div>
 				<!-- colors -->
@@ -1176,7 +1210,7 @@
 			</article>
 			<article id="theme__border-color">
 				<header>
-					<h3>border-color</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-color</h3> </header>
 				<!-- transparent -->
 				<div class="p:1r bc:t bw:thick fw:b fb:20% ta:c"> <span>transparent</span> <br> <code>bc:t</code> </div>
 				<div class="d:f@md fw:w fw:b">
@@ -1225,8 +1259,8 @@
 			</article>
 			<article id="theme__background-image">
 				<header>
-					<h3>background-image</h3> </header>
-				<!-- color gardients -->
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">background-image</h3> </header>
+				<!-- color gradients -->
 				<div class="d:f@md fw:w fw:b c:w " style="margin-left: -.25rem; margin-right: -.25rem;">
 					<div class="p:1r bgi:red bw:medium fb:20% ta:c bc:t"> red <br> <code>bgi:red</code> </div>
 					<div class="p:1r bgi:orange bw:medium fb:20% ta:c bc:t"> orange <br> <code>bgi:orange</code> </div>
@@ -1245,8 +1279,8 @@
 			</article>
 			<article id="theme__border-image">
 				<header>
-					<h3>border-image</h3> </header>
-				<!-- color gardients -->
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-image</h3> </header>
+				<!-- color gradients -->
 				<div class="d:f@md fw:w fw:b">
 					<div class="p:1r bi:red bw:thick fb:20% ta:c"> red <br> <code>bi:red</code> </div>
 					<div class="p:1r bi:orange bw:thick fb:20% ta:c"> orange <br> <code>bi:orange</code> </div>
@@ -1265,7 +1299,7 @@
 			</article>
 			<article id="theme__opacity">
 				<header class="p:r">
-					<h3>opacity</h3>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">opacity</h3>
 					<div class="br:100% p:.5r bgc:w c:violet h:2r w:2r d:f ai:c jc:c p:a t:0 r:0 bs:.0625r">H</div>
 				</header>
 				<div class="ta:c">

@@ -1,0 +1,23 @@
+.td\:n {
+    text-decoration: none
+}
+
+.td\:u {
+    text-decoration: none;
+    border-bottom-width: .0625em;
+    padding-bottom: .0625em
+}
+
+.td\:u\:h:hover {
+    text-decoration: none;
+    border-bottom-width: .0625em;
+    padding-bottom: .0625em
+}
+
+.td\:lt {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, currentColor 75%, currentColor 75%);
+    background-repeat: repeat-x;
+    background-size: .125em .125em;
+    background-position: 0 60%
+}

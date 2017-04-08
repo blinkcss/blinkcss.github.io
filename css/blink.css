@@ -10,7 +10,9 @@
 @import "modules/font-style.css";
 @import "modules/text-align.css";
 @import "modules/text-transform.css";
+@import "modules/text-decoration.css";
 @import "modules/letter-spacing.css";
+@import "modules/list-style-type.css";
 
 /* LAYOUT */
 
@@ -23,6 +25,7 @@
 @import "modules/width.css";
 @import "modules/max-width.css";
 @import "modules/height.css";
+@import "modules/box-sizing.css";
 
 /* Positioning */
 
@@ -55,6 +58,7 @@
 /* Borders */
 
 @import "modules/border-width.css";
+@import "modules/border-style.css";
 @import "modules/border-radius.css";
 @import "modules/box-shadow.css";
 @import "modules/box-shadow_hover.css";

@@ -1,0 +1,12 @@
+.lst\:n {
+    list-style-type: none
+}
+
+.lst\:d {
+    list-style-type: none
+}
+
+.lst\:d li::before {
+    content: "\00B7";
+    margin-right: .25em;
+}

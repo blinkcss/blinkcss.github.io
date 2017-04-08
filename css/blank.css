@@ -51,11 +51,11 @@ html {
 }
 
 
-/* Increase global font-size (and spacing scale) on large viewports: */
+/* Increase global font-size (and spacing scale) on very large viewports: */
 
-@media screen and (min-width: 60rem) {
+@media screen and (min-width: 160rem) {
     html {
-        /*font-size: 1.5rem;*/
+        font-size: 1.125rem;
     }
 }
 
@@ -141,7 +141,7 @@ a[href]:not([class]):hover::after {
 }
 
 
-/* No default underline on links (with a class attribute): */
+/* No default underline on links: */
 
 a {
     text-decoration: none;
@@ -479,7 +479,6 @@ EMBEDDED CONTENT
 
 img, video, audio, iframe {
     max-width: 100%;
-    height: auto;
 }
 
 svg {
