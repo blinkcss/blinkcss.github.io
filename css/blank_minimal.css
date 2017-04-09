@@ -1,12 +1,15 @@
 html {
-    border-style: solid;
-    /*
+    /*border-style: solid;
     box-sizing: border-box;
     font-size: 1rem;
     line-height: 1.5;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
     border-width: 0;
     height: 100%;*/
+    -webkit-overflow-scrolling: touch;
+    /* › smooth scrolling on overflow */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* › automatically hide scrollbars in Edge and IE10/11 */
 }
 
 *, *::before, *::after {
@@ -33,4 +36,12 @@ body {
 
 img, video, audio, iframe {
     max-width: 100%;
+}
+
+svg {
+    fill: currentColor;
+}
+
+a {
+    text-decoration: none;
 }
