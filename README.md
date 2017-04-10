@@ -62,27 +62,25 @@ img, video, audio, iframe {
 
 ### Up for discussion:
 
-- text-decoration
 - vertical-align
 - writing-mode
 - column-count (R)
 - hyphens
-- list-style
 - background-blend-mode
-- negative margins
 - cursor (pointer)
 
 ### Thoughts:
 
 - Steps (8, 16) also in `z-index` and `top`, `right`… modules? (Consistency)
+- Moving away from number steps to semantic steps like: XXS › XS › S › M › L › XL › XXL?
 
 ## Add:
 
 - width, max-width and height should have responsive classes (at least vh + %/vw)
-- max-width should contain breakpoint widths e.g. .mw-md {max-width: --var(breakpoint-md)}
 - `padding_child.css` (then, margin und padding need !important)
 - separate section for “add-ons/helpers” (like `margin_child.css`)
 - add responsive classes to `order.css`
+- negative margins (for grids)
 
 ## Make responsive?:
 
