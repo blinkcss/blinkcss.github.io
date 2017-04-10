@@ -18,13 +18,17 @@ If you should not want to use blank.css, the following css will get you started 
 
 ```css
 html {
+    border-style: solid;
     box-sizing: border-box;
     font-size: 1rem;
     line-height: 1.5;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
     border-width: 0;
-    border-style: solid;
     height: 100%;
+    -webkit-overflow-scrolling: touch;
+    /* › smooth scrolling on overflow */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* › automatically hide scrollbars in Edge and IE10/11 */
 }
 
 *, *::before, *::after {
@@ -47,12 +51,18 @@ html {
 body {
     min-height: 100%;
     font-size: 100%;
-    margin: 0;
 }
 
 img, video, audio, iframe {
     max-width: 100%;
-    height: auto;
+}
+
+svg {
+    fill: currentColor;
+}
+
+a {
+    text-decoration: none;
 }
 ```
 
