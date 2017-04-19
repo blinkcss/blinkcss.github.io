@@ -22,7 +22,7 @@ GLOBAL ADJUSTMENTS
     --16: calc(16 * var(--1));
     --transition-short: .125s all ease-in-out;
     --box-shadow: 0 var(--\.0625) var(--\.25) 0 hsla(0, 0%, 15%, .125);
-    --sansfont: system-ui;
+    --sansfont: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
     --monofont: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace;
 }
 
