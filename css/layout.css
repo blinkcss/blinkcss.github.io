@@ -24,6 +24,10 @@ code {
     padding: .25rem;
 }
 
+a:hover {
+    opacity: .5;
+}
+
 
 /* Fake page transition (fade-in): */
 

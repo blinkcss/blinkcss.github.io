@@ -39,7 +39,7 @@ GLOBAL ADJUSTMENTS
 
 html {
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: var(--1);
     /* › 1rem translates to 16px in most browsers – unless the user has adjusted the default font-size to be larger or smaller  */
     line-height: 1.5;
     font-family: var(--sansfont);

@@ -28,18 +28,19 @@ Documentation site for **blink UI** — web and interface design in the blink of
 - Steps (8, 16) also in `z-index` and `top`, `right`… modules? (Consistency)
 - Moving away from number steps to semantic steps like: XXS › XS › S › M › L › XL › XXL?
 
-## Add:
+## Add/Improve:
 
-- width, max-width and height should have responsive classes (at least vh + %/vw)
 - `padding_child.css` (then, margin und padding need !important)
 - separate section for “add-ons/helpers” (like `margin_child.css`)
-- add responsive classes to `order.css`
-- negative margins (for grids)
+- negative margins (for grids) — or is it better to go for the grid module?
 
-## Make responsive?:
+## Make responsive:
 
+- width, max-width and height should have responsive classes (at least vh + %/vw)
+- `order`
 - `flex-grow`
 - `z-index`
+- `position`
 
 ## Demo:
 
