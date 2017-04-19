@@ -8,76 +8,20 @@ Documentation site for **blink UI** — web and interface design in the blink of
 
 *Work in progress!*
 
-
-
----
-
-We suggest using `blank.css` as a reset stylesheet. It is included in the “css” folder.
-
-If you should not want to use blank.css, the following css will get you started (most important here are `box-sizing` and `border-style`):
-
-```css
-html {
-    border-style: solid;
-    box-sizing: border-box;
-    font-size: 1rem;
-    line-height: 1.5;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
-    border-width: 0;
-    height: 100%;
-    -webkit-overflow-scrolling: touch;
-    /* › smooth scrolling on overflow */
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-    /* › automatically hide scrollbars in Edge and IE10/11 */
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-    border-width: 0;
-    border-radius: 0;
-    border-style: inherit;
-    outline: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    vertical-align: baseline;
-    color: currentColor;
-    background-color: transparent;
-    background-repeat: no-repeat;
-}
-
-body {
-    min-height: 100%;
-    font-size: 100%;
-}
-
-img, video, audio, iframe {
-    max-width: 100%;
-}
-
-svg {
-    fill: currentColor;
-}
-
-a {
-    text-decoration: none;
-}
-```
-
 ---
 
 ## Notes:
 
 ### Up for discussion:
 
+- grids
 - vertical-align
 - writing-mode
 - column-count (R)
 - hyphens
 - background-blend-mode
 - cursor (pointer)
+- taking it further: filters, transitions
 
 ### Thoughts:
 
