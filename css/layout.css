@@ -11,7 +11,7 @@ article>* {
 }
 
 article:last-of-type {
-    padding-bottom: 8rem;
+    margin-bottom: 16rem;
 }
 
 article:nth-child(odd) {
@@ -26,6 +26,11 @@ code {
 
 a:hover {
     opacity: .5;
+}
+
+hr {
+    border-bottom-width: 1px;
+    margin: 2rem 0;
 }
 
 
