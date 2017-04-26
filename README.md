@@ -6,21 +6,8 @@ Documentation site for [**blink UI**](https://github.com/blinkui/blinkui) — we
 
 ![](screenshot.png)
 
-*Work in progress!*
-
-blinkUI [changelog](https://github.com/blinkui/blinkui/blob/master/changelog.md)
-
----
-
-## Breakpoint template
-
-```css
-@media screen and (min-width: 40rem) {}
-
-@media screen and (min-width: 60rem) {}
-
-@media screen and (min-width: 80rem) {}
-```
+- [github repository](https://github.com/blinkui/blinkui)
+- [changelog](https://github.com/blinkui/blinkui/blob/master/changelog.md)
 
 ---
 
