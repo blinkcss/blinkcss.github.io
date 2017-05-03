@@ -1,47 +1,47 @@
 header>h2 {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 article {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 article>* {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 article:last-of-type {
-    margin-bottom: 16rem;
+  margin-bottom: 16rem;
 }
 
 article:nth-child(odd) {
-    background-color: hsla(0, 0%, 90%, .5);
+  background-color: hsla(0, 0%, 90%, .5);
 }
 
 code {
-    font-family: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace;
-    background-color: hsla(0, 0%, 0%, .0625);
-    padding: .25rem;
+  font-family: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace;
+  background-color: hsla(0, 0%, 0%, .0625);
+  padding: .25rem;
 }
 
-a:hover {
-    opacity: .5;
+a:hover, a:active, a:focus {
+  opacity: .5;
 }
 
 hr {
-    border-bottom-width: 1px;
-    margin: 2rem 0;
+  border-bottom-width: 1px;
+  margin: 2rem 0;
 }
 
 
-/* Fake page transition (fade-in): */
+/* Page fade-in effect: */
 
 @keyframes fade {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 }
 
 body {
-    animation: 1s fade ease-in-out
+  animation: 1s fade ease-in-out;
 }
