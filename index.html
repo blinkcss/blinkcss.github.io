@@ -28,7 +28,7 @@
 	<div style="font-family: 'Avenir Next', Avenir, sans-serif" class="bgc:red fs:2r fs:4r@M fs:8r@L fs:16r@XL fw:100 ff:s c:w.1 p:2r">blink!</div>
 	<header id="top" class="p:2r">
 		<h1 class="m:0 fs:2r fs:4r@M c:red c:w:h fw:700 ls:-.0625e" style="font-family: 'Avenir Next', Avenir, sans-serif">blink<span class="c:b.3 fw:200 tt:u">ui</span></h1>
-		<p class="m:0 lh:1.25 tt:u ls:.125e">Web and interface design in the <span class="c:red:h">blink</span> of an eye.</p>
+		<p class="m:0 lh:1.25 tt:u ls:.125e">Web and interface design in the <span class="c:red:h">blink</span>of an eye.</p>
 	</header>
 	<nav id="toc" class="mb:2r p:2r ox:s ws:nw brw:medium brw:0@XL bc:red c:b.3 fs:1.5r@XL">
 		<ul class="lst:n">
@@ -46,7 +46,7 @@
 					<li><a href="#typo__list-style-type">list-style-type</a></li>
 				</ul>
 			</li>
-			<li class="d:f mr>*:1r mb>*:1r"> <b><a href="#layout">Layout: Spacing &amp; dimensions</a></b>
+			<li class="d:f mr>*:1r mb>*:1r"><b><a href="#layout">Layout: Spacing &amp; dimensions</a></b>
 				<ul class="lst:n d:f mr>*:1r">
 					<li><a href="#layout__margin">margin</a></li>
 					<!--<li><a href="#layout__margin_child">margin_child</a></li>-->
@@ -56,11 +56,12 @@
 					<li><a href="#layout__height">height</a></li>
 					<li><a href="#layout__box-sizing">box-sizing</a></li>
 				</ul>
-				<li class="d:f mr>*:1r mb>*:1r"> <b><a href="#layout">Layout: Positioning</a></b>
+				<li class="d:f mr>*:1r mb>*:1r"><b><a href="#layout">Layout: Positioning</a></b>
 					<ul class="lst:n d:f mr>*:1r">
 						<li><a href="#layout__display">display</a></li>
 						<li><a href="#layout__position">position</a></li>
 						<li><a href="#layout__z-index">z-index</a></li>
+						<li><a href="#layout__vertical-align">vertical-align</a></li>
 						<li><a href="#layout__top">top</a></li>
 						<li><a href="#layout__right">right</a></li>
 						<li><a href="#layout__bottom">bottom</a></li>
@@ -73,7 +74,7 @@
 						<li><a href="#layout__visibility">visibility</a></li>
 					</ul>
 				</li>
-				<li class="d:f mr>*:1r mb>*:1r"> <b><a href="#layout__flexbox">Layout: Flexbox</a></b>
+				<li class="d:f mr>*:1r mb>*:1r"><b><a href="#layout__flexbox">Layout: Flexbox</a></b>
 					<ul class="lst:n d:f mr>*:1r">
 						<li><a href="#layout__flex-direction">flex-direction</a></li>
 						<li><a href="#layout__flex-wrap">flex-wrap</a></li>
@@ -86,7 +87,7 @@
 						<li><a href="#layout__order">order</a></li>
 					</ul>
 				</li>
-				<li class="d:f mr>*:1r"> <b><a href="#theme">Theming</a></b>
+				<li class="d:f mr>*:1r"><b><a href="#theme">Theming</a></b>
 					<ul class="lst:n d:f mr>*:1r">
 						<li><a href="#theme__border-width">border-width</a></li>
 						<li><a href="#theme__border-style">border-style</a></li>
@@ -97,6 +98,7 @@
 						<li><a href="#theme__border-color">border-color</a></li>
 						<li><a href="#theme__background-image">background-image</a></li>
 						<li><a href="#theme__border-image">border-image</a></li>
+						<li><a href="#theme__background-size">background-size</a></li>
 						<li><a href="#theme__opacity">opacity</a></li>
 						<li><a href="#theme__transition">transition</a></li>
 					</ul>
@@ -106,14 +108,14 @@
 	<main>
 		<section id="typo">
 			<header>
-				<h2 class="pl:2r fs:4r@L fw:100@L mt:4r">Typography</h2> </header>
+				<h2 class="pl:2r fs:4r@L fw:100@L mt:4r">Typography</h2></header>
 			<article id="typo__font-family">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">font-family</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">font-family</h3></header>
 				<div>
-					<p class="lh:.875"> <span class="ff:s fs:2r fs:4r@M">serif</span> <code>ff:s</code> </p>
-					<p class="lh:1"> <span class="ff:ss fs:2r fs:4r@M">sans-serif</span> <code>ff:ss</code> </p>
-					<p class="lh:1"> <span class="ff:m fs:2r fs:4r@M">monospace</span> <code>ff:m</code> </p>
+					<p class="lh:.875"><span class="ff:s fs:2r fs:4r@M">serif</span><code>ff:s</code></p>
+					<p class="lh:1"><span class="ff:ss fs:2r fs:4r@M">sans-serif</span><code>ff:ss</code></p>
+					<p class="lh:1"><span class="ff:m fs:2r fs:4r@M">monospace</span><code>ff:m</code></p>
 				</div>
 			</article>
 			<article id="typo__font-size">
@@ -122,14 +124,14 @@
 					<responsivestyles></responsivestyles>
 				</header>
 				<div class="ox:s ws:nw brw:medium brw:0@L py:1r">
-					<p class="lh:.875"> <span class="fs:16r">16rem</span> <code>fs:16r</code> </p>
-					<p class="lh:1"> <span class="fs:8r">8rem</span> <code>fs:8r</code> </p>
-					<p class="lh:1"> <span class="fs:4r">4rem</span> <code>fs:4r</code> </p>
-					<p> <span class="fs:2r">2rem</span> <code>fs:2r</code> </p>
-					<p> <span class="fs:1.5r">1.5rem</span> <code>fs:1.5r</code> </p>
-					<p> <span class="fs:1r">1rem</span> <code>fs:1r</code> </p>
-					<p> <span class="fs:.875r">.875rem</span> <code>fs:.875r</code> </p>
-					<p> <span class="fs:.75r">.75rem</span> <code>fs:.75r</code> </p>
+					<p class="lh:.875"><span class="fs:16r">16rem</span><code>fs:16r</code></p>
+					<p class="lh:1"><span class="fs:8r">8rem</span><code>fs:8r</code></p>
+					<p class="lh:1"><span class="fs:4r">4rem</span><code>fs:4r</code></p>
+					<p><span class="fs:2r">2rem</span><code>fs:2r</code></p>
+					<p><span class="fs:1.5r">1.5rem</span><code>fs:1.5r</code></p>
+					<p><span class="fs:1r">1rem</span><code>fs:1r</code></p>
+					<p><span class="fs:.875r">.875rem</span><code>fs:.875r</code></p>
+					<p><span class="fs:.75r">.75rem</span><code>fs:.75r</code></p>
 				</div>
 			</article>
 			<article id="typo__line-height">
@@ -138,12 +140,12 @@
 					<responsivestyles></responsivestyles>
 				</header>
 				<div class="ox:s ws:nw brw:medium brw:0@L">
-					<p class="fs:8r lh:.875 byw:thin">0.875 <code class="fs:.875r">lh:.875</code> <br>Berlin</p>
-					<p class="fs:4r lh:1 byw:thin"> 1 <code class="fs:.875r">lh:1</code> <br>Ottawa </p>
-					<p class="fs:2r lh:1.125 byw:thin"> 1.125 <code class="fs:.875r">lh:1.125</code> <br>Wismar </p>
-					<p class="fs:1.5r lh:1.25 byw:thin"> 1.25 <code class="fs:.875r">lh:1.25</code> <br>Paris </p>
-					<p class="fs:1r lh:1.5 byw:thin"> 1.5 <code class="fs:.875r">lh:1.5</code> <br>Tōkyō </p>
-					<p class="fs:.875r lh:1.75 byw:thin"> 1.75 <code class="fs:.875r">lh:1.75</code> <br>Ulm </p>
+					<p class="fs:8r lh:.875 byw:thin">0.875 <code class="fs:.875r">lh:.875</code><br>Berlin</p>
+					<p class="fs:4r lh:1 byw:thin">1 <code class="fs:.875r">lh:1</code><br>Ottawa </p>
+					<p class="fs:2r lh:1.125 byw:thin">1.125 <code class="fs:.875r">lh:1.125</code><br>Wismar </p>
+					<p class="fs:1.5r lh:1.25 byw:thin">1.25 <code class="fs:.875r">lh:1.25</code><br>Paris </p>
+					<p class="fs:1r lh:1.5 byw:thin">1.5 <code class="fs:.875r">lh:1.5</code><br>Tōkyō </p>
+					<p class="fs:.875r lh:1.75 byw:thin">1.75 <code class="fs:.875r">lh:1.75</code><br>Ulm </p>
 				</div>
 			</article>
 			<article id="typo__font-weight">
@@ -152,27 +154,27 @@
 					<responsivestyles></responsivestyles>
 				</header>
 				<div class="ox:s ws:nw lh:1 brw:medium brw:0@L py:1r">
-					<p> <span class="fw:i fs:2r fs:4r@M">initial</span> <code>fw:i</code> </p>
-					<p> <span class="fw:l fs:2r fs:4r@M">lighter</span> <code>fw:l</code> </p>
-					<p> <span class="fw:n fs:2r fs:4r@M">normal</span> <code>fw:n</code> </p>
-					<p> <span class="fw:b fs:2r fs:4r@M">bold</span> <code>fw:b</code> </p>
-					<p> <span class="fw:100 fs:2r fs:4r@M">100 (thin)</span> <code>fw:100</code> </p>
-					<p> <span class="fw:200 fs:2r fs:4r@M">200 (extra-light)</span> <code>fw:200</code> </p>
-					<p> <span class="fw:300 fs:2r fs:4r@M">300 (light)</span> <code>fw:300</code> </p>
-					<p> <span class="fw:400 fs:2r fs:4r@M">400 (normal)</span> <code>fw:400</code> </p>
-					<p> <span class="fw:500 fs:2r fs:4r@M">500 (medium)</span> <code>fw:500</code> </p>
-					<p> <span class="fw:600 fs:2r fs:4r@M">600 (semi-bold)</span> <code>fw:600</code> </p>
-					<p> <span class="fw:700 fs:2r fs:4r@M">700 (bold)</span> <code>fw:700</code> </p>
-					<p> <span class="fw:800 fs:2r fs:4r@M">800 (extra-bold)</span> <code>fw:800</code> </p>
-					<p> <span class="fw:900 fs:2r fs:4r@M">900 (ultra-bold)</span> <code>fw:900</code> </p>
+					<p><span class="fw:i fs:2r fs:4r@M">initial</span><code>fw:i</code></p>
+					<p><span class="fw:l fs:2r fs:4r@M">lighter</span><code>fw:l</code></p>
+					<p><span class="fw:n fs:2r fs:4r@M">normal</span><code>fw:n</code></p>
+					<p><span class="fw:b fs:2r fs:4r@M">bold</span><code>fw:b</code></p>
+					<p><span class="fw:100 fs:2r fs:4r@M">100 (thin)</span><code>fw:100</code></p>
+					<p><span class="fw:200 fs:2r fs:4r@M">200 (extra-light)</span><code>fw:200</code></p>
+					<p><span class="fw:300 fs:2r fs:4r@M">300 (light)</span><code>fw:300</code></p>
+					<p><span class="fw:400 fs:2r fs:4r@M">400 (normal)</span><code>fw:400</code></p>
+					<p><span class="fw:500 fs:2r fs:4r@M">500 (medium)</span><code>fw:500</code></p>
+					<p><span class="fw:600 fs:2r fs:4r@M">600 (semi-bold)</span><code>fw:600</code></p>
+					<p><span class="fw:700 fs:2r fs:4r@M">700 (bold)</span><code>fw:700</code></p>
+					<p><span class="fw:800 fs:2r fs:4r@M">800 (extra-bold)</span><code>fw:800</code></p>
+					<p><span class="fw:900 fs:2r fs:4r@M">900 (ultra-bold)</span><code>fw:900</code></p>
 				</div>
 			</article>
 			<article id="typo__font-style">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">font-style</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">font-style</h3></header>
 				<div class="lh:1">
-					<p> <em class="fs:n fs:2r fs:4r@M">normal</em> <code>fs:n</code> </p>
-					<p> <span class="fs:i fs:2r fs:4r@M">italic</span> <code>fs:i</code> </p>
+					<p><em class="fs:n fs:2r fs:4r@M">normal</em><code>fs:n</code></p>
+					<p><span class="fs:i fs:2r fs:4r@M">italic</span><code>fs:i</code></p>
 				</div>
 			</article>
 			<article id="typo__text-align">
@@ -181,55 +183,60 @@
 					<responsivestyles></responsivestyles>
 				</header>
 				<div class="lh:1 w:100%">
-					<p class="ta:l"><span class="fs:2r fs:4r@M">left</span> <code>ta:l</code></p>
-					<p class="ta:j" style="hyphens:auto;"><span class="fs:2r fs:4r@M">justify <span class="c:b.2 fw:200">justify justify justify justify justify justify justify justify justify justify justify justify</span></span> <code>ta:j</code></p>
-					<p class="ta:c"><span class="fs:2r fs:4r@M">center</span> <code>ta:c</code></p>
-					<p class="ta:r"><span class="fs:2r fs:4r@M">right</span> <code>ta:r</code></p>
+					<p class="ta:l"><span class="fs:2r fs:4r@M">left</span><code>ta:l</code></p>
+					<p class="ta:j" style="hyphens:auto;"><span class="fs:2r fs:4r@M">justify <span class="c:b.2 fw:200">justify justify justify justify justify justify justify justify justify justify justify justify</span></span><code>ta:j</code></p>
+					<p class="ta:c"><span class="fs:2r fs:4r@M">center</span><code>ta:c</code></p>
+					<p class="ta:r"><span class="fs:2r fs:4r@M">right</span><code>ta:r</code></p>
 				</div>
 			</article>
 			<article id="typo__text-transform">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">text-transform</h3> </header>
-				<div><span class="fs:2r fs:4r@M tt:n">none</span> <code>tt:n</code></div>
-				<div><span class="fs:2r fs:4r@M tt:u">uppercase</span> <code>tt:u</code></div>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">text-transform</h3></header>
+				<div><span class="fs:2r fs:4r@M tt:n">none</span><code>tt:n</code></div>
+				<div><span class="fs:2r fs:4r@M tt:u">uppercase</span><code>tt:u</code></div>
 			</article>
 			<article id="typo__text-decoration">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">text-decoration</h3> </header>
-				<div><del class="fs:2r fs:4r@M td:n td:u:h bc:red">none</del> <code>td:n</code></div>
-				<div><span class="fs:2r fs:4r@M td:u">underline</span> <code>td:u</code>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">text-decoration</h3></header>
+				<div><del class="fs:2r fs:4r@M td:n td:u:h bc:red">none</del><code>td:n</code></div>
+				<div><span class="fs:2r fs:4r@M td:u">underline</span><code>td:u</code>
 					<hint>Also available as a hover style (td:u:h).</hint>
 				</div>
-				<div><span class="fs:2r fs:4r@M td:lt">line-through</span> <code>td:lt</code></div>
+				<div><span class="fs:2r fs:4r@M td:lt">line-through</span><code>td:lt</code></div>
 			</article>
 			<article id="typo__letter-spacing">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">letter-spacing</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">letter-spacing</h3></header>
 				<hint>Please notice, that this module makes use of “em” units. Hence the “e”.</hint>
 				<div class="fw:100">
-					<div><span class="ls:-.0625e fs:2r fs:4r@M tt:u">-.0625em</span> <code class="fw:i">ls:-.0625<span class="c:red fw:b">e</span></code></div>
-					<div><span class="ls:n fs:2r fs:4r@M tt:u">normal</span> <code class="fw:i">ls:n</code></div>
-					<div><span class="ls:.0625e fs:2r fs:4r@M tt:u">.0625em</span> <code class="fw:i">ls:.0625e</code></div>
-					<div><span class="ls:.125e fs:2r fs:4r@M tt:u">.125em</span> <code class="fw:i">ls:.125e</code></div>
-					<div><span class="ls:.25e fs:2r fs:4r@M tt:u">.25em</span> <code class="fw:i">ls:.25e</code></div>
-					<div><span class="ls:.5e fs:2r fs:4r@M tt:u">.5em</span> <code class="fw:i">ls:.5e</code></div>
-					<div><span class="ls:1e fs:2r fs:4r@M tt:u">1em</span> <code class="fw:i">ls:1e</code></div>
+					<div><span class="ls:-.0625e fs:2r fs:4r@M tt:u">-.0625em</span><code class="fw:i">ls:-.0625<span class="c:red fw:b">e</span></code></div>
+					<div><span class="ls:n fs:2r fs:4r@M tt:u">normal</span><code class="fw:i">ls:n</code></div>
+					<div><span class="ls:.0625e fs:2r fs:4r@M tt:u">.0625em</span><code class="fw:i">ls:.0625e</code></div>
+					<div><span class="ls:.125e fs:2r fs:4r@M tt:u">.125em</span><code class="fw:i">ls:.125e</code></div>
+					<div><span class="ls:.25e fs:2r fs:4r@M tt:u">.25em</span><code class="fw:i">ls:.25e</code></div>
+					<div><span class="ls:.5e fs:2r fs:4r@M tt:u">.5em</span><code class="fw:i">ls:.5e</code></div>
+					<div><span class="ls:1e fs:2r fs:4r@M tt:u">1em</span><code class="fw:i">ls:1e</code></div>
 				</div>
 			</article>
 			<article id="typo__list-style-type">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">list-style-type</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">list-style-type</h3></header>
 				<ul class="fs:2r fs:4r@M lst:n">
 					<li>none <code class="fs:1r">lst:n</code></li>
 				</ul>
 				<ul class="fs:2r fs:4r@M lst:d">
 					<li>disc <code class="fs:1r">lst:d</code></li>
+					<li class="c:b.1">disc</li>
+				</ul>
+				<ul class="fs:2r fs:4r@M lst:c">
+					<li>check mark <code class="fs:1r">lst:c</code></li>
+					<li class="c:b.1">check mark</li>
 				</ul>
 			</article>
 		</section>
 		<section id="layout">
 			<header>
-				<h2 class="pl:2r fs:4r@L fw:100@L mt:4r">Layout</h2> </header>
+				<h2 class="pl:2r fs:4r@L fw:100@L mt:4r">Layout</h2></header>
 			<article id="layout__margin">
 				<header class="p:r">
 					<h3 class="d:ib ff:m bgc:b c:w p:1r">margin</h3>
@@ -239,196 +246,196 @@
 				<div class="ox:s ws:nw lh:1 brw:medium brw:0@L">
 					<div class="bw:thin d:ib">
 						<div class="m:0 c:w bgc:b d:ib">0</div>
-					</div> <code>m:0</code> <br>
+					</div><code>m:0</code><br>
 					<div class="bgc:b d:ib">
 						<div class="m:.25r bgc:w d:ib">.25rem</div>
-					</div> <code>m:.25r</code> <br>
+					</div><code>m:.25r</code><br>
 					<div class="bw:thin d:ib">
 						<div class="m:.5r c:w bgc:b d:ib">.5rem</div>
-					</div> <code>m:.5r</code> <br>
+					</div><code>m:.5r</code><br>
 					<div class="bgc:b d:ib">
 						<div class="m:1r bgc:w d:ib">1rem</div>
-					</div> <code>m:1r</code> <br>
+					</div><code>m:1r</code><br>
 					<div class="bw:thin d:ib">
 						<div class="m:2r c:w bgc:b d:ib">2rem</div>
-					</div> <code>m:2r</code> <br>
+					</div><code>m:2r</code><br>
 					<div class="bgc:b d:ib">
 						<div class="m:4r bgc:w d:ib">4rem</div>
-					</div> <code>m:4r</code> <br>
+					</div><code>m:4r</code><br>
 					<div class="bw:thin d:ib">
 						<div class="m:8r c:w bgc:b d:ib">8rem</div>
-					</div> <code>m:8r</code> <br>
+					</div><code>m:8r</code><br>
 					<div class="bgc:b d:ib">
 						<div class="m:16r bgc:w d:ib">16rem</div>
-					</div> <code>m:16r</code> </div>
+					</div><code>m:16r</code></div>
 				<h4><code>margin-top</code></h4>
 				<div class="py:1r lh:1 ox:s ws:nw brw:medium brw:0@L">
 					<div class="bw:thin d:ib btw:medium">
 						<div class="mt:0 c:w bgc:b d:ib">0</div>
-					</div> <code>mt:0</code>
+					</div><code>mt:0</code>
 					<div class="bw:thin d:ib btw:medium">
 						<div class="mt:.25r c:w bgc:b d:ib">.25rem</div>
-					</div> <code>mt:.25r</code>
+					</div><code>mt:.25r</code>
 					<div class="bw:thin d:ib btw:medium">
 						<div class="mt:.5r c:w bgc:b d:ib">.5rem</div>
-					</div> <code>mt:.5r</code>
+					</div><code>mt:.5r</code>
 					<div class="bw:thin d:ib btw:medium">
 						<div class="mt:1r c:w bgc:b d:ib">1rem</div>
-					</div> <code>mt:1r</code>
+					</div><code>mt:1r</code>
 					<div class="bw:thin d:ib btw:medium">
 						<div class="mt:2r c:w bgc:b d:ib">2rem</div>
-					</div> <code>mt:2r</code>
+					</div><code>mt:2r</code>
 					<div class="bw:thin d:ib btw:medium">
 						<div class="mt:4r c:w bgc:b d:ib">4rem</div>
-					</div> <code>mt:4r</code>
+					</div><code>mt:4r</code>
 					<div class="bw:thin d:ib btw:medium">
 						<div class="mt:8r c:w bgc:b d:ib">8rem</div>
-					</div> <code>mt:8r</code>
+					</div><code>mt:8r</code>
 					<div class="bw:thin d:ib btw:medium">
 						<div class="mt:16r c:w bgc:b d:ib">16rem</div>
-					</div> <code>mt:16r</code> </div>
+					</div><code>mt:16r</code></div>
 				<h4><code>margin-right</code></h4>
 				<div class="py:1r lh:1 ox:s ws:nw brw:medium brw:0@M">
 					<div class="bw:thin w:8r mr:a mb:.25r">
 						<div class="ta:c">
-							<div class="d:ib">auto</div> <code>mr:a</code> </div>
+							<div class="d:ib">auto</div><code>mr:a</code></div>
 					</div>
 					<div class="bw:thin d:ib mb:.25r brw:medium">
 						<div class="mr:0 c:w bgc:b d:ib">0</div>
-					</div> <code>mr:0</code> <br>
+					</div><code>mr:0</code><br>
 					<div class="bw:thin d:ib mb:.25r brw:medium">
 						<div class="mr:.25r c:w bgc:b d:ib">.25rem</div>
-					</div> <code>mr:.25r</code> <br>
+					</div><code>mr:.25r</code><br>
 					<div class="bw:thin d:ib mb:.25r brw:medium">
 						<div class="mr:.5r c:w bgc:b d:ib">.5rem</div>
-					</div> <code>mr:.5r</code> <br>
+					</div><code>mr:.5r</code><br>
 					<div class="bw:thin d:ib mb:.25r brw:medium">
 						<div class="mr:1r c:w bgc:b d:ib">1rem</div>
-					</div> <code>mr:1r</code> <br>
+					</div><code>mr:1r</code><br>
 					<div class="bw:thin d:ib mb:.25r brw:medium">
 						<div class="mr:2r c:w bgc:b d:ib">2rem</div>
-					</div> <code>mr:2r</code> <br>
+					</div><code>mr:2r</code><br>
 					<div class="bw:thin d:ib mb:.25r brw:medium">
 						<div class="mr:4r c:w bgc:b d:ib">4rem</div>
-					</div> <code>mr:4r</code> <br>
+					</div><code>mr:4r</code><br>
 					<div class="bw:thin d:ib mb:.25r brw:medium">
 						<div class="mr:8r c:w bgc:b d:ib">8rem</div>
-					</div> <code>mr:8r</code> <br>
+					</div><code>mr:8r</code><br>
 					<div class="bw:thin d:ib mb:.25r brw:medium">
 						<div class="mr:16r c:w bgc:b d:ib">16rem</div>
-					</div> <code>mr:16r</code> </div>
+					</div><code>mr:16r</code></div>
 				<h4><code>margin-bottom</code></h4>
 				<div class="py:1r lh:1 ox:s ws:nw brw:medium brw:0@L">
 					<div class="bw:thin d:ib bbw:medium">
 						<div class="mb:0 c:w bgc:b d:ib">0</div>
-					</div> <code>mb:0</code>
+					</div><code>mb:0</code>
 					<div class="bw:thin d:ib bbw:medium">
 						<div class="mb:.25r c:w bgc:b d:ib">.25rem</div>
-					</div> <code>mb:.25r</code>
+					</div><code>mb:.25r</code>
 					<div class="bw:thin d:ib bbw:medium">
 						<div class="mb:.5r c:w bgc:b d:ib">.5rem</div>
-					</div> <code>mb:.5r</code>
+					</div><code>mb:.5r</code>
 					<div class="bw:thin d:ib bbw:medium">
 						<div class="mb:1r c:w bgc:b d:ib">1rem</div>
-					</div> <code>mb:1r</code>
+					</div><code>mb:1r</code>
 					<div class="bw:thin d:ib bbw:medium">
 						<div class="mb:2r c:w bgc:b d:ib">2rem</div>
-					</div> <code>mb:2r</code>
+					</div><code>mb:2r</code>
 					<div class="bw:thin d:ib bbw:medium">
 						<div class="mb:4r c:w bgc:b d:ib">4rem</div>
-					</div> <code>mb:4r</code>
+					</div><code>mb:4r</code>
 					<div class="bw:thin d:ib bbw:medium">
 						<div class="mb:8r c:w bgc:b d:ib">8rem</div>
-					</div> <code>mb:8r</code>
+					</div><code>mb:8r</code>
 					<div class="bw:thin d:ib bbw:medium">
 						<div class="mb:16r c:w bgc:b d:ib">16rem</div>
-					</div> <code>mb:16r</code> </div>
+					</div><code>mb:16r</code></div>
 				<h4><code>margin-left</code></h4>
 				<div class="py:1r lh:1 ox:s ws:nw brw:medium brw:0@M">
 					<div class="bw:thin w:8r ml:a mb:.25r">
 						<div class="ta:c">
-							<div class="d:ib">auto</div> <code>ml:a</code> </div>
-					</div> <br>
+							<div class="d:ib">auto</div><code>ml:a</code></div>
+					</div><br>
 					<div class="bw:thin d:ib mb:.25r blw:medium">
 						<div class="ml:0 c:w bgc:b d:ib">0</div>
-					</div> <code>ml:0</code> <br>
+					</div><code>ml:0</code><br>
 					<div class="bw:thin d:ib mb:.25r blw:medium">
 						<div class="ml:.25r c:w bgc:b d:ib">.25rem</div>
-					</div> <code>ml:.25r</code> <br>
+					</div><code>ml:.25r</code><br>
 					<div class="bw:thin d:ib mb:.25r blw:medium">
 						<div class="ml:.5r c:w bgc:b d:ib">.5rem</div>
-					</div> <code>ml:.5r</code> <br>
+					</div><code>ml:.5r</code><br>
 					<div class="bw:thin d:ib mb:.25r blw:medium">
 						<div class="ml:1r c:w bgc:b d:ib">1rem</div>
-					</div> <code>ml:1r</code> <br>
+					</div><code>ml:1r</code><br>
 					<div class="bw:thin d:ib mb:.25r blw:medium">
 						<div class="ml:2r c:w bgc:b d:ib">2rem</div>
-					</div> <code>ml:2r</code> <br>
+					</div><code>ml:2r</code><br>
 					<div class="bw:thin d:ib mb:.25r blw:medium">
 						<div class="ml:4r c:w bgc:b d:ib">4rem</div>
-					</div> <code>ml:4r</code> <br>
+					</div><code>ml:4r</code><br>
 					<div class="bw:thin d:ib mb:.25r blw:medium">
 						<div class="ml:8r c:w bgc:b d:ib">8rem</div>
-					</div> <code>ml:8r</code> <br>
+					</div><code>ml:8r</code><br>
 					<div class="bw:thin d:ib mb:.25r blw:medium">
 						<div class="ml:16r c:w bgc:b d:ib">16rem</div>
-					</div> <code>ml:16r</code> </div>
-				<h4><code>margin-top</code> + <code>margin-bottom</code> (y-axis)</h4>
+					</div><code>ml:16r</code></div>
+				<h4><code>margin-top</code>+ <code>margin-bottom</code>(y-axis)</h4>
 				<div class="py:1r lh:1 ox:s ws:nw brw:medium brw:0@L">
 					<div class="bw:thin d:ib byw:medium">
 						<div class="my:0 c:w bgc:b d:ib">0</div>
-					</div> <code>my:0</code>
+					</div><code>my:0</code>
 					<div class="bw:thin d:ib byw:medium">
 						<div class="my:.25r c:w bgc:b d:ib">.25rem</div>
-					</div> <code>my:.25r</code>
+					</div><code>my:.25r</code>
 					<div class="bw:thin d:ib byw:medium">
 						<div class="my:.5r c:w bgc:b d:ib">.5rem</div>
-					</div> <code>my:.5r</code>
+					</div><code>my:.5r</code>
 					<div class="bw:thin d:ib byw:medium">
 						<div class="my:1r c:w bgc:b d:ib">1rem</div>
-					</div> <code>my:1r</code>
+					</div><code>my:1r</code>
 					<div class="bw:thin d:ib byw:medium">
 						<div class="my:2r c:w bgc:b d:ib">2rem</div>
-					</div> <code>my:2r</code>
+					</div><code>my:2r</code>
 					<div class="bw:thin d:ib byw:medium">
 						<div class="my:4r c:w bgc:b d:ib">4rem</div>
-					</div> <code>my:4r</code>
+					</div><code>my:4r</code>
 					<div class="bw:thin d:ib byw:medium">
 						<div class="my:8r c:w bgc:b d:ib">8rem</div>
-					</div> <code>my:8r</code>
+					</div><code>my:8r</code>
 					<div class="bw:thin d:ib byw:medium">
 						<div class="my:16r c:w bgc:b d:ib">16rem</div>
-					</div> <code>my:16r</code> </div>
-				<h4><code>margin-left</code> + <code>margin-right</code> (x-axis)</h4>
+					</div><code>my:16r</code></div>
+				<h4><code>margin-left</code>+ <code>margin-right</code>(x-axis)</h4>
 				<div class="py:1r lh:1 ox:s ws:nw brw:medium brw:0@M">
 					<div class="bw:thin w:8r mx:a mb:.25r">
 						<div class="ta:c">
-							<div class="d:ib">auto</div> <code>mx:a</code> </div>
-					</div> <br>
+							<div class="d:ib">auto</div><code>mx:a</code></div>
+					</div><br>
 					<div class="bw:thin d:ib mb:.25r bxw:medium">
 						<div class="mx:0 c:w bgc:b d:ib">0</div>
-					</div> <code>mx:0</code> <br>
+					</div><code>mx:0</code><br>
 					<div class="bw:thin d:ib mb:.25r bxw:medium">
 						<div class="mx:.25r c:w bgc:b d:ib">.25rem</div>
-					</div> <code>mx:.25r</code> <br>
+					</div><code>mx:.25r</code><br>
 					<div class="bw:thin d:ib mb:.25r bxw:medium">
 						<div class="mx:.5r c:w bgc:b d:ib">.5rem</div>
-					</div> <code>mx:.5r</code> <br>
+					</div><code>mx:.5r</code><br>
 					<div class="bw:thin d:ib mb:.25r bxw:medium">
 						<div class="mx:1r c:w bgc:b d:ib">1rem</div>
-					</div> <code>mx:1r</code> <br>
+					</div><code>mx:1r</code><br>
 					<div class="bw:thin d:ib mb:.25r bxw:medium">
 						<div class="mx:2r c:w bgc:b d:ib">2rem</div>
-					</div> <code>mx:2r</code> <br>
+					</div><code>mx:2r</code><br>
 					<div class="bw:thin d:ib mb:.25r bxw:medium">
 						<div class="mx:4r c:w bgc:b d:ib">4rem</div>
-					</div> <code>mx:4r</code> <br>
+					</div><code>mx:4r</code><br>
 					<div class="bw:thin d:ib mb:.25r bxw:medium">
 						<div class="mx:8r c:w bgc:b d:ib">8rem</div>
-					</div> <code>mx:8r</code> <br>
+					</div><code>mx:8r</code><br>
 					<div class="bw:thin d:ib mb:.25r bxw:medium">
 						<div class="mx:16r c:w bgc:b d:ib">16rem</div>
-					</div> <code>mx:16r</code> </div>
+					</div><code>mx:16r</code></div>
 			</article>
 			<article id="layout__padding">
 				<header class="p:r">
@@ -437,42 +444,42 @@
 				</header>
 				<div>
 					<div class="fs:1r w:2r h:2r c:w bgc:red br:100% d:f jc:c ai:c my:1r fw:900">?!</div>
-					<p>Similar to the margin module:</p> <code class="fs:1.5r">pt:4r</code> = <code class="fs:1.5r">padding-top:4rem</code></div>
+					<p>Similar to the margin module:</p><code class="fs:1.5r">pt:4r</code>= <code class="fs:1.5r">padding-top:4rem</code></div>
 			</article>
 			<article id="layout__width">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">width</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">width</h3></header>
 				<div>
-					<div class="w:a c:w bgc:b d:ib">auto (default)</div> <code>w:a</code>
+					<div class="w:a c:w bgc:b d:ib">auto (default)</div><code>w:a</code>
 					<hr>
-					<div class="w:1r c:w bgc:b d:ib">1rem</div> <code>w:1r</code> <br>
-					<div class="w:2r c:w bgc:b d:ib">2rem</div> <code>w:2r</code> <br>
-					<div class="w:4r c:w bgc:b d:ib">4rem</div> <code>w:4r</code> <br>
-					<div class="w:8r c:w bgc:b d:ib">8rem</div> <code>w:8r</code> <br>
-					<div class="w:16r c:w bgc:b d:ib">16rem</div> <code>w:16r</code>
+					<div class="w:1r c:w bgc:b d:ib">1rem</div><code>w:1r</code><br>
+					<div class="w:2r c:w bgc:b d:ib">2rem</div><code>w:2r</code><br>
+					<div class="w:4r c:w bgc:b d:ib">4rem</div><code>w:4r</code><br>
+					<div class="w:8r c:w bgc:b d:ib">8rem</div><code>w:8r</code><br>
+					<div class="w:16r c:w bgc:b d:ib">16rem</div><code>w:16r</code>
 					<hr>
-					<div class="w:10% c:w bgc:b d:ib">10%</div> <code>w:10%</code> <br>
-					<div class="w:20% c:w bgc:b d:ib">20%</div> <code>w:20%</code> <br>
-					<div class="w:25% c:w bgc:b.8 d:ib">25% (&frac14;)</div> <code>w:25%</code> <br>
-					<div class="w:30% c:w bgc:b d:ib">30%</div> <code>w:30%</code> <br>
-					<div class="w:33% c:w bgc:b.8 d:ib">33.3333% (&frac13;)</div> <code>w:33%</code> <br>
-					<div class="w:40% c:w bgc:b d:ib">40%</div> <code>w:40%</code> <br>
-					<div class="w:50% c:w bgc:b d:ib">50% (&frac12;)</div> <code>w:50%</code> <br>
-					<div class="w:60% c:w bgc:b d:ib">60%</div> <code>w:60%</code> <br>
-					<div class="w:66% c:w bgc:b.8 d:ib">66.6666% (&frac23;)</div> <code>w:66%</code> <br>
-					<div class="w:70% c:w bgc:b d:ib">70%</div> <code>w:70%</code> <br>
-					<div class="w:75% c:w bgc:b.8 d:ib">75% (&frac34;)</div> <code>w:75%</code> <br>
-					<div class="w:80% c:w bgc:b d:ib">80%</div> <code>w:80%</code> <br>
-					<div class="w:90% c:w bgc:b d:ib">90%</div> <code>w:90%</code> <br>
-					<div class="w:100% c:w bgc:b d:ib">100%</div> <code>w:100%</code> </div>
+					<div class="w:10% c:w bgc:b d:ib">10%</div><code>w:10%</code><br>
+					<div class="w:20% c:w bgc:b d:ib">20%</div><code>w:20%</code><br>
+					<div class="w:25% c:w bgc:b.8 d:ib">25% (&frac14;)</div><code>w:25%</code><br>
+					<div class="w:30% c:w bgc:b d:ib">30%</div><code>w:30%</code><br>
+					<div class="w:33% c:w bgc:b.8 d:ib">33.3333% (&frac13;)</div><code>w:33%</code><br>
+					<div class="w:40% c:w bgc:b d:ib">40%</div><code>w:40%</code><br>
+					<div class="w:50% c:w bgc:b d:ib">50% (&frac12;)</div><code>w:50%</code><br>
+					<div class="w:60% c:w bgc:b d:ib">60%</div><code>w:60%</code><br>
+					<div class="w:66% c:w bgc:b.8 d:ib">66.6666% (&frac23;)</div><code>w:66%</code><br>
+					<div class="w:70% c:w bgc:b d:ib">70%</div><code>w:70%</code><br>
+					<div class="w:75% c:w bgc:b.8 d:ib">75% (&frac34;)</div><code>w:75%</code><br>
+					<div class="w:80% c:w bgc:b d:ib">80%</div><code>w:80%</code><br>
+					<div class="w:90% c:w bgc:b d:ib">90%</div><code>w:90%</code><br>
+					<div class="w:100% c:w bgc:b d:ib">100%</div><code>w:100%</code></div>
 				<hr>
 				<div class="ox:s ws:nw brw:medium py:1r">
-					<div class="w:25vw c:w bgc:b d:ib">25vw (&frac14;)</div> <code>w:25vw</code> <br>
-					<div class="w:33vw c:w bgc:b d:ib">33vw (&frac13;)</div> <code>w:33vw</code> <br>
-					<div class="w:50vw c:w bgc:b d:ib">50vw (&frac12;)</div> <code>w:50vw</code> <br>
-					<div class="w:66vw c:w bgc:b d:ib">66vw (&frac23;)</div> <code>w:66vw</code> <br>
-					<div class="w:75vw c:w bgc:b d:ib">75vw (&frac34;)</div> <code>w:75vw</code> <br>
-					<div class="w:100vw c:w bgc:b d:ib">100vw</div> <code>w:100vw</code> </div>
+					<div class="w:25vw c:w bgc:b d:ib">25vw (&frac14;)</div><code>w:25vw</code><br>
+					<div class="w:33vw c:w bgc:b d:ib">33vw (&frac13;)</div><code>w:33vw</code><br>
+					<div class="w:50vw c:w bgc:b d:ib">50vw (&frac12;)</div><code>w:50vw</code><br>
+					<div class="w:66vw c:w bgc:b d:ib">66vw (&frac23;)</div><code>w:66vw</code><br>
+					<div class="w:75vw c:w bgc:b d:ib">75vw (&frac34;)</div><code>w:75vw</code><br>
+					<div class="w:100vw c:w bgc:b d:ib">100vw</div><code>w:100vw</code></div>
 			</article>
 			<article id="layout__max-width">
 				<header class="p:r">
@@ -481,47 +488,47 @@
 				</header>
 				<div>
 					<div class="fs:1r w:2r h:2r c:w bgc:red br:100% d:f jc:c ai:c my:1r fw:900">?!</div>
-					<p>Similar to the width module</p> <code class="fs:1.5r">mw:75%</code> = <code class="fs:1.5r">max-width:75%</code></div>
+					<p>Similar to the width module</p><code class="fs:1.5r">mw:75%</code>= <code class="fs:1.5r">max-width:75%</code></div>
 				<hr>
 				<h4>Additional classes:</h4>
-				<div class="mw:M c:w bgc:b p:1r">Medium breakpoint (default: 40rem) <code>mw:M</code> </div>
-				<div class="mw:L c:w bgc:b p:1r mt:.5r">Large breakpoint (default: 60rem) <code>mw:L</code> </div>
-				<div class="mw:XL c:w bgc:b p:1r mt:.5r">Extra large breakpoint (default: 80rem) <code>mw:XL</code> </div>
+				<div class="mw:M c:w bgc:b p:1r">Medium breakpoint (default: 40rem) <code>mw:M</code></div>
+				<div class="mw:L c:w bgc:b p:1r mt:.5r">Large breakpoint (default: 60rem) <code>mw:L</code></div>
+				<div class="mw:XL c:w bgc:b p:1r mt:.5r">Extra large breakpoint (default: 80rem) <code>mw:XL</code></div>
 			</article>
 			<article id="layout__height">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">height</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">height</h3></header>
 				<div>
-					<div class="h:1r c:w bgc:b d:ib">1rem</div> <code>h:1r</code>
-					<div class="h:2r c:w bgc:b d:ib">2rem</div> <code>h:2r</code>
-					<div class="h:4r c:w bgc:b d:ib">4rem</div> <code>h:4r</code>
-					<div class="h:8r c:w bgc:b d:ib">8rem</div> <code>h:8r</code>
-					<div class="h:16r c:w bgc:b d:ib">16rem</div> <code>h:16r</code>
+					<div class="h:1r c:w bgc:b d:ib">1rem</div><code>h:1r</code>
+					<div class="h:2r c:w bgc:b d:ib">2rem</div><code>h:2r</code>
+					<div class="h:4r c:w bgc:b d:ib">4rem</div><code>h:4r</code>
+					<div class="h:8r c:w bgc:b d:ib">8rem</div><code>h:8r</code>
+					<div class="h:16r c:w bgc:b d:ib">16rem</div><code>h:16r</code>
 					<hr>
 					<div class="h:8r ox:s ws:nw brw:medium brw:0@L">
-						<div class="h:25% c:w bgc:b d:ib">25% (&frac14;)</div> <code>h:25%</code>
-						<div class="h:33% c:w bgc:b d:ib">33.3333% (&frac13;)</div> <code>h:33%</code>
-						<div class="h:50% c:w bgc:b d:ib">50% (&frac12;)</div> <code>h:50%</code>
-						<div class="h:66% c:w bgc:b d:ib">66.666% (&frac23;)</div> <code>h:66%</code>
-						<div class="h:75% c:w bgc:b d:ib">75% (&frac34;)</div> <code>h:75%</code>
-						<div class="h:100% c:w bgc:b d:ib">100%</div> <code>h:100%</code> </div>
+						<div class="h:25% c:w bgc:b d:ib">25% (&frac14;)</div><code>h:25%</code>
+						<div class="h:33% c:w bgc:b d:ib">33.3333% (&frac13;)</div><code>h:33%</code>
+						<div class="h:50% c:w bgc:b d:ib">50% (&frac12;)</div><code>h:50%</code>
+						<div class="h:66% c:w bgc:b d:ib">66.666% (&frac23;)</div><code>h:66%</code>
+						<div class="h:75% c:w bgc:b d:ib">75% (&frac34;)</div><code>h:75%</code>
+						<div class="h:100% c:w bgc:b d:ib">100%</div><code>h:100%</code></div>
 					<hr>
 					<div class="ox:s ws:nw brw:medium brw:0@L">
-						<div class="h:25vh c:w bgc:b d:ib">25vh (&frac14;)</div> <code>h:25vh</code>
-						<div class="h:33vh c:w bgc:b d:ib">33.3333vh (&frac13;)</div> <code>h:33vh</code>
-						<div class="h:50vh c:w bgc:b d:ib">50vh (&frac12;)</div> <code>h:50vh</code>
-						<div class="h:66vh c:w bgc:b d:ib">66.666vh (&frac23;)</div> <code>h:66vh</code>
-						<div class="h:75vh c:w bgc:b d:ib">75vh (&frac34;)</div> <code>h:75vh</code>
-						<div class="h:100vh c:w bgc:b d:ib">100vh</div> <code>h:100vh</code> </div>
+						<div class="h:25vh c:w bgc:b d:ib">25vh (&frac14;)</div><code>h:25vh</code>
+						<div class="h:33vh c:w bgc:b d:ib">33.3333vh (&frac13;)</div><code>h:33vh</code>
+						<div class="h:50vh c:w bgc:b d:ib">50vh (&frac12;)</div><code>h:50vh</code>
+						<div class="h:66vh c:w bgc:b d:ib">66.666vh (&frac23;)</div><code>h:66vh</code>
+						<div class="h:75vh c:w bgc:b d:ib">75vh (&frac34;)</div><code>h:75vh</code>
+						<div class="h:100vh c:w bgc:b d:ib">100vh</div><code>h:100vh</code></div>
 				</div>
 			</article>
 			<article id="layout__box-sizing">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">box-sizing</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">box-sizing</h3></header>
 				<div class="ox:s ws:nw brw:medium brw:0@M">
-					<div class="bs:cb w:16r p:4r ta:c bw:thick d:ib">content-box</div> <code>bs:cb</code> <br>
-					<div class="mt:1r bs:bb w:16r p:4r ta:c bw:thick d:ib">border-box</div> <code>bs:bb</code> </div>
-				<hint><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" class="mr:.25r" style="vertical-align: middle">
+					<div class="bs:cb w:16r p:4r ta:c bw:thick d:ib">content-box</div><code>bs:cb</code><br>
+					<div class="mt:1r bs:bb w:16r p:4r ta:c bw:thick d:ib">border-box</div><code>bs:bb</code></div>
+				<hint><svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" class="mr:.25r va:m">
     <path d="M0 0h24v24H0z" fill="none"/>
     <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
 </svg><a class="td:u" href="https://css-tricks.com/box-sizing/" target="_blank">Box Sizing explained</a></hint>
@@ -531,18 +538,18 @@
 					<h3 class="d:ib ff:m bgc:b c:w p:1r">display</h3>
 					<responsivestyles></responsivestyles>
 				</header>
-				<div> <span class="d:b bgc:b c:w mb:.5r">block <code class="bgc:w.9 c:b">d:b</code></span>
+				<div><span class="d:b bgc:b c:w mb:.5r">block <code class="bgc:w.9 c:b">d:b</code></span>
 					<div class="mb:.5r">
-						<div class="d:i bgc:b c:w h:4r">inline </div> <code>d:i</code> </div>
-					<div class="d:ib bgc:b c:w h:4r mb:.5r">inline-block (added a fixed height)</div> <code>d:ib</code> <br>
+						<div class="d:i bgc:b c:w h:4r">inline </div><code>d:i</code></div>
+					<div class="d:ib bgc:b c:w h:4r mb:.5r">inline-block (added a fixed height)</div><code>d:ib</code><br>
 					<div class="d:n">none</div>
-					<hint>(none – see source code)</hint> <code>d:n</code>
+					<hint>(none – see source code)</hint><code>d:n</code>
 					<div class="d:f ai:b mb:.5r">
 						<div class="ta:r p:.25r bgc:b c:w bw:thin bc:b">flex</div>
-						<div class="fg:1 p:.25r bw:thin">(added flex-grow: 1)</div> <code class="ml:.25r">d:f</code> </div>
+						<div class="fg:1 p:.25r bw:thin">(added flex-grow: 1)</div><code class="ml:.25r">d:f</code></div>
 					<div class="d:if ai:b mb:.5r">
 						<div class="py:.25r pl:.25r bgc:b c:w bw:thin bc:b">inline-</div>
-						<div class="py:.25r pr:.25r bw:thin">flex</div> <code class="ml:.25r">d:f</code> </div>
+						<div class="py:.25r pr:.25r bw:thin">flex</div><code class="ml:.25r">d:f</code></div>
 					<div class="d:t">
 						<div class="d:tr">
 							<div class="d:tc p:.5r bbw:thin brw:thin">table <code>d:t</code></div>
@@ -557,186 +564,196 @@
 					<h3 class="d:ib ff:m bgc:b c:w p:1r">position</h3>
 					<responsivestyles></responsivestyles>
 				</header>
-				<div><span class="p:s fs:1.5r">static</span> <code>p:s</code></div>
-				<div><span class="p:r l:-1r fs:1.5r">relative</span> <code>p:r</code></div>
-				<div><span class="p:a r:1r fs:1.5r">absolute</span> <code>p:a</code></div>
+				<div><span class="p:s fs:1.5r">static</span><code>p:s</code></div>
+				<div><span class="p:r l:-1r fs:1.5r">relative</span><code>p:r</code></div>
+				<div><span class="p:a r:1r fs:1.5r">absolute</span><code>p:a</code></div>
 				<div>
-					<nav>
-						<a class="p:f zi:2 b:1r r:1r h:4r w:4r br:100% bgc:w.8 d:f ai:c jc:c bs:.125r bs:.5r:h o:.8:h" href="#top" style="-webkit-backdrop-filter: blur(.125rem)"> <svg data-icon="chevronUp" viewBox="0 0 32 32" class="h:1r w:1r">
+					<nav> <a class="p:f zi:2 b:1r r:1r h:4r w:4r br:100% bgc:w.8 d:f ai:c jc:c bs:.125r bs:.5r:h o:.8:h" href="#top" style="-webkit-backdrop-filter: blur(.125rem)"><svg data-icon="chevronUp" viewBox="0 0 32 32" class="h:1r w:1r">
 								<title>Arrow pointing upwards</title>
 								<path d="M1 20 L16 6 L31 20 L27 24 L16 14 L5 24 z"></path>
-							</svg> </a>
-					</nav>
-					<hint>(fixed – see source code)</hint> <code>p:f</code></div>
+							</svg></a> </nav>
+					<hint>(fixed – see source code)</hint><code>p:f</code></div>
 			</article>
 			<article id="layout__z-index">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">z-index</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">z-index</h3></header>
 				<div class="ta:c">
-					<div><span class="zi:40 p:r r:1r py:.5r px:2r bw:thin bgc:b.9 c:w w:4r fs:1.5r">40</span> <code>zi:40</code></div>
-					<div><span class="zi:30 p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.8 c:w fs:1.5r">30</span> <code>zi:30</code></div>
-					<div><span class="zi:20 p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.7 c:w fs:1.5r">20</span> <code>zi:20</code></div>
-					<div><span class="zi:10 p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.6 c:w fs:1.5r">10</span> <code>zi:10</code></div>
-					<div><span class="zi:-10 p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.5 c:w fs:1.5r">-10</span> <code>zi:-10</code></div>
-					<div><span class="zi:-20 p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.4 c:w fs:1.5r">-20</span> <code>zi:-20</code></div>
-					<div><span class="zi:-30 p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.3 c:w fs:1.5r">-30</span> <code>zi:-30</code></div>
-					<div><span class="zi:-40 p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.2 c:w fs:1.5r">-40</span> <code>zi:-40</code></div>
+					<div><span class="zi:40 p:r r:1r py:.5r px:2r bw:thin bgc:b.9 c:w w:4r fs:1.5r">40</span><code>zi:40</code></div>
+					<div><span class="zi:30 p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.8 c:w fs:1.5r">30</span><code>zi:30</code></div>
+					<div><span class="zi:20 p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.7 c:w fs:1.5r">20</span><code>zi:20</code></div>
+					<div><span class="zi:10 p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.6 c:w fs:1.5r">10</span><code>zi:10</code></div>
+					<div><span class="zi:-10 p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.5 c:w fs:1.5r">-10</span><code>zi:-10</code></div>
+					<div><span class="zi:-20 p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.4 c:w fs:1.5r">-20</span><code>zi:-20</code></div>
+					<div><span class="zi:-30 p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.3 c:w fs:1.5r">-30</span><code>zi:-30</code></div>
+					<div><span class="zi:-40 p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b.2 c:w fs:1.5r">-40</span><code>zi:-40</code></div>
+				</div>
+			</article>
+			<article id="layout__vertical-align">
+				<header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">vertical-align</h3></header>
+				<div>
+					<div><span class="fs:2r">initial (baseline)</span><code class="va:i">va:i</code></div>
+					<div><span class="fs:2r">top</span><code class="va:t">va:t</code></div>
+					<div><span class="fs:2r">middle</span><code class="va:m">va:m</code></div>
+					<div><span class="fs:2r">bottom</span><code class="va:b">va:m</code></div>
+					<div><span class="fs:2r">super</span><code class="va:super">va:super</code></div>
+					<div><span class="fs:2r">sub</span><code class="va:sub">va:sub</code></div>
 				</div>
 			</article>
 			<article id="layout__top">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">top</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">top</h3></header>
 				<div class="ox:s ws:nw brw:medium brw:0@XL py:4r">
 					<div class="p:a w:90% btw:thin bc:cyan"></div>
-					<div class="btw:thin d:ib p:r t:-4r p:.5r"><span>-4rem</span> <code>t:-4r</code></div>
-					<div class="btw:thin d:ib p:r t:-2r p:.5r"><span>-2rem</span> <code>t:-2r</code></div>
-					<div class="btw:thin d:ib p:r t:-1r p:.5r"><span>-1rem</span> <code>t:-1r</code></div>
-					<div class="btw:thin d:ib p:r t:-.5r p:.5r"><span>-.5rem</span> <code>t:-.5r</code></div>
-					<div class="btw:thin d:ib p:r t:-.25r p:.5r"><span>-.25rem</span> <code>t:-.25r</code></div>
-					<div class="btw:thin d:ib p:r t:0 p:.5r"><span>0</span> <code>t:0</code></div>
-					<div class="btw:thin d:ib p:r t:.25r p:.5r"><span>.25rem</span> <code>t:.25r</code></div>
-					<div class="btw:thin d:ib p:r t:.5r p:.5r"><span>.5rem</span> <code>t:.5r</code></div>
-					<div class="btw:thin d:ib p:r t:1r p:.5r"><span>1rem</span> <code>t:1r</code></div>
-					<div class="btw:thin d:ib p:r t:2r p:.5r"><span>2rem</span> <code>t:2r</code></div>
-					<div class="btw:thin d:ib p:r t:4r p:.5r"><span>4rem</span> <code>t:4r</code></div>
+					<div class="btw:thin d:ib p:r t:-4r p:.5r"><span>-4rem</span><code>t:-4r</code></div>
+					<div class="btw:thin d:ib p:r t:-2r p:.5r"><span>-2rem</span><code>t:-2r</code></div>
+					<div class="btw:thin d:ib p:r t:-1r p:.5r"><span>-1rem</span><code>t:-1r</code></div>
+					<div class="btw:thin d:ib p:r t:-.5r p:.5r"><span>-.5rem</span><code>t:-.5r</code></div>
+					<div class="btw:thin d:ib p:r t:-.25r p:.5r"><span>-.25rem</span><code>t:-.25r</code></div>
+					<div class="btw:thin d:ib p:r t:0 p:.5r"><span>0</span><code>t:0</code></div>
+					<div class="btw:thin d:ib p:r t:.25r p:.5r"><span>.25rem</span><code>t:.25r</code></div>
+					<div class="btw:thin d:ib p:r t:.5r p:.5r"><span>.5rem</span><code>t:.5r</code></div>
+					<div class="btw:thin d:ib p:r t:1r p:.5r"><span>1rem</span><code>t:1r</code></div>
+					<div class="btw:thin d:ib p:r t:2r p:.5r"><span>2rem</span><code>t:2r</code></div>
+					<div class="btw:thin d:ib p:r t:4r p:.5r"><span>4rem</span><code>t:4r</code></div>
 				</div>
 			</article>
 			<article id="layout__right">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">right</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">right</h3></header>
 				<div class="d:ib brw:thin bc:cyan ox:v ta:r">
-					<div class="brw:thin p:r r:-4r p:.5r"><span>-4rem</span> <code>r:-4r</code></div>
-					<div class="brw:thin p:r r:-2r p:.5r"><span>-2rem</span> <code>r:-2r</code></div>
-					<div class="brw:thin p:r r:-1r p:.5r"><span>-1rem</span> <code>r:-1r</code></div>
-					<div class="brw:thin p:r r:-.5r p:.5r"><span>-.5rem</span> <code>r:-.5r</code></div>
-					<div class="brw:thin p:r r:-.25r p:.5r"><span>-.25rem</span> <code>r:-.25r</code></div>
-					<div class="brw:thin p:r r:0 p:.5r"><span>0</span> <code>r:0</code></div>
-					<div class="brw:thin p:r r:.25r p:.5r"><span>.25rem</span> <code>r:.25r</code></div>
-					<div class="brw:thin p:r r:.5r p:.5r"><span>.5rem</span> <code>r:.5r</code></div>
-					<div class="brw:thin p:r r:1r p:.5r"><span>1rem</span> <code>r:1r</code></div>
-					<div class="brw:thin p:r r:2r p:.5r"><span>2rem</span> <code>r:2r</code></div>
-					<div class="brw:thin p:r r:4r p:.5r"><span>4rem</span> <code>r:4r</code></div>
+					<div class="brw:thin p:r r:-4r p:.5r"><span>-4rem</span><code>r:-4r</code></div>
+					<div class="brw:thin p:r r:-2r p:.5r"><span>-2rem</span><code>r:-2r</code></div>
+					<div class="brw:thin p:r r:-1r p:.5r"><span>-1rem</span><code>r:-1r</code></div>
+					<div class="brw:thin p:r r:-.5r p:.5r"><span>-.5rem</span><code>r:-.5r</code></div>
+					<div class="brw:thin p:r r:-.25r p:.5r"><span>-.25rem</span><code>r:-.25r</code></div>
+					<div class="brw:thin p:r r:0 p:.5r"><span>0</span><code>r:0</code></div>
+					<div class="brw:thin p:r r:.25r p:.5r"><span>.25rem</span><code>r:.25r</code></div>
+					<div class="brw:thin p:r r:.5r p:.5r"><span>.5rem</span><code>r:.5r</code></div>
+					<div class="brw:thin p:r r:1r p:.5r"><span>1rem</span><code>r:1r</code></div>
+					<div class="brw:thin p:r r:2r p:.5r"><span>2rem</span><code>r:2r</code></div>
+					<div class="brw:thin p:r r:4r p:.5r"><span>4rem</span><code>r:4r</code></div>
 				</div>
 			</article>
 			<article id="layout__bottom">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">bottom</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">bottom</h3></header>
 				<div class="ox:s ws:nw  brw:medium brw:0@XL py:4r">
-					<div class="bbw:thin d:ib p:r b:-4r p:.5r"><span>-4rem</span> <code>b:-4r</code></div>
-					<div class="bbw:thin d:ib p:r b:-2r p:.5r"><span>-2rem</span> <code>b:-2r</code></div>
-					<div class="bbw:thin d:ib p:r b:-1r p:.5r"><span>-1rem</span> <code>b:-1r</code></div>
-					<div class="bbw:thin d:ib p:r b:-.5r p:.5r"><span>-.5rem</span> <code>b:-.5r</code></div>
-					<div class="bbw:thin d:ib p:r b:-.25r p:.5r"><span>-.25rem</span> <code>b:-.25r</code></div>
-					<div class="bbw:thin d:ib p:r b:0 p:.5r"><span>0</span> <code>b:0</code></div>
-					<div class="bbw:thin d:ib p:r b:.25r p:.5r"><span>.25rem</span> <code>b:.25r</code></div>
-					<div class="bbw:thin d:ib p:r b:.5r p:.5r"><span>.5rem</span> <code>b:.5r</code></div>
-					<div class="bbw:thin d:ib p:r b:1r p:.5r"><span>1rem</span> <code>b:1r</code></div>
-					<div class="bbw:thin d:ib p:r b:2r p:.5r"><span>2rem</span> <code>b:2r</code></div>
-					<div class="bbw:thin d:ib p:r b:4r p:.5r"><span>4rem</span> <code>b:4r</code></div>
+					<div class="bbw:thin d:ib p:r b:-4r p:.5r"><span>-4rem</span><code>b:-4r</code></div>
+					<div class="bbw:thin d:ib p:r b:-2r p:.5r"><span>-2rem</span><code>b:-2r</code></div>
+					<div class="bbw:thin d:ib p:r b:-1r p:.5r"><span>-1rem</span><code>b:-1r</code></div>
+					<div class="bbw:thin d:ib p:r b:-.5r p:.5r"><span>-.5rem</span><code>b:-.5r</code></div>
+					<div class="bbw:thin d:ib p:r b:-.25r p:.5r"><span>-.25rem</span><code>b:-.25r</code></div>
+					<div class="bbw:thin d:ib p:r b:0 p:.5r"><span>0</span><code>b:0</code></div>
+					<div class="bbw:thin d:ib p:r b:.25r p:.5r"><span>.25rem</span><code>b:.25r</code></div>
+					<div class="bbw:thin d:ib p:r b:.5r p:.5r"><span>.5rem</span><code>b:.5r</code></div>
+					<div class="bbw:thin d:ib p:r b:1r p:.5r"><span>1rem</span><code>b:1r</code></div>
+					<div class="bbw:thin d:ib p:r b:2r p:.5r"><span>2rem</span><code>b:2r</code></div>
+					<div class="bbw:thin d:ib p:r b:4r p:.5r"><span>4rem</span><code>b:4r</code></div>
 					<div class="p:a w:90% bbw:thin bc:cyan"></div>
 				</div>
 			</article>
 			<article id="layout__left">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">left</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">left</h3></header>
 				<div class="blw:thin bc:cyan ox:v ml:4r">
-					<div class="blw:thin p:r l:-4r p:.5r"><span>-4rem</span> <code>l:-4r</code></div>
-					<div class="blw:thin p:r l:-2r p:.5r"><span>-2rem</span> <code>l:-2r</code></div>
-					<div class="blw:thin p:r l:-1r p:.5r"><span>-1rem</span> <code>l:-1r</code></div>
-					<div class="blw:thin p:r l:-.5r p:.5r"><span>-.5rem</span> <code>l:-.5r</code></div>
-					<div class="blw:thin p:r l:-.25r p:.5r"><span>-.25rem</span> <code>l:-.25r</code></div>
-					<div class="blw:thin p:r l:0 p:.5r"><span>0</span> <code>l:0</code></div>
-					<div class="blw:thin p:r l:.25r p:.5r"><span>.25rem</span> <code>l:.25r</code></div>
-					<div class="blw:thin p:r l:.5r p:.5r"><span>.5rem</span> <code>l:.5r</code></div>
-					<div class="blw:thin p:r l:1r p:.5r"><span>1rem</span> <code>l:1r</code></div>
-					<div class="blw:thin p:r l:2r p:.5r"><span>2rem</span> <code>l:2r</code></div>
-					<div class="blw:thin p:r l:4r p:.5r d:ib"><span>4rem</span> <code>l:4r</code></div>
+					<div class="blw:thin p:r l:-4r p:.5r"><span>-4rem</span><code>l:-4r</code></div>
+					<div class="blw:thin p:r l:-2r p:.5r"><span>-2rem</span><code>l:-2r</code></div>
+					<div class="blw:thin p:r l:-1r p:.5r"><span>-1rem</span><code>l:-1r</code></div>
+					<div class="blw:thin p:r l:-.5r p:.5r"><span>-.5rem</span><code>l:-.5r</code></div>
+					<div class="blw:thin p:r l:-.25r p:.5r"><span>-.25rem</span><code>l:-.25r</code></div>
+					<div class="blw:thin p:r l:0 p:.5r"><span>0</span><code>l:0</code></div>
+					<div class="blw:thin p:r l:.25r p:.5r"><span>.25rem</span><code>l:.25r</code></div>
+					<div class="blw:thin p:r l:.5r p:.5r"><span>.5rem</span><code>l:.5r</code></div>
+					<div class="blw:thin p:r l:1r p:.5r"><span>1rem</span><code>l:1r</code></div>
+					<div class="blw:thin p:r l:2r p:.5r"><span>2rem</span><code>l:2r</code></div>
+					<div class="blw:thin p:r l:4r p:.5r d:ib"><span>4rem</span><code>l:4r</code></div>
 				</div>
 			</article>
 			<article id="layout__float">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">float</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">float</h3></header>
 				<div class="fw:900">
-					<div class="py:.5r"><span class="f:n fs:1.5r px:.5r bw:thin d:ib">none</span> <code class="fw:i">f:n</code> </div>
-					<div class="py:.5r byw:thin bc:b.05"><span class="f:l fs:1.5r px:.5r bw:thin d:ib">left</span> <code class="fw:i">f:l</code></div>
-					<div class="py:.5r bbw:thin bc:b.05"><span class="f:r fs:1.5r px:.5r bw:thin d:ib">right</span> <code class="fw:i">f:r</code></div>
+					<div class="py:.5r"><span class="f:n fs:1.5r px:.5r bw:thin d:ib">none</span><code class="fw:i">f:n</code></div>
+					<div class="py:.5r byw:thin bc:b.05"><span class="f:l fs:1.5r px:.5r bw:thin d:ib">left</span><code class="fw:i">f:l</code></div>
+					<div class="py:.5r bbw:thin bc:b.05"><span class="f:r fs:1.5r px:.5r bw:thin d:ib">right</span><code class="fw:i">f:r</code></div>
 				</div>
 			</article>
 			<article id="layout__overflow" class="o:h">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">overflow</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">overflow</h3></header>
 				<div class="fw:900 d:f fw:w">
-					<div class="o:a w:8r h:8r bw:medium d:ib"><span class="fs:4r">auto</span> <code class="fw:i">o:a</code>
+					<div class="o:a w:8r h:8r bw:medium d:ib"><span class="fs:4r">auto</span><code class="fw:i">o:a</code>
 						<div class="w:16r h:8r bgc:b"></div>
 					</div>
-					<div class="o:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">hidden</span> <code class="fw:i">o:h</code> <span class="fs:i ff:s fw:i c:b.3">(hidden)</span> </div>
-					<div class="o:s w:8r h:8r bw:medium d:ib"><span class="fs:4r">scroll</span> <code class="fw:i">o:s</code>
+					<div class="o:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">hidden</span><code class="fw:i">o:h</code><span class="fs:i ff:s fw:i c:b.3">(hidden)</span></div>
+					<div class="o:s w:8r h:8r bw:medium d:ib"><span class="fs:4r">scroll</span><code class="fw:i">o:s</code>
 						<div class="w:16r h:8r bgc:b"></div>
 					</div>
-					<div class="o:v w:8r h:8r bw:medium d:ib"><span class="fs:4r">visible</span> <code class="fw:i">o:v</code>
+					<div class="o:v w:8r h:8r bw:medium d:ib"><span class="fs:4r">visible</span><code class="fw:i">o:v</code>
 						<div class="w:16r h:8r bgc:b"></div>
 					</div>
 				</div>
 			</article>
 			<article id="layout__overflow-x" class="o:h">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">overflow-x</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">overflow-x</h3></header>
 				<div class="fw:900 d:f fw:w">
-					<div class="ox:a oy:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">auto</span> <code class="fw:i">ox:a</code>
+					<div class="ox:a oy:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">auto</span><code class="fw:i">ox:a</code>
 						<div class="w:16r h:8r bgc:b"></div>
 					</div>
-					<div class="ox:h oy:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">hidden</span> <code class="fw:i">ox:h</code> <span class="fs:i ff:s fw:i c:b.3">(hidden)</span>
+					<div class="ox:h oy:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">hidden</span><code class="fw:i">ox:h</code><span class="fs:i ff:s fw:i c:b.3">(hidden)</span>
 						<div class="w:16r h:8r bgc:b"></div>
 					</div>
-					<div class="ox:s oy:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">scroll</span> <code class="fw:i">ox:s</code>
+					<div class="ox:s oy:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">scroll</span><code class="fw:i">ox:s</code>
 						<div class="w:16r h:8r bgc:b"></div>
 					</div>
-					<div class="ox:v w:8r h:8r bw:medium d:ib"><span class="fs:4r">visible</span> <code class="fw:i">ox:v</code>
+					<div class="ox:v w:8r h:8r bw:medium d:ib"><span class="fs:4r">visible</span><code class="fw:i">ox:v</code>
 						<div class="w:16r h:8r bgc:b"></div>
 					</div>
 				</div>
 			</article>
 			<article id="layout__overflow-y" class="o:h">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">overflow-y</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">overflow-y</h3></header>
 				<div class="fw:900 d:f fw:w">
-					<div class="oy:a ox:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">auto</span> <code class="fw:i">oy:a</code>
+					<div class="oy:a ox:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">auto</span><code class="fw:i">oy:a</code>
 						<div class="w:16r h:8r bgc:b"></div>
 					</div>
-					<div class="oy:h ox:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">hidden</span> <code class="fw:i">oy:h</code> <span class="fs:i ff:s fw:i c:b.3">(hidden)</span> </div>
-					<div class="oy:s ox:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">scroll</span> <code class="fw:i">oy:s</code>
+					<div class="oy:h ox:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">hidden</span><code class="fw:i">oy:h</code><span class="fs:i ff:s fw:i c:b.3">(hidden)</span></div>
+					<div class="oy:s ox:h w:8r h:8r bw:medium d:ib"><span class="fs:4r">scroll</span><code class="fw:i">oy:s</code>
 						<div class="w:16r h:8r bgc:b"></div>
 					</div>
-					<div class="oy:v w:8r h:8r bw:medium d:ib"><span class="fs:4r">visible</span> <code class="fw:i">oy:v</code>
+					<div class="oy:v w:8r h:8r bw:medium d:ib"><span class="fs:4r">visible</span><code class="fw:i">oy:v</code>
 						<div class="w:16r h:8r bgc:b"></div>
 					</div>
 				</div>
 			</article>
 			<article id="layout__white-space" class="o:h">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">white-space</h3> </header>
-				<div class="ws:n lh:1"><span class="fs:2r fs:4r@M">normal</span> <code>ws:n</code> <span class="c:b.2 fw:200 fs:2r fs:4r@M">normal normal normal normal normal normal normal</span></div>
-				<div class="ws:nw ox:s brw:medium"><span class="fs:2r fs:4r@M">nowrap</span> <code>ws:nw</code> <span class="c:b.2 fw:200 fs:2r fs:4r@M">nowrap nowrap nowrap nowrap nowrap nowrap nowrap nowrap nowrap</span></div>
-				<div class="ws:p"><span class="fs:2r fs:4r@M">pre</span> <code>ws:p</code> <span class="c:b.2 fw:200 fs:2r fs:4r@M">   &middot;   pre   &middot;   pre</span></div>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">white-space</h3></header>
+				<div class="ws:n lh:1"><span class="fs:2r fs:4r@M">normal</span><code>ws:n</code><span class="c:b.2 fw:200 fs:2r fs:4r@M">normal normal normal normal normal normal normal</span></div>
+				<div class="ws:nw ox:s brw:medium"><span class="fs:2r fs:4r@M">nowrap</span><code>ws:nw</code><span class="c:b.2 fw:200 fs:2r fs:4r@M">nowrap nowrap nowrap nowrap nowrap nowrap nowrap nowrap nowrap</span></div>
+				<div class="ws:p"><span class="fs:2r fs:4r@M">pre</span><code>ws:p</code><span class="c:b.2 fw:200 fs:2r fs:4r@M">  &middot;   pre   &middot;   pre</span></div>
 			</article>
 			<article id="layout__visibility">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">visibility</h3> </header>
-				<div><span class="v:v">visible</span> <code>v:v</code></div>
-				<div><span class="v:h">hidden</span> <code>v:h</code>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">visibility</h3></header>
+				<div><span class="v:v">visible</span><code>v:v</code></div>
+				<div><span class="v:h">hidden</span><code>v:h</code>
 					<hint>(hidden – see source code)</hint>
 				</div>
-				<div><span class="v:c">collapse</span> <code>v:c</code>
+				<div><span class="v:c">collapse</span><code>v:c</code>
 					<hint>(collapse – see source code)</hint>
 				</div>
-				<div><span class="v:h v:v:h">visible on hover</span> <code>v:h</code> + <code>v:v:h</code>
+				<div><span class="v:h v:v:h">visible on hover</span><code>v:h</code>+ <code>v:v:h</code>
 					<hint>(visible on hover – see source code)</hint>
 				</div>
 			</article>
 		</section>
 		<section id="layout__flexbox">
 			<header>
-				<h2 class="pl:2r fs:4r@L fw:100@L mt:4r">Flexbox</h2> </header>
+				<h2 class="pl:2r fs:4r@L fw:100@L mt:4r">Flexbox</h2></header>
 			<article id="layout__flex-direction">
 				<header class="p:r mb:2r">
 					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-direction</h3>
@@ -774,7 +791,7 @@
 			</article>
 			<article id="layout__flex-wrap">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-wrap</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-wrap</h3></header>
 				<div class="mb>*:1r d:f fw:w mr>*:1r">
 					<div class="d:f fw:nw mw:16r p:2r bw:medium ox:s">
 						<div class="mr:1r">nowrap (default) <code>fw:nw</code></div>
@@ -825,7 +842,7 @@
 			</article>
 			<article id="layout__justify-content">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">justify-content</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">justify-content</h3></header>
 				<div class="mb>*:1r d:f fw:w mr>*:1r">
 					<div class="d:f jc:fs fw:w mw:16r p:2r bw:medium">
 						<div class="mr:1r">flex-start <code>jc:fs</code></div>
@@ -944,7 +961,7 @@
 			</article>
 			<article id="layout__align-self">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">align-self</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">align-self</h3></header>
 				<div class="mb>*:1r d:f fw:w">
 					<div class="mb>*:1r d:f fw:w">
 						<div class="d:f ai:c fw:w mw:16r bw:medium h:16r mr:1r">
@@ -964,18 +981,18 @@
 			</article>
 			<article id="layout__flex-grow">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-grow</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-grow</h3></header>
 				<div class="d:f ta:c ox:s">
 					<div class="fg:0 bxw:medium p:1r bs:.125r:h">0 <code>fg:0</code></div>
 					<div class="fg:1 brw:medium p:1r bs:.125r:h">1 <code>fg:1</code></div>
 					<div class="fg:2 brw:medium p:1r bs:.125r:h">2 <code>fg:2</code></div>
 					<div class="fg:4 brw:medium p:1r bs:.125r:h">4 <code>fg:4</code></div>
 				</div>
-				<hint> View this demo on a larger screen, to show the effect.</hint>
+				<hint>View this demo on a larger screen, to show the effect.</hint>
 			</article>
 			<article id="layout__flex-shrink">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-shrink</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-shrink</h3></header>
 				<div class="mb>*:1r">
 					<div class="d:f">
 						<div class="fb:50% bgc:b p:1r"></div>
@@ -1001,64 +1018,64 @@
 			</article>
 			<article id="layout__flex-basis">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-basis</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">flex-basis</h3></header>
 				<div class="d:f fw:w mb>*:.5r">
-					<div class="fb:a c:w bgc:b d:ib">auto</div> <code>fb:a</code>
+					<div class="fb:a c:w bgc:b d:ib">auto</div><code>fb:a</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:10% c:w bgc:b d:ib">10%</div> <code>fb:10%</code>
+					<div class="fb:10% c:w bgc:b d:ib">10%</div><code>fb:10%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:20% c:w bgc:b d:ib">20%</div> <code>fb:20%</code>
+					<div class="fb:20% c:w bgc:b d:ib">20%</div><code>fb:20%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:25% c:w bgc:b.8 d:ib">25% (&frac14;)</div> <code>fb:25%</code>
+					<div class="fb:25% c:w bgc:b.8 d:ib">25% (&frac14;)</div><code>fb:25%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:30% c:w bgc:b d:ib">30%</div> <code>fb:30%</code>
+					<div class="fb:30% c:w bgc:b d:ib">30%</div><code>fb:30%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:33% c:w bgc:b.8 d:ib">33.3333% (&frac13;)</div> <code>fb:33%</code>
+					<div class="fb:33% c:w bgc:b.8 d:ib">33.3333% (&frac13;)</div><code>fb:33%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:40% c:w bgc:b d:ib">40%</div> <code>fb:40%</code>
+					<div class="fb:40% c:w bgc:b d:ib">40%</div><code>fb:40%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:50% c:w bgc:b d:ib">50% (&frac12;)</div> <code class="mr:8r">fb:50%</code>
+					<div class="fb:50% c:w bgc:b d:ib">50% (&frac12;)</div><code class="mr:8r">fb:50%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:60% c:w bgc:b d:ib">60%</div> <code>fb:60%</code>
+					<div class="fb:60% c:w bgc:b d:ib">60%</div><code>fb:60%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:66% c:w bgc:b.8 d:ib">66.6666% (&frac23;)</div> <code>fb:66%</code>
+					<div class="fb:66% c:w bgc:b.8 d:ib">66.6666% (&frac23;)</div><code>fb:66%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:70% c:w bgc:b d:ib">70%</div> <code>fb:70%</code>
+					<div class="fb:70% c:w bgc:b d:ib">70%</div><code>fb:70%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:75% c:w bgc:b.8 d:ib">75% (&frac34;)</div> <code>fb:75%</code>
+					<div class="fb:75% c:w bgc:b.8 d:ib">75% (&frac34;)</div><code>fb:75%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:80% c:w bgc:b d:ib">80%</div> <code>fb:80%</code>
+					<div class="fb:80% c:w bgc:b d:ib">80%</div><code>fb:80%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:90% c:w bgc:b d:ib">90%</div> <code>fb:90%</code>
+					<div class="fb:90% c:w bgc:b d:ib">90%</div><code>fb:90%</code>
 					<div class="fb:100% btw:thin bc:w"></div>
-					<div class="fb:100% c:w bgc:b d:ib">100%</div> <code>fb:100%</code> </div>
+					<div class="fb:100% c:w bgc:b d:ib">100%</div><code>fb:100%</code></div>
 			</article>
 			<article id="layout__order">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">order</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">order</h3></header>
 				<div class="d:f fd:c fd:r@M ai:c fw:w mb>*:.5r mr>*:1r">
 					<div class="o:4">
-						<div class="d:ib p:1r bgc:b c:w">4</div> <code>o:4</code></div>
+						<div class="d:ib p:1r bgc:b c:w">4</div><code>o:4</code></div>
 					<div class="o:3">
-						<div class="d:ib p:1r bgc:b c:w">3</div> <code>o:3</code></div>
+						<div class="d:ib p:1r bgc:b c:w">3</div><code>o:3</code></div>
 					<div class="o:2">
-						<div class="d:ib p:1r bgc:b c:w">2</div> <code>o:2</code></div>
+						<div class="d:ib p:1r bgc:b c:w">2</div><code>o:2</code></div>
 					<div class="o:1">
-						<div class="d:ib p:1r bgc:b c:w">1</div> <code>o:1</code></div>
+						<div class="d:ib p:1r bgc:b c:w">1</div><code>o:1</code></div>
 					<div class="o:-1">
-						<div class="d:ib p:1r bgc:b c:w">-1</div> <code>o:-1</code></div>
+						<div class="d:ib p:1r bgc:b c:w">-1</div><code>o:-1</code></div>
 					<div class="o:-2">
-						<div class="d:ib p:1r bgc:b c:w">-2</div> <code>o:-2</code></div>
+						<div class="d:ib p:1r bgc:b c:w">-2</div><code>o:-2</code></div>
 					<div class="o:-3">
-						<div class="d:ib p:1r bgc:b c:w">-3</div> <code>o:-3</code></div>
+						<div class="d:ib p:1r bgc:b c:w">-3</div><code>o:-3</code></div>
 					<div class="o:-4">
-						<div class="d:ib p:1r bgc:b c:w">-4</div> <code>o:-4</code></div>
+						<div class="d:ib p:1r bgc:b c:w">-4</div><code>o:-4</code></div>
 				</div>
 			</article>
 		</section>
 		<section id="theme">
 			<header>
-				<h2 class="pl:2r fs:4r@L fw:100@L mt:4r">Theming</h2> </header>
+				<h2 class="pl:2r fs:4r@L fw:100@L mt:4r">Theming</h2></header>
 			<article id="theme__border-width">
 				<header class="p:r">
 					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-width</h3>
@@ -1084,48 +1101,48 @@
 				<div class="blw:thick py:.5r pl:.5r d:ib@M mr:1r mb:.5r">thick <code>blw:thick</code></div>
 				<div class="blw:medium py:.5r pl:.5r d:ib@M mr:1r mb:.5r">medium <code>blw:medium</code></div>
 				<div class="blw:thin py:.5r pl:.5r d:ib@M mr:1r">thin <code>blw:thin</code></div>
-				<h4 class="mt:1r"><code>border-left-width</code> + <code>border-right-width</code> (x-axis)</h4>
+				<h4 class="mt:1r"><code>border-left-width</code>+ <code>border-right-width</code>(x-axis)</h4>
 				<div class="bxw:thick p:.5r d:ib@M mr:1r mb:.5r">thick <code>bxw:thick</code></div>
 				<div class="bxw:medium p:.5r d:ib@M mr:1r mb:.5r">medium <code>bxw:medium</code></div>
 				<div class="bxw:thin p:.5r px:.5r d:ib@M mr:1r mb:2r">thin <code>bxw:thin</code></div>
-				<h4 class="mt:1r"><code>border-top-width</code> + <code>border-bottom-width</code> (y-axis)</h4>
+				<h4 class="mt:1r"><code>border-top-width</code>+ <code>border-bottom-width</code>(y-axis)</h4>
 				<div class="byw:thick py:.5r d:ib@M mr:1r mb:.5r">thick <code>byw:thick</code></div>
 				<div class="byw:medium py:.5r d:ib@M mr:1r mb:.5r">medium <code>byw:medium</code></div>
 				<div class="byw:thin py:.5r d:ib@M mr:1r mb:2r">thin <code>byw:thin</code></div>
 			</article>
 			<article id="theme__border-style">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-style</h3> </header>
-				<div class="p:2r bw:medium bs:n bgc:b.05 d:ib">none</div> <code>bs:n</code> <br>
-				<div class="p:2r bw:medium bs:s d:ib">solid</div> <code>bs:s</code> <br>
-				<div class="p:2r bw:medium bs:d d:ib">dotted</div> <code>bs:d</code> </article>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-style</h3></header>
+				<div class="p:2r bw:medium bs:n bgc:b.05 d:ib">none</div><code>bs:n</code><br>
+				<div class="p:2r bw:medium bs:s d:ib">solid</div><code>bs:s</code><br>
+				<div class="p:2r bw:medium bs:d d:ib">dotted</div><code>bs:d</code></article>
 			<article id="theme__border-radius">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-radius</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-radius</h3></header>
 				<section>
 					<h4>border-radius</h4>
-					<div class="br:.25r p:.5r c:w bgc:b d:ib">.25rem <code>br:.25r</code> </div>
-					<div class="br:.5r p:.5r c:w bgc:b d:ib">.5rem <code>br:.5r</code> </div>
-					<div class="br:1r p:.5r c:w bgc:b d:ib">1rem <code>br:1r</code> </div>
-					<div class="br:2r p:.5r c:w bgc:b d:ib">2rem <code>br:2r</code> </div>
-					<div class="br:100% mt:1r p:.5r c:w bgc:b d:ib h:8r w:8r d:f fd:c ai:c jc:c">100% <code>br:100%</code> </div>
+					<div class="br:.25r p:.5r c:w bgc:b d:ib">.25rem <code>br:.25r</code></div>
+					<div class="br:.5r p:.5r c:w bgc:b d:ib">.5rem <code>br:.5r</code></div>
+					<div class="br:1r p:.5r c:w bgc:b d:ib">1rem <code>br:1r</code></div>
+					<div class="br:2r p:.5r c:w bgc:b d:ib">2rem <code>br:2r</code></div>
+					<div class="br:100% mt:1r p:.5r c:w bgc:b d:ib h:8r w:8r d:f fd:c ai:c jc:c">100% <code>br:100%</code></div>
 				</section>
 				<hr>
 				<section>
 					<h4>border-bottom-right-radius, border-bottom-left-radius, <br>border-top-right-radius, border-top-left-radius</h4>
 					<div>
-						<div class="br:1r bbrr:0 p:.5r c:w bgc:b d:ib"> 0 <code>bbrr:0</code> </div>
-						<div class="br:1r bblr:0 p:.5r c:w bgc:b d:ib mb:.25r"> 0 <code>bblr:0</code> </div> <br>
-						<div class="br:1r btrr:0 p:.5r c:w bgc:b d:ib"> 0 <code>btrr:0</code> </div>
-						<div class="br:1r btlr:0 p:.5r c:w bgc:b d:ib"> 0 <code>btlr:0</code> </div>
+						<div class="br:1r bbrr:0 p:.5r c:w bgc:b d:ib">0 <code>bbrr:0</code></div>
+						<div class="br:1r bblr:0 p:.5r c:w bgc:b d:ib mb:.25r">0 <code>bblr:0</code></div><br>
+						<div class="br:1r btrr:0 p:.5r c:w bgc:b d:ib">0 <code>btrr:0</code></div>
+						<div class="br:1r btlr:0 p:.5r c:w bgc:b d:ib">0 <code>btlr:0</code></div>
 					</div>
 				</section>
 				<hr>
 				<section>
 					<h4>border-top-right-radius + border-bottom-right-radius (right), <br>border-top-left-radius + border-bottom-left-radius (left)</h4>
 					<div>
-						<div class="br:1r brr:0 p:.5r c:w bgc:b d:ib"> 0 <code>brr:0</code> </div>
-						<div class="br:1r blr:0 p:.5r c:w bgc:b d:ib"> 0 <code>blr:0</code> </div>
+						<div class="br:1r brr:0 p:.5r c:w bgc:b d:ib">0 <code>brr:0</code></div>
+						<div class="br:1r blr:0 p:.5r c:w bgc:b d:ib">0 <code>blr:0</code></div>
 					</div>
 				</section>
 			</article>
@@ -1134,114 +1151,114 @@
 					<h3 class="d:ib ff:m bgc:b c:w p:1r">box-shadow</h3>
 					<hoverstyles></hoverstyles>
 				</header>
-				<p>Including <b>hover classes</b>: <code>bs:.25r:h</code> <br>Hover over the circles for a demo.</p>
+				<p>Including <b>hover classes</b>: <code>bs:.25r:h</code><br>Hover over the circles for a demo.</p>
 				<div class="d:f fw:w mr>*:1r">
-					<div class="bs:.0625r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">.0625rem <code>bs:.0625r</code> </div>
-					<div class="bs:.125r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">.125rem <code>bs:.125r</code> </div>
-					<div class="bs:.25r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">.25rem <code>bs:.25r</code> </div>
-					<div class="bs:.5r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">.5rem <code>bs:.5r</code> </div>
-					<div class="bs:1r bs:.25r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">1rem <code>bs:1r</code> </div>
+					<div class="bs:.0625r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">.0625rem <code>bs:.0625r</code></div>
+					<div class="bs:.125r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">.125rem <code>bs:.125r</code></div>
+					<div class="bs:.25r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">.25rem <code>bs:.25r</code></div>
+					<div class="bs:.5r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">.5rem <code>bs:.5r</code></div>
+					<div class="bs:1r bs:.25r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">1rem <code>bs:1r</code></div>
 				</div>
 			</article>
 			<article id="theme__color">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">color</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">color</h3></header>
 				<!-- transparent -->
-				<div class="p:1r c:t bw:thick fw:b ta:c"> <span class="c:b">transparent <small>(applied to border)</small></span> <br> <code class="c:b">c:t</code> </div>
+				<div class="p:1r c:t bw:thick fw:b ta:c"><span class="c:b">transparent <small>(applied to border)</small></span><br><code class="c:b">c:t</code></div>
 				<div class="d:f@M fw:w fw:b">
-					<div class="p:1r c:red bw:thick fb:20% ta:c"> red <br> <code>c:red</code> </div>
-					<div class="p:1r c:orange bw:thick fb:20% ta:c"> orange <br> <code>c:orange</code> </div>
-					<div class="p:1r c:yellow bw:thick fb:20% ta:c"> yellow <br> <code>c:yellow</code> </div>
-					<div class="p:1r c:lime bw:thick fb:20% ta:c"> lime <br> <code>c:lime</code> </div>
-					<div class="p:1r c:green bw:thick fb:20% ta:c"> green <br> <code>c:green</code> </div>
-					<div class="p:1r c:teal bw:thick fb:20% ta:c"> teal <br> <code>c:teal</code> </div>
-					<div class="p:1r c:cyan bw:thick fb:20% ta:c"> cyan <br> <code>c:cyan</code> </div>
-					<div class="p:1r c:blue bw:thick fb:20% ta:c"> blue <br> <code>c:blue</code> </div>
-					<div class="p:1r c:indigo bw:thick fb:20% ta:c"> indigo <br> <code>c:indigo</code> </div>
-					<div class="p:1r c:purple bw:thick fb:20% ta:c"> purple <br> <code>c:purple</code> </div>
-					<div class="p:1r c:violet bw:thick fb:20% ta:c"> violet <br> <code>c:violet</code> </div>
-					<div class="p:1r c:magenta bw:thick fb:20% ta:c"> magenta <br> <code>c:magenta</code> </div>
-					<div class="p:1r c:brown bw:thick fb:20% ta:c"> brown <br> <code>c:brown</code> </div>
+					<div class="p:1r c:red bw:thick fb:20% ta:c">red <br><code>c:red</code></div>
+					<div class="p:1r c:orange bw:thick fb:20% ta:c">orange <br><code>c:orange</code></div>
+					<div class="p:1r c:yellow bw:thick fb:20% ta:c">yellow <br><code>c:yellow</code></div>
+					<div class="p:1r c:lime bw:thick fb:20% ta:c">lime <br><code>c:lime</code></div>
+					<div class="p:1r c:green bw:thick fb:20% ta:c">green <br><code>c:green</code></div>
+					<div class="p:1r c:teal bw:thick fb:20% ta:c">teal <br><code>c:teal</code></div>
+					<div class="p:1r c:cyan bw:thick fb:20% ta:c">cyan <br><code>c:cyan</code></div>
+					<div class="p:1r c:blue bw:thick fb:20% ta:c">blue <br><code>c:blue</code></div>
+					<div class="p:1r c:indigo bw:thick fb:20% ta:c">indigo <br><code>c:indigo</code></div>
+					<div class="p:1r c:purple bw:thick fb:20% ta:c">purple <br><code>c:purple</code></div>
+					<div class="p:1r c:violet bw:thick fb:20% ta:c">violet <br><code>c:violet</code></div>
+					<div class="p:1r c:magenta bw:thick fb:20% ta:c">magenta <br><code>c:magenta</code></div>
+					<div class="p:1r c:brown bw:thick fb:20% ta:c">brown <br><code>c:brown</code></div>
 				</div>
 				<!-- shades of black -->
 				<div class="d:f@M fw:w fw:b c:w">
-					<div class="p:1r c:b bw:thick fb:20% ta:c"> black <br> <code>c:b</code> </div>
-					<div class="p:1r c:b.9 bw:thick fb:20% ta:c"> black .9 <br> <code>c:b.9</code> </div>
-					<div class="p:1r c:b.8 bw:thick fb:20% ta:c"> black .8 <br> <code>c:b.8</code> </div>
-					<div class="p:1r c:b.7 bw:thick fb:20% ta:c"> black .7 <br> <code>c:b.7</code> </div>
-					<div class="p:1r c:b.6 bw:thick fb:20% ta:c"> black .6 <br> <code>c:b.6</code> </div>
-					<div class="p:1r c:b.5 bw:thick fb:20% ta:c"> black .5 <br> <code>c:b.5</code> </div>
-					<div class="p:1r c:b.4 bw:thick fb:20% ta:c"> black .4 <br> <code>c:b.4</code> </div>
-					<div class="p:1r c:b.3 bw:thick fb:20% ta:c"> black .3 <br> <code>c:b.3</code> </div>
-					<div class="p:1r c:b.2 bw:thick fb:20% ta:c"> black .2 <br> <code>c:b.2</code> </div>
-					<div class="p:1r c:b.1 bw:thick fb:20% ta:c"> black .1 <br> <code>c:b.1</code> </div>
+					<div class="p:1r c:b bw:thick fb:20% ta:c">black <br><code>c:b</code></div>
+					<div class="p:1r c:b.9 bw:thick fb:20% ta:c">black .9 <br><code>c:b.9</code></div>
+					<div class="p:1r c:b.8 bw:thick fb:20% ta:c">black .8 <br><code>c:b.8</code></div>
+					<div class="p:1r c:b.7 bw:thick fb:20% ta:c">black .7 <br><code>c:b.7</code></div>
+					<div class="p:1r c:b.6 bw:thick fb:20% ta:c">black .6 <br><code>c:b.6</code></div>
+					<div class="p:1r c:b.5 bw:thick fb:20% ta:c">black .5 <br><code>c:b.5</code></div>
+					<div class="p:1r c:b.4 bw:thick fb:20% ta:c">black .4 <br><code>c:b.4</code></div>
+					<div class="p:1r c:b.3 bw:thick fb:20% ta:c">black .3 <br><code>c:b.3</code></div>
+					<div class="p:1r c:b.2 bw:thick fb:20% ta:c">black .2 <br><code>c:b.2</code></div>
+					<div class="p:1r c:b.1 bw:thick fb:20% ta:c">black .1 <br><code>c:b.1</code></div>
 				</div>
 				<!-- shades of white -->
 				<div class="d:f@M fw:w fw:b c:b bgc:b">
-					<div class="p:1r c:w bw:thick fb:20% ta:c"> white <br> <code>c:w</code> </div>
-					<div class="p:1r c:w.9 bw:thick fb:20% ta:c"> white .9 <br> <code>c:w.9</code> </div>
-					<div class="p:1r c:w.8 bw:thick fb:20% ta:c"> white .8 <br> <code>c:w.8</code> </div>
-					<div class="p:1r c:w.7 bw:thick fb:20% ta:c"> white .7 <br> <code>c:w.7</code> </div>
-					<div class="p:1r c:w.6 bw:thick fb:20% ta:c"> white .6 <br> <code>c:w.6</code> </div>
-					<div class="p:1r c:w.5 bw:thick fb:20% ta:c"> white .5 <br> <code>c:w.5</code> </div>
-					<div class="p:1r c:w.4 bw:thick fb:20% ta:c"> white .4 <br> <code>c:w.4</code> </div>
-					<div class="p:1r c:w.3 bw:thick fb:20% ta:c"> white .3 <br> <code>c:w.3</code> </div>
-					<div class="p:1r c:w.2 bw:thick fb:20% ta:c"> white .2 <br> <code>c:w.2</code> </div>
-					<div class="p:1r c:w.1 bw:thick fb:20% ta:c"> white .1 <br> <code>c:w.1</code> </div>
+					<div class="p:1r c:w bw:thick fb:20% ta:c">white <br><code>c:w</code></div>
+					<div class="p:1r c:w.9 bw:thick fb:20% ta:c">white .9 <br><code>c:w.9</code></div>
+					<div class="p:1r c:w.8 bw:thick fb:20% ta:c">white .8 <br><code>c:w.8</code></div>
+					<div class="p:1r c:w.7 bw:thick fb:20% ta:c">white .7 <br><code>c:w.7</code></div>
+					<div class="p:1r c:w.6 bw:thick fb:20% ta:c">white .6 <br><code>c:w.6</code></div>
+					<div class="p:1r c:w.5 bw:thick fb:20% ta:c">white .5 <br><code>c:w.5</code></div>
+					<div class="p:1r c:w.4 bw:thick fb:20% ta:c">white .4 <br><code>c:w.4</code></div>
+					<div class="p:1r c:w.3 bw:thick fb:20% ta:c">white .3 <br><code>c:w.3</code></div>
+					<div class="p:1r c:w.2 bw:thick fb:20% ta:c">white .2 <br><code>c:w.2</code></div>
+					<div class="p:1r c:w.1 bw:thick fb:20% ta:c">white .1 <br><code>c:w.1</code></div>
 				</div>
 			</article>
 			<article id="theme__background-color">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">background-color</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">background-color</h3></header>
 				<!-- transparent -->
-				<div class="p:1r bgc:t bw:medium fw:b fb:20% ta:c bc:t"> transparent <br> <code class="c:b">bgc:t</code> </div>
+				<div class="p:1r bgc:t bw:medium fw:b fb:20% ta:c bc:t">transparent <br><code class="c:b">bgc:t</code></div>
 				<!-- colors -->
 				<div class="d:f@M fw:w fw:b c:w" style="margin-left: -.25rem; margin-right: -.25rem;">
-					<div class="p:1r bgc:red bw:medium fb:20% ta:c"> red <br> <code>bgc:red</code> </div>
-					<div class="p:1r bgc:orange bw:medium fb:20% ta:c"> orange <br> <code>bgc:orange</code> </div>
-					<div class="p:1r bgc:yellow bw:medium fb:20% ta:c"> yellow <br> <code>bgc:yellow</code> </div>
-					<div class="p:1r bgc:lime bw:medium fb:20% ta:c"> lime <br> <code>bgc:lime</code> </div>
-					<div class="p:1r bgc:green bw:medium fb:20% ta:c"> green <br> <code>bgc:green</code> </div>
-					<div class="p:1r bgc:teal bw:medium fb:20% ta:c"> teal <br> <code>bgc:teal</code> </div>
-					<div class="p:1r bgc:cyan bw:medium fb:20% ta:c"> cyan <br> <code>bgc:cyan</code> </div>
-					<div class="p:1r bgc:blue bw:medium fb:20% ta:c"> blue <br> <code>bgc:blue</code> </div>
-					<div class="p:1r bgc:indigo bw:medium fb:20% ta:c"> indigo <br> <code>bgc:indigo</code> </div>
-					<div class="p:1r bgc:purple bw:medium fb:20% ta:c"> purple <br> <code>bgc:purple</code> </div>
-					<div class="p:1r bgc:violet bw:medium fb:20% ta:c"> violet <br> <code>bgc:violet</code> </div>
-					<div class="p:1r bgc:magenta bw:medium fb:20% ta:c"> magenta <br> <code>bgc:magenta</code> </div>
-					<div class="p:1r bgc:brown bw:medium fb:20% ta:c"> brown <br> <code>bgc:brown</code> </div>
+					<div class="p:1r bgc:red bw:medium fb:20% ta:c">red <br><code>bgc:red</code></div>
+					<div class="p:1r bgc:orange bw:medium fb:20% ta:c">orange <br><code>bgc:orange</code></div>
+					<div class="p:1r bgc:yellow bw:medium fb:20% ta:c">yellow <br><code>bgc:yellow</code></div>
+					<div class="p:1r bgc:lime bw:medium fb:20% ta:c">lime <br><code>bgc:lime</code></div>
+					<div class="p:1r bgc:green bw:medium fb:20% ta:c">green <br><code>bgc:green</code></div>
+					<div class="p:1r bgc:teal bw:medium fb:20% ta:c">teal <br><code>bgc:teal</code></div>
+					<div class="p:1r bgc:cyan bw:medium fb:20% ta:c">cyan <br><code>bgc:cyan</code></div>
+					<div class="p:1r bgc:blue bw:medium fb:20% ta:c">blue <br><code>bgc:blue</code></div>
+					<div class="p:1r bgc:indigo bw:medium fb:20% ta:c">indigo <br><code>bgc:indigo</code></div>
+					<div class="p:1r bgc:purple bw:medium fb:20% ta:c">purple <br><code>bgc:purple</code></div>
+					<div class="p:1r bgc:violet bw:medium fb:20% ta:c">violet <br><code>bgc:violet</code></div>
+					<div class="p:1r bgc:magenta bw:medium fb:20% ta:c">magenta <br><code>bgc:magenta</code></div>
+					<div class="p:1r bgc:brown bw:medium fb:20% ta:c">brown <br><code>bgc:brown</code></div>
 				</div>
 				<!-- shades of black -->
 				<div class="d:f@M fw:w fw:b c:w" style="margin-left: -.25rem; margin-right: -.25rem;">
-					<div class="p:1r bgc:b bw:medium fb:20% ta:c"> black <br> <code>bgc:b</code> </div>
-					<div class="p:1r bgc:b.9 bw:medium fb:20% ta:c"> black .9 <br> <code>bgc:b.9</code> </div>
-					<div class="p:1r bgc:b.8 bw:medium fb:20% ta:c"> black .8 <br> <code>bgc:b.8</code> </div>
-					<div class="p:1r bgc:b.7 bw:medium fb:20% ta:c"> black .7 <br> <code>bgc:b.7</code> </div>
-					<div class="p:1r bgc:b.6 bw:medium fb:20% ta:c"> black .6 <br> <code>bgc:b.6</code> </div>
-					<div class="p:1r bgc:b.5 bw:medium fb:20% ta:c"> black .5 <br> <code>bgc:b.5</code> </div>
-					<div class="p:1r bgc:b.4 bw:medium fb:20% ta:c"> black .4 <br> <code>bgc:b.4</code> </div>
-					<div class="p:1r bgc:b.3 bw:medium fb:20% ta:c"> black .3 <br> <code>bgc:b.3</code> </div>
-					<div class="p:1r bgc:b.2 bw:medium fb:20% ta:c"> black .2 <br> <code>bgc:b.2</code> </div>
-					<div class="p:1r bgc:b.1 bw:medium fb:20% ta:c"> black .1 <br> <code>bgc:b.1</code> </div>
-					<div class="p:1r bgc:b.05 bw:medium fb:20% ta:c"> black .05 <br> <code>bgc:b.5</code> </div>
-					<div class="p:1r bgc:b.025 bw:medium fb:20% ta:c"> black .025 <br> <code>bgc:b.025</code> </div>
+					<div class="p:1r bgc:b bw:medium fb:20% ta:c">black <br><code>bgc:b</code></div>
+					<div class="p:1r bgc:b.9 bw:medium fb:20% ta:c">black .9 <br><code>bgc:b.9</code></div>
+					<div class="p:1r bgc:b.8 bw:medium fb:20% ta:c">black .8 <br><code>bgc:b.8</code></div>
+					<div class="p:1r bgc:b.7 bw:medium fb:20% ta:c">black .7 <br><code>bgc:b.7</code></div>
+					<div class="p:1r bgc:b.6 bw:medium fb:20% ta:c">black .6 <br><code>bgc:b.6</code></div>
+					<div class="p:1r bgc:b.5 bw:medium fb:20% ta:c">black .5 <br><code>bgc:b.5</code></div>
+					<div class="p:1r bgc:b.4 bw:medium fb:20% ta:c">black .4 <br><code>bgc:b.4</code></div>
+					<div class="p:1r bgc:b.3 bw:medium fb:20% ta:c">black .3 <br><code>bgc:b.3</code></div>
+					<div class="p:1r bgc:b.2 bw:medium fb:20% ta:c">black .2 <br><code>bgc:b.2</code></div>
+					<div class="p:1r bgc:b.1 bw:medium fb:20% ta:c">black .1 <br><code>bgc:b.1</code></div>
+					<div class="p:1r bgc:b.05 bw:medium fb:20% ta:c">black .05 <br><code>bgc:b.5</code></div>
+					<div class="p:1r bgc:b.025 bw:medium fb:20% ta:c">black .025 <br><code>bgc:b.025</code></div>
 				</div>
 				<!-- shades of white -->
 				<div class="d:f@M fw:w fw:b c:b bgc:b" style="margin-left: -.25rem; margin-right: -.25rem;">
-					<div class="p:1r bgc:w bw:medium fb:20% ta:c bc:w"> white <br> <code>bgc:w</code> </div>
-					<div class="p:1r bgc:w.9 bw:medium fb:20% ta:c bc:w"> white .9 <br> <code>bgc:w.9</code> </div>
-					<div class="p:1r bgc:w.8 bw:medium fb:20% ta:c bc:w"> white .8 <br> <code>bgc:w.8</code> </div>
-					<div cldiv class="p:1r bgc:w.7 bw:medium fb:20% ta:c bc:w"> white .7 <br <br> <code>bgc:w.7</code> </div>
-					<div class="p:1r bgc:w.6 bw:medium fb:20% ta:c bc:w"> white white .6 <br> <code>bgc:w.6</code> </div>
-					<div class="p:1r bgc:w.5 bw:medium fb:20% ta:c bc:w"> white .5 <br> <code>bgc:w.5</code> </div>
-					<div class="p:1r bgc:w.4 bw:medium fb:20% ta:c bc:w"> white .4 <br> <code>bgc:w.4</code> </div>
-					<div class="p:1r bgc:w.3 bw:medium fb:20% ta:c bc:w"> white .3 <br> <code>bgc:w.3</code> </div>
-					<div class="p:1r bgc:w.2 bw:medium fb:20% ta:c bc:w"> white .2 <br> <code>bgc:w.2</code> </div>
-					<div class="p:1r bgc:w.1 bw:medium fb:20% ta:c bc:w"> white .1 <br> <code>bgc:w.1</code> </div>
-				</div> <small>The white shades are placed on a black background in order to show the blending effect.</small>
+					<div class="p:1r bgc:w bw:medium fb:20% ta:c bc:w">white <br><code>bgc:w</code></div>
+					<div class="p:1r bgc:w.9 bw:medium fb:20% ta:c bc:w">white .9 <br><code>bgc:w.9</code></div>
+					<div class="p:1r bgc:w.8 bw:medium fb:20% ta:c bc:w">white .8 <br><code>bgc:w.8</code></div>
+					<div cldiv class="p:1r bgc:w.7 bw:medium fb:20% ta:c bc:w">white .7 <br <br><code>bgc:w.7</code></div>
+					<div class="p:1r bgc:w.6 bw:medium fb:20% ta:c bc:w">white white .6 <br><code>bgc:w.6</code></div>
+					<div class="p:1r bgc:w.5 bw:medium fb:20% ta:c bc:w">white .5 <br><code>bgc:w.5</code></div>
+					<div class="p:1r bgc:w.4 bw:medium fb:20% ta:c bc:w">white .4 <br><code>bgc:w.4</code></div>
+					<div class="p:1r bgc:w.3 bw:medium fb:20% ta:c bc:w">white .3 <br><code>bgc:w.3</code></div>
+					<div class="p:1r bgc:w.2 bw:medium fb:20% ta:c bc:w">white .2 <br><code>bgc:w.2</code></div>
+					<div class="p:1r bgc:w.1 bw:medium fb:20% ta:c bc:w">white .1 <br><code>bgc:w.1</code></div>
+				</div><small>The white shades are placed on a black background in order to show the blending effect.</small>
 				<!-- overlay demo -->
 				<h4 class="mt:2r">It is possible to create tints with a little parent/child nesting trick.</h4>
-				<p>For example by adding <code>bgc:blue</code> to the parent element and <code>bgc:w.9</code> to the child.</p>
+				<p>For example by adding <code>bgc:blue</code>to the parent element and <code>bgc:w.9</code>to the child.</p>
 				<div class="bgc:blue d:f@L">
 					<div class="p:1r bgc:w.9"></div>
 					<div class="p:1r bgc:w.8"></div>
@@ -1266,118 +1283,133 @@
 			</article>
 			<article id="theme__border-color">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-color</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-color</h3></header>
 				<!-- transparent -->
-				<div class="p:1r bc:t bw:thick fw:b fb:20% ta:c"> <span>transparent</span> <br> <code>bc:t</code> </div>
+				<div class="p:1r bc:t bw:thick fw:b fb:20% ta:c"><span>transparent</span><br><code>bc:t</code></div>
 				<div class="d:f@M fw:w fw:b">
-					<div class="p:1r bc:red bw:thick fb:20% ta:c"> red <br> <code>bc:red</code> </div>
-					<div class="p:1r bc:orange bw:thick fb:20% ta:c"> orange <br> <code>bc:orange</code> </div>
-					<div class="p:1r bc:yellow bw:thick fb:20% ta:c"> yellow <br> <code>bc:yellow</code> </div>
-					<div class="p:1r bc:lime bw:thick fb:20% ta:c"> lime <br> <code>bc:lime</code> </div>
-					<div class="p:1r bc:green bw:thick fb:20% ta:c"> green <br> <code>bc:green</code> </div>
-					<div class="p:1r bc:teal bw:thick fb:20% ta:c"> teal <br> <code>bc:teal</code> </div>
-					<div class="p:1r bc:cyan bw:thick fb:20% ta:c"> cyan <br> <code>bc:cyan</code> </div>
-					<div class="p:1r bc:blue bw:thick fb:20% ta:c"> blue <br> <code>bc:blue</code> </div>
-					<div class="p:1r bc:indigo bw:thick fb:20% ta:c"> indigo <br> <code>bc:indigo</code> </div>
-					<div class="p:1r bc:purple bw:thick fb:20% ta:c"> purple <br> <code>bc:purple</code> </div>
-					<div class="p:1r bc:violet bw:thick fb:20% ta:c"> violet <br> <code>bc:violet</code> </div>
-					<div class="p:1r bc:magenta bw:thick fb:20% ta:c"> magenta <br> <code>bc:magenta</code> </div>
-					<div class="p:1r bc:brown bw:thick fb:20% ta:c"> brown <br> <code>bc:brown</code> </div>
+					<div class="p:1r bc:red bw:thick fb:20% ta:c">red <br><code>bc:red</code></div>
+					<div class="p:1r bc:orange bw:thick fb:20% ta:c">orange <br><code>bc:orange</code></div>
+					<div class="p:1r bc:yellow bw:thick fb:20% ta:c">yellow <br><code>bc:yellow</code></div>
+					<div class="p:1r bc:lime bw:thick fb:20% ta:c">lime <br><code>bc:lime</code></div>
+					<div class="p:1r bc:green bw:thick fb:20% ta:c">green <br><code>bc:green</code></div>
+					<div class="p:1r bc:teal bw:thick fb:20% ta:c">teal <br><code>bc:teal</code></div>
+					<div class="p:1r bc:cyan bw:thick fb:20% ta:c">cyan <br><code>bc:cyan</code></div>
+					<div class="p:1r bc:blue bw:thick fb:20% ta:c">blue <br><code>bc:blue</code></div>
+					<div class="p:1r bc:indigo bw:thick fb:20% ta:c">indigo <br><code>bc:indigo</code></div>
+					<div class="p:1r bc:purple bw:thick fb:20% ta:c">purple <br><code>bc:purple</code></div>
+					<div class="p:1r bc:violet bw:thick fb:20% ta:c">violet <br><code>bc:violet</code></div>
+					<div class="p:1r bc:magenta bw:thick fb:20% ta:c">magenta <br><code>bc:magenta</code></div>
+					<div class="p:1r bc:brown bw:thick fb:20% ta:c">brown <br><code>bc:brown</code></div>
 				</div>
 				<!-- shades of black -->
 				<div class="d:f@M fw:w fw:b">
-					<div class="p:1r bc:b bw:thick fb:20% ta:c"> black <br> <code>bc:b</code> </div>
-					<div class="p:1r bc:b.9 bw:thick fb:20% ta:c"> black .9 <br> <code>bc:b.9</code> </div>
-					<div class="p:1r bc:b.8 bw:thick fb:20% ta:c"> black .8 <br> <code>bc:b.8</code> </div>
-					<div class="p:1r bc:b.7 bw:thick fb:20% ta:c"> black .7 <br> <code>bc:b.7</code> </div>
-					<div class="p:1r bc:b.6 bw:thick fb:20% ta:c"> black .6 <br> <code>bc:b.6</code> </div>
-					<div class="p:1r bc:b.5 bw:thick fb:20% ta:c"> black .5 <br> <code>bc:b.5</code> </div>
-					<div class="p:1r bc:b.4 bw:thick fb:20% ta:c"> black .4 <br> <code>bc:b.4</code> </div>
-					<div class="p:1r bc:b.3 bw:thick fb:20% ta:c"> black .3 <br> <code>bc:b.3</code> </div>
-					<div class="p:1r bc:b.2 bw:thick fb:20% ta:c"> black .2 <br> <code>bc:b.2</code> </div>
-					<div class="p:1r bc:b.1 bw:thick fb:20% ta:c"> black .1 <br> <code>bc:b.1</code> </div>
+					<div class="p:1r bc:b bw:thick fb:20% ta:c">black <br><code>bc:b</code></div>
+					<div class="p:1r bc:b.9 bw:thick fb:20% ta:c">black .9 <br><code>bc:b.9</code></div>
+					<div class="p:1r bc:b.8 bw:thick fb:20% ta:c">black .8 <br><code>bc:b.8</code></div>
+					<div class="p:1r bc:b.7 bw:thick fb:20% ta:c">black .7 <br><code>bc:b.7</code></div>
+					<div class="p:1r bc:b.6 bw:thick fb:20% ta:c">black .6 <br><code>bc:b.6</code></div>
+					<div class="p:1r bc:b.5 bw:thick fb:20% ta:c">black .5 <br><code>bc:b.5</code></div>
+					<div class="p:1r bc:b.4 bw:thick fb:20% ta:c">black .4 <br><code>bc:b.4</code></div>
+					<div class="p:1r bc:b.3 bw:thick fb:20% ta:c">black .3 <br><code>bc:b.3</code></div>
+					<div class="p:1r bc:b.2 bw:thick fb:20% ta:c">black .2 <br><code>bc:b.2</code></div>
+					<div class="p:1r bc:b.1 bw:thick fb:20% ta:c">black .1 <br><code>bc:b.1</code></div>
 				</div>
 				<!-- shades of white -->
 				<div class="d:f@M fw:w fw:b c:w bgc:b">
-					<div class="p:1r bc:w bw:thick fb:20% ta:c bc:w"> white <br> <code>bc:w</code> </div>
-					<div class="p:1r bc:w.9 bw:thick fb:20% ta:c bbc:w"> white .9 <br> <code>bc:w.9</code> </div>
-					<div class="p:1r bc:w.8 bw:thick fb:20% ta:c bbc:w"> white .8 <br> <code>bc:w.8</code> </div>
-					<div class="p:1r bc:w.7 bw:thick fb:20% ta:c bbc:w"> white .7 <br> <code>bc:w.7</code> </div>
-					<div class="p:1r bc:w.6 bw:thick fb:20% ta:c bbc:w"> white .6 <br> <code>bc:w.6</code> </div>
-					<div class="p:1r bc:w.5 bw:thick fb:20% ta:c bbc:w"> white .5 <br> <code>bc:w.5</code> </div>
-					<div class="p:1r bc:w.4 bw:thick fb:20% ta:c bbc:w"> white .4 <br> <code>bc:w.4</code> </div>
-					<div class="p:1r bc:w.3 bw:thick fb:20% ta:c bbc:w"> white .3 <br> <code>bc:w.3</code> </div>
-					<div class="p:1r bc:w.2 bw:thick fb:20% ta:c bbc:w"> white .2 <br> <code>bc:w.2</code> </div>
-					<div class="p:1r bc:w.1 bw:thick fb:20% ta:c bbc:w"> white .1 <br> <code>bc:w.1</code> </div>
+					<div class="p:1r bc:w bw:thick fb:20% ta:c bc:w">white <br><code>bc:w</code></div>
+					<div class="p:1r bc:w.9 bw:thick fb:20% ta:c bbc:w">white .9 <br><code>bc:w.9</code></div>
+					<div class="p:1r bc:w.8 bw:thick fb:20% ta:c bbc:w">white .8 <br><code>bc:w.8</code></div>
+					<div class="p:1r bc:w.7 bw:thick fb:20% ta:c bbc:w">white .7 <br><code>bc:w.7</code></div>
+					<div class="p:1r bc:w.6 bw:thick fb:20% ta:c bbc:w">white .6 <br><code>bc:w.6</code></div>
+					<div class="p:1r bc:w.5 bw:thick fb:20% ta:c bbc:w">white .5 <br><code>bc:w.5</code></div>
+					<div class="p:1r bc:w.4 bw:thick fb:20% ta:c bbc:w">white .4 <br><code>bc:w.4</code></div>
+					<div class="p:1r bc:w.3 bw:thick fb:20% ta:c bbc:w">white .3 <br><code>bc:w.3</code></div>
+					<div class="p:1r bc:w.2 bw:thick fb:20% ta:c bbc:w">white .2 <br><code>bc:w.2</code></div>
+					<div class="p:1r bc:w.1 bw:thick fb:20% ta:c bbc:w">white .1 <br><code>bc:w.1</code></div>
 				</div>
 			</article>
 			<article id="theme__background-image">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">background-image</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">background-image</h3></header>
 				<!-- color gradients -->
 				<div class="d:f@M fw:w fw:b c:w" style="margin-left: -.25rem; margin-right: -.25rem;">
-					<div class="p:1r bgi:red bw:medium fb:20% ta:c bc:t"> red <br> <code>bgi:red</code> </div>
-					<div class="p:1r bgi:orange bw:medium fb:20% ta:c bc:t"> orange <br> <code>bgi:orange</code> </div>
-					<div class="p:1r bgi:yellow bw:medium fb:20% ta:c bc:t"> yellow <br> <code>bgi:yellow</code> </div>
-					<div class="p:1r bgi:lime bw:medium fb:20% ta:c bc:t"> lime <br> <code>bgi:lime</code> </div>
-					<div class="p:1r bgi:green bw:medium fb:20% ta:c bc:t"> green <br> <code>bgi:green</code> </div>
-					<div class="p:1r bgi:teal bw:medium fb:20% ta:c bc:t"> teal <br> <code>bgi:teal</code> </div>
-					<div class="p:1r bgi:cyan bw:medium fb:20% ta:c bc:t"> cyan <br> <code>bgi:cyan</code> </div>
-					<div class="p:1r bgi:blue bw:medium fb:20% ta:c bc:t"> blue <br> <code>bgi:blue</code> </div>
-					<div class="p:1r bgi:indigo bw:medium fb:20% ta:c bc:t"> indigo <br> <code>bgi:indigo</code> </div>
-					<div class="p:1r bgi:purple bw:medium fb:20% ta:c bc:t"> purple <br> <code>bgi:purple</code> </div>
-					<div class="p:1r bgi:violet bw:medium fb:20% ta:c bc:t"> violet <br> <code>bgi:violet</code> </div>
-					<div class="p:1r bgi:magenta bw:medium fb:20% ta:c bc:t"> magenta <br> <code>bgi:magenta</code> </div>
-					<div class="p:1r bgi:brown bw:medium fb:20% ta:c bc:t"> brown <br> <code>bgi:brown</code> </div>
+					<div class="p:1r bgi:red bw:medium fb:20% ta:c bc:t">red <br><code>bgi:red</code></div>
+					<div class="p:1r bgi:orange bw:medium fb:20% ta:c bc:t">orange <br><code>bgi:orange</code></div>
+					<div class="p:1r bgi:yellow bw:medium fb:20% ta:c bc:t">yellow <br><code>bgi:yellow</code></div>
+					<div class="p:1r bgi:lime bw:medium fb:20% ta:c bc:t">lime <br><code>bgi:lime</code></div>
+					<div class="p:1r bgi:green bw:medium fb:20% ta:c bc:t">green <br><code>bgi:green</code></div>
+					<div class="p:1r bgi:teal bw:medium fb:20% ta:c bc:t">teal <br><code>bgi:teal</code></div>
+					<div class="p:1r bgi:cyan bw:medium fb:20% ta:c bc:t">cyan <br><code>bgi:cyan</code></div>
+					<div class="p:1r bgi:blue bw:medium fb:20% ta:c bc:t">blue <br><code>bgi:blue</code></div>
+					<div class="p:1r bgi:indigo bw:medium fb:20% ta:c bc:t">indigo <br><code>bgi:indigo</code></div>
+					<div class="p:1r bgi:purple bw:medium fb:20% ta:c bc:t">purple <br><code>bgi:purple</code></div>
+					<div class="p:1r bgi:violet bw:medium fb:20% ta:c bc:t">violet <br><code>bgi:violet</code></div>
+					<div class="p:1r bgi:magenta bw:medium fb:20% ta:c bc:t">magenta <br><code>bgi:magenta</code></div>
+					<div class="p:1r bgi:brown bw:medium fb:20% ta:c bc:t">brown <br><code>bgi:brown</code></div>
 				</div>
-				<p>The four black and white gradients are great for image overlays (to increase readabilty for text elements).
-					<div class="d:f@L fw:w fw:b c:w">
-						<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
-							<div class="p:1r bgi:b.25 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe"> black .25<br> <code class="ml:a">bgi:b.25</code> </div>
-						</div>
-						<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
-							<div class="p:1r bgi:b.5 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe"> black .5<br> <code class="ml:a">bgi:b.5</code> </div>
-						</div>
-						<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
-							<div class="p:1r bgi:b.75 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe"> black .75<br> <code class="ml:a">bgi:b.75</code> </div>
-						</div>
-						<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
-							<div class="p:1r bgi:b bw:thick ta:c bc:t w:100% h:100% d:f ai:fe"> black<br> <code class="ml:a">bgi:b</code> </div>
-						</div>
+				<p>The four black and white gradients are great for image overlays (to increase readabilty for text elements).</p>
+				<div class="d:f@L fw:w fw:b c:w">
+					<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
+						<div class="p:1r bgi:b.25 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">black .25<br><code class="ml:a">bgi:b.25</code></div>
 					</div>
-					<div class="d:f@L fw:w fw:b c:b">
-						<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
-							<div class="p:1r bgi:w.25 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe"> white .25<br> <code class="ml:a">bgi:w.25</code> </div>
-						</div>
-						<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
-							<div class="p:1r bgi:w.5 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe"> white .5<br> <code class="ml:a">bgi:w.5</code> </div>
-						</div>
-						<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
-							<div class="p:1r bgi:w.75 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe"> white .75<br> <code class="ml:a">bgi:w.75</code> </div>
-						</div>
-						<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
-							<div class="p:1r bgi:w bw:thick ta:c bc:t w:100% h:100% d:f ai:fe"> white<br> <code class="ml:a">bgi:w</code> </div>
-						</div>
+					<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
+						<div class="p:1r bgi:b.5 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">black .5<br><code class="ml:a">bgi:b.5</code></div>
 					</div>
+					<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
+						<div class="p:1r bgi:b.75 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">black .75<br><code class="ml:a">bgi:b.75</code></div>
+					</div>
+					<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
+						<div class="p:1r bgi:b bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">black<br><code class="ml:a">bgi:b</code></div>
+					</div>
+				</div>
+				<div class="d:f@L fw:w fw:b c:b">
+					<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
+						<div class="p:1r bgi:w.25 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">white .25<br><code class="ml:a">bgi:w.25</code></div>
+					</div>
+					<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
+						<div class="p:1r bgi:w.5 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">white .5<br><code class="ml:a">bgi:w.5</code></div>
+					</div>
+					<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
+						<div class="p:1r bgi:w.75 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">white .75<br><code class="ml:a">bgi:w.75</code></div>
+					</div>
+					<div style="background-image: url(https://unsplash.it/600/400); background-size: cover;" class="fb:25% h:16r">
+						<div class="p:1r bgi:w bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">white<br><code class="ml:a">bgi:w</code></div>
+					</div>
+				</div>
 			</article>
 			<article id="theme__border-image">
 				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-image</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">border-image</h3></header>
 				<!-- color gradients -->
 				<div class="d:f@M fw:w fw:b">
-					<div class="p:1r bi:red bw:thick fb:20% ta:c"> red <br> <code>bi:red</code> </div>
-					<div class="p:1r bi:orange bw:thick fb:20% ta:c"> orange <br> <code>bi:orange</code> </div>
-					<div class="p:1r bi:yellow bw:thick fb:20% ta:c"> yellow <br> <code>bi:yellow</code> </div>
-					<div class="p:1r bi:lime bw:thick fb:20% ta:c"> lime <br> <code>bi:lime</code> </div>
-					<div class="p:1r bi:green bw:thick fb:20% ta:c"> green <br> <code>bi:green</code> </div>
-					<div class="p:1r bi:teal bw:thick fb:20% ta:c"> teal <br> <code>bi:teal</code> </div>
-					<div class="p:1r bi:cyan bw:thick fb:20% ta:c"> cyan <br> <code>bi:cyan</code> </div>
-					<div class="p:1r bi:blue bw:thick fb:20% ta:c"> blue <br> <code>bi:blue</code> </div>
-					<div class="p:1r bi:indigo bw:thick fb:20% ta:c"> indigo <br> <code>bi:indigo</code> </div>
-					<div class="p:1r bi:purple bw:thick fb:20% ta:c"> purple <br> <code>bi:purple</code> </div>
-					<div class="p:1r bi:violet bw:thick fb:20% ta:c"> violet <br> <code>bi:violet</code> </div>
-					<div class="p:1r bi:magenta bw:thick fb:20% ta:c"> magenta <br> <code>bi:magenta</code> </div>
-					<div class="p:1r bi:brown bw:thick fb:20% ta:c"> brown <br> <code>bi:brown</code> </div>
+					<div class="p:1r bi:red bw:thick fb:20% ta:c">red <br><code>bi:red</code></div>
+					<div class="p:1r bi:orange bw:thick fb:20% ta:c">orange <br><code>bi:orange</code></div>
+					<div class="p:1r bi:yellow bw:thick fb:20% ta:c">yellow <br><code>bi:yellow</code></div>
+					<div class="p:1r bi:lime bw:thick fb:20% ta:c">lime <br><code>bi:lime</code></div>
+					<div class="p:1r bi:green bw:thick fb:20% ta:c">green <br><code>bi:green</code></div>
+					<div class="p:1r bi:teal bw:thick fb:20% ta:c">teal <br><code>bi:teal</code></div>
+					<div class="p:1r bi:cyan bw:thick fb:20% ta:c">cyan <br><code>bi:cyan</code></div>
+					<div class="p:1r bi:blue bw:thick fb:20% ta:c">blue <br><code>bi:blue</code></div>
+					<div class="p:1r bi:indigo bw:thick fb:20% ta:c">indigo <br><code>bi:indigo</code></div>
+					<div class="p:1r bi:purple bw:thick fb:20% ta:c">purple <br><code>bi:purple</code></div>
+					<div class="p:1r bi:violet bw:thick fb:20% ta:c">violet <br><code>bi:violet</code></div>
+					<div class="p:1r bi:magenta bw:thick fb:20% ta:c">magenta <br><code>bi:magenta</code></div>
+					<div class="p:1r bi:brown bw:thick fb:20% ta:c">brown <br><code>bi:brown</code></div>
+				</div>
+			</article>
+			<article id="theme__background-size">
+				<header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">background-size</h3></header>
+				<div class="d:f@L fw:w fw:b c:w">
+					<div style="background-image: url(https://unsplash.it/600/400)" class="fb:33% h:16r bgs:a bgc:b.2">
+						<div class="p:1r bgi:b.5 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">auto<br><code class="ml:a">bgs:a</code></div>
+					</div>
+					<div style="background-image: url(https://unsplash.it/600/400)" class="fb:33% h:16r bgs:contain bgc:b.2">
+						<div class="p:1r bgi:b.5 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">contain<br><code class="ml:a">bgs:contain</code></div>
+					</div>
+					<div style="background-image: url(https://unsplash.it/600/400)" class="fb:33% h:16r bgs:cover">
+						<div class="p:1r bgi:b.5 bw:thick ta:c bc:t w:100% h:100% d:f ai:fe">cover<br><code class="ml:a">bgs:cover</code></div>
+					</div>
 				</div>
 			</article>
 			<article id="theme__opacity">
@@ -1386,32 +1418,32 @@
 					<hoverstyles></hoverstyles>
 				</header>
 				<div class="ta:c">
-					<div><span class="o:i o:0:h p:r r:1r py:.5r px:2r bw:thin bgc:b c:w w:4r fs:1.5r">initial</span> <code>o:i</code></div>
-					<div><span class="o:.9 o:.1:h p:r r:1r py:.5r px:2r bw:thin bgc:b c:w w:4r fs:1.5r">.9</span> <code>o:.9</code></div>
-					<div><span class="o:.8 o:.2:h p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.8</span> <code>o:.8</code></div>
-					<div><span class="o:.7 o:.3:h p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.7</span> <code>o:.7</code></div>
-					<div><span class="o:.6 o:.4:h p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.6</span> <code>o:.6</code></div>
-					<div><span class="o:.5 o:.1:h p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.5</span> <code>o:.5</code></div>
-					<div><span class="o:.4 o:.6:h p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.4</span> <code>o:.4</code></div>
-					<div><span class="o:.3 o:.7:h p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.3</span> <code>o:.3</code></div>
-					<div><span class="o:.2 o:.8:h p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.2</span> <code>o:.2</code></div>
-					<div><span class="o:.1 o:.9:h p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.1</span> <code>o:.1</code></div>
-					<div><span class="o:0 o:i:h t:medium p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgi:red c:w fs:1.5r">0</span> <code>o:0</code></div>
+					<div><span class="o:i o:0:h p:r r:1r py:.5r px:2r bw:thin bgc:b c:w w:4r fs:1.5r">initial</span><code>o:i</code></div>
+					<div><span class="o:.9 o:.1:h p:r r:1r py:.5r px:2r bw:thin bgc:b c:w w:4r fs:1.5r">.9</span><code>o:.9</code></div>
+					<div><span class="o:.8 o:.2:h p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.8</span><code>o:.8</code></div>
+					<div><span class="o:.7 o:.3:h p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.7</span><code>o:.7</code></div>
+					<div><span class="o:.6 o:.4:h p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.6</span><code>o:.6</code></div>
+					<div><span class="o:.5 o:.1:h p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.5</span><code>o:.5</code></div>
+					<div><span class="o:.4 o:.6:h p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.4</span><code>o:.4</code></div>
+					<div><span class="o:.3 o:.7:h p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.3</span><code>o:.3</code></div>
+					<div><span class="o:.2 o:.8:h p:r l:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.2</span><code>o:.2</code></div>
+					<div><span class="o:.1 o:.9:h p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgc:b c:w fs:1.5r">.1</span><code>o:.1</code></div>
+					<div><span class="o:0 o:i:h t:medium p:r r:1r mt:-.5r py:.5r px:2r bw:thin bgi:red c:w fs:1.5r">0</span><code>o:0</code></div>
 				</div>
 			</article>
 			<article id="theme__transition">
 				<header class="p:r">
-					<h3 class="d:ib ff:m bgc:b c:w p:1r">transition</h3> </header>
+					<h3 class="d:ib ff:m bgc:b c:w p:1r">transition</h3></header>
 				<p>Hover over the circles to trigger the transitions.</p>
 				<div class="d:f jc:c fw:w mr>*:1r">
-					<div class="t:slow o:.4 o:i:h bs:.0625r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">slow <code>t:slow</code> </div>
-					<div class="t:medium o:.4 o:i:h bs:.0625r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">medium <code>t:medium</code> </div>
-					<div class="t:fast o:.4 o:i:h bs:.0625r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">fast <code>t:fast</code> </div>
+					<div class="t:slow o:.4 o:i:h bs:.0625r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">slow <code>t:slow</code></div>
+					<div class="t:medium o:.4 o:i:h bs:.0625r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">medium <code>t:medium</code></div>
+					<div class="t:fast o:.4 o:i:h bs:.0625r bs:1r:h br:100% mt:1r p:.5r bgc:w d:ib h:8r w:8r d:f fd:c ai:c jc:c">fast <code>t:fast</code></div>
 				</div>
 			</article>
 		</section>
 	</main>
-	<footer class="p:2r bgc:b c:w">Created by <address class="d:i"><a href="mailto:gerbaulet@hs-ulm.de">Damian Gerbaulet</a> (Professor at the University of Applied Sciences Ulm, Germany)</address>. Greatly inspired by <a href="http://basscss" target="_blank">basscss</a> and <a href="http://tachyons.io"
+	<footer class="p:2r bgc:b c:w">Created by <address class="d:i"><a href="mailto:gerbaulet@hs-ulm.de">Damian Gerbaulet</a>(Professor at the University of Applied Sciences Ulm, Germany)</address>. Greatly inspired by <a href="http://basscss" target="_blank">basscss</a>and <a href="http://tachyons.io"
 		  target="_blank">tachyons</a>.</footer>
 	<!-- including custom tags -->
 	<script type="riot/tag" src="tags/hoverstyles.tag"></script>

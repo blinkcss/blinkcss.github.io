@@ -24,8 +24,13 @@ code {
   padding: .25rem;
 }
 
-a:hover, a:active, a:focus {
+a:hover, a:active {
   opacity: .5;
+}
+
+a:focus {
+  opacity: .75;
+  color: hsl(350, 90%, 60%);
 }
 
 hr {
