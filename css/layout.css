@@ -34,7 +34,7 @@ a:focus {
 }
 
 hr {
-  border-bottom-width: 1px;
+  border-bottom-width: thin;
   margin: 2rem 0;
 }
 
