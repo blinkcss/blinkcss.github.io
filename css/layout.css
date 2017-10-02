@@ -22,6 +22,11 @@ code {
   font-family: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace;
   background-color: hsla(0, 0%, 0%, .0625);
   padding: .25rem;
+  font-size: .875em;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:hover, a:active {
@@ -34,10 +39,9 @@ a:focus {
 }
 
 hr {
-  border-bottom-width: thin;
+  border-bottom: thin solid;
   margin: 2rem 0;
 }
-
 
 /* Page fade-in effect: */
 

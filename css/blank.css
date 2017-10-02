@@ -26,11 +26,10 @@ GLOBAL ADJUSTMENTS
   --monofont: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace;
 }
 
-
 /* Testing different text/background color combinations: */
 
-@media screen and (min-width: 60rem) {
-   :root {
+@media screen and (min-width: 80rem) {
+  :root {
     /*--bg-color: hsl(210, 40%, 60%);
         --color-text: hsla(0, 0%, 100%, 1);
         --color-text-lighter: hsla(0, 0%, 100%, .95);*/
@@ -51,7 +50,6 @@ html {
   -ms-overflow-style: -ms-autohiding-scrollbar;
   /* › automatically hide scrollbars in Edge and IE10/11 */
 }
-
 
 /* Increase global font-size (and spacing scale) on very large viewports: */
 
@@ -91,7 +89,6 @@ body {
   /* › don't let for example mobile Safari adjust font sizes */
 }
 
-
 /*
 
 TEXT
@@ -99,13 +96,11 @@ TEXT
 
 */
 
-
 /* Hyphenation – if supported by browser (set the language attribute, e.g. <html lang="en">): */
 
 p {
   hyphens: auto;
 }
-
 
 /* Underlined elements: */
 
@@ -115,7 +110,6 @@ a[href]:not([class]), ins, abbr[title] {
   padding-bottom: var(--\.0625);
   /* › adjust to suit your typeface */
 }
-
 
 /* Default text links (without a class attribute): */
 
@@ -142,13 +136,11 @@ a[href]:not([class]):hover::after {
   width: 100%;
 }
 
-
 /* No default underline on links: */
 
 a {
   text-decoration: none;
 }
-
 
 /* Headline type scale: */
 
@@ -182,13 +174,11 @@ h6 {
   font-size: .75rem
 }
 
-
 /* Vertical rhythm: */
 
 h1, h2, h3, h4, h5, h6, legend, p, address, details, details[open] summary, ul, ol, dl, pre, blockquote, table, figure, audio, video, canvas, meter, progress, iframe, input[type], button, textarea, select, fieldset {
   margin-bottom: var(--1);
 }
-
 
 /* Correcting the vertical rhythm for a more readable paragraph flow : */
 
@@ -197,14 +187,12 @@ p+p {
   /* › better: "calc(0rem - var(--\.5)" (not working in most browsers currently) */
 }
 
-
 /* Vertical rhythm for headlines:  */
 
 *+h1, *+h2, *+h3, *+h4, *+h5, *+h6, *+legend, *+caption {
   margin-top: var(--2);
   /* › stay away from preceding content within document flow  */
 }
-
 
 /* Font-weight for bold elements: */
 
@@ -216,7 +204,6 @@ hr {
   border-bottom-width: var(--\.0625);
   margin: var(--2) 0;
 }
-
 
 /* Lists: */
 
@@ -259,7 +246,6 @@ dd+dt {
   /* ›  vertical rhythm in the case, that definition lists consist of more than one definition title  */
 }
 
-
 /* List reset for navigation lists */
 
 nav ul, nav ul li {
@@ -280,7 +266,6 @@ nav ul li::before {
   content: none;
 }
 
-
 /* Code: */
 
 pre, code, samp, kbd {
@@ -292,7 +277,6 @@ code, samp, kbd {
   padding: .125em;
   background-color: var(--darken);
 }
-
 
 /* Container for <pre> and <blockquote>: */
 
@@ -308,7 +292,6 @@ pre {
   overflow-x: scroll;
   background-color: var(--darken);
 }
-
 
 /* Blockquote: */
 
@@ -335,9 +318,7 @@ small, figcaption {
   letter-spacing: .0375em;
 }
 
-
 /* Inline elements: */
-
 
 /* Correcting generated quotes: */
 
@@ -352,7 +333,6 @@ q::before {
 q::after {
   content: close-quote;
 }
-
 
 /* Using <u> to set text in optimised caps:
 (Delete if you need underlined text for things like Chinese proper name marks or spell-checking feedback) */
@@ -402,7 +382,6 @@ mark::before, mark::after {
   /* › adding a non-breaking space before and after */
 }
 
-
 /* Details / Summary: */
 
 details summary {
@@ -431,7 +410,6 @@ details summary::-webkit-details-marker {
 details[open] {
   border-bottom-width: var(--\.25);
 }
-
 
 /* Tables: */
 
@@ -471,7 +449,6 @@ tr:hover {
   background-color: var(--darken);
 }
 
-
 /*
 
 EMBEDDED CONTENT
@@ -486,7 +463,6 @@ img, video, audio, iframe {
 svg {
   fill: currentColor;
 }
-
 
 /*
 
@@ -575,7 +551,6 @@ input[type=color] {
   border-width: 0;
 }
 
-
 /* Range slider: */
 
 input[type=range] {
@@ -594,7 +569,6 @@ input[type=range]::-webkit-slider-thumb {
   border-radius: 100%;
   box-shadow: var(--box-shadow);
 }
-
 
 /* Touchscreen friendly pseudo element: */
 
@@ -633,7 +607,6 @@ input[type=range]::-moz-range-track {
   background-color: currentColor;
 }
 
-
 /* Placeholder fixes: */
 
 ::-webkit-input-placeholder {
@@ -655,7 +628,6 @@ input[type=range]::-moz-range-track {
   color: currentColor;
   opacity: .5;
 }
-
 
 /* Action elements: */
 
@@ -683,16 +655,13 @@ input:disabled, button:disabled {
   transform: none;
 }
 
-
 /* Checkboxes and radio buttons */
 
 [type="checkbox"], [type="radio"] {
   margin-right: var(--\.25);
 }
 
-
 /* Custom checkboxes and radio buttons (Inspired by https://kyusuf.com/post/completely-css-custom-checkbox-radio-buttons-and-select-boxes) */
-
 
 /* Hide default browser checkboxes and radio buttons, if they have no class: */
 
@@ -700,7 +669,6 @@ label input[type=checkbox]:not([class]), label input[type=radio]:not([class]) {
   z-index: -1;
   opacity: 0;
 }
-
 
 /* Custom checkbox and radio button: */
 
@@ -718,13 +686,11 @@ label input[type=checkbox]~span:empty:not([class]), label input[type=radio]~span
   align-items: center;
 }
 
-
 /* Round radio button: */
 
 label input[type=radio]~span:empty:not([class]) {
   border-radius: 100%;
 }
-
 
 /* Hover and focus: */
 
@@ -732,20 +698,17 @@ label input:hover~span:empty:not([class]), label input:focus~span:empty:not([cla
   background-color: var(--color-text);
 }
 
-
 /* Checked: */
 
 label input:checked~span:empty:not([class]) {
   background-color: var(--color-text);
 }
 
-
 /* Hover when checked (active state): */
 
 label:hover input:not([disabled]):checked~span:empty:not([class]), label input:checked:focus~span:empty:not([class]) {
   opacity: .75;
 }
-
 
 /* Fade-out disabled state: */
 
@@ -765,7 +728,6 @@ label input:checked~span:empty:not([class])::after {
   display: block;
 }
 
-
 /* Checkbox tick: */
 
 label input[type=checkbox]~span:empty:not([class])::after {
@@ -778,13 +740,11 @@ label input[type=checkbox]~span:empty:not([class])::after {
   transform: rotate(45deg);
 }
 
-
 /* Disabled tick color: */
 
 label input[type=checkbox]:disabled~span:empty:not([class])::after {
   opacity: .5;
 }
-
 
 /* Radio button inner circle: */
 
@@ -795,13 +755,11 @@ label input[type=radio]~span:empty:not([class])::after {
   background-color: var(--bg-color);
 }
 
-
 /* Disabled inner circle color: */
 
 label input[type=radio]:disabled~span:empty:not([class])::after {
   opacity: .5;
 }
-
 
 /* Meter: */
 
@@ -809,7 +767,6 @@ meter {
   width: 100%;
   height: var(--\.5);
 }
-
 
 /* Progress: */
 

@@ -1,3 +1,3 @@
-<hint class="d:i c:b.4 ff:s fs:i">
+<hint class="d:i c:b:m ff:s fs:i">
     <yield/>
 </hint>
