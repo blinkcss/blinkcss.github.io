@@ -456,7 +456,7 @@ EMBEDDED CONTENT
 
 */
 
-img, video, audio, iframe {
+img, canvas, video, audio, iframe, svg {
   max-width: 100%;
 }
 
