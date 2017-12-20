@@ -458,6 +458,7 @@ EMBEDDED CONTENT
 
 img, canvas, video, audio, iframe, svg {
   max-width: 100%;
+  height: auto;
 }
 
 svg {

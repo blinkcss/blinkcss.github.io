@@ -7,11 +7,11 @@
 	<title>blink | docs</title>
 	<link href="css/layout.css" rel="stylesheet">
 	<!-- development cdn -->
-	<link rel="stylesheet" href="https://rawgit.com/blinkui/blinkui/master/css/blink.min.css">
+	<!--<link rel="stylesheet" href="https://rawgit.com/blinkui/blinkui/master/css/blink.min.css">-->
 	<!-- production cdn -->
 	<!--<link rel="stylesheet" href="https://gitcdn.link/repo/blinkui/blinkui/master/css/blink.min.css">-->
 	<!-- local development -->
-	<!--<link rel="stylesheet" href="../blinkui/css/blink.css">-->
+	<link rel="stylesheet" href="../blinkui/css/blink.css">
 	<link rel="apple-touch-icon" href="blink.png">
 	<link rel="mask-icon" href="blink_icon.svg" color="#f53d5c">
 	<link rel="icon" href="blink_icon.png">
@@ -140,6 +140,7 @@
 				</header>
 				<div class="ox:a ws:nw mb>*:s" style="margin-right: -2rem">
 					<hint>The default document line-height is set to 1.5 in the base stylesheet.</hint>
+					<p class="fs:xl lh:0 btw:s bbw:s pt:l pb:l">0 <code class="fs:s">lh:0</code><br><span class="o:xs">Zero</span> </p>
 					<p class="fs:xxl lh:xs btw:s bbw:s">Extra small (1)<code class="fs:s">lh:xs</code><br>Berlin </p>
 					<p class="fs:xl lh:s btw:s bbw:s">Small (1.125)<code class="fs:s">lh:s</code><br>Ottawa </p>
 					<p class="fs:l lh:m btw:s bbw:s">Medium (1.25)<code class="fs:s">lh:m</code><br>Wismar </p>
@@ -343,8 +344,10 @@
 					<hint>Similar to the margin module:</hint> <code>p:xl</code>= <code>padding:4rem</code> </div>
 			</article>
 			<article id="layout__width">
-				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:m">width</h3></header>
+				<header class="p:r">
+					<h3 class="d:ib ff:m bgc:b c:w p:m">width</h3>
+					<responsivestyles></responsivestyles>
+				</header>
 				<div>
 					<div class="w:a c:w bgc:b d:ib">auto</div><code>w:a</code>
 					<hr>
@@ -906,8 +909,10 @@
 				</div>
 			</article>
 			<article id="layout__flex-basis">
-				<header>
-					<h3 class="d:ib ff:m bgc:b c:w p:m">flex-basis</h3></header>
+				<header class="p:r">
+					<h3 class="d:ib ff:m bgc:b c:w p:m">flex-basis</h3>
+					<responsivestyles></responsivestyles>
+				</header>
 				<div class="d:f">
 					<div class="fb:20% c:w bgc:b d:ib">20% (&frac15;)<code class="bgc:w:m">fb:20%</code></div>
 					<div class="fb:80% c:b bgc:b:xs d:ib">80% (&frac45;)<code>fb:80%</code></div>
