@@ -7,9 +7,9 @@
 	<title>blink | docs</title>
 	<link href="css/layout.css" rel="stylesheet">
 	<!-- development cdn -->
-	<link rel="stylesheet" href="https://rawgit.com/blinkui/blinkui/master/css/blink.min.css">
+	<!-- <link rel="stylesheet" href="https://rawgit.com/blinkui/blinkui/master/css/blink.min.css"> -->
 	<!-- production cdn -->
-	<!--<link rel="stylesheet" href="https://gitcdn.link/repo/blinkui/blinkui/master/css/blink.min.css">-->
+	<link rel="stylesheet" href="https://gitcdn.link/repo/blinkui/blinkui/master/css/blink.min.css">
 	<!-- local development -->
 	<!--<link rel="stylesheet" href="../blinkui/css/blink.css">-->
 	<link rel="apple-touch-icon" href="blink.png">
@@ -19,7 +19,7 @@
 	<meta name="apple-mobile-web-app-title" content="blinkUI">
 	<meta name="theme-color" content="#f53d5c"> </head>
 
-<body class="ox:h">
+<body class="ox:h m:0">
 	<nav class="ox:a ws:nw pl:m pr:m bgc:b:xs d:f ff:m fs:xs tt:u ls:l c:red">
 		<!--<a href="#" class="mr:m c:b:h pt:m pb:m">Overview</a>--><a href="#" class="mr:m pt:m pb:m bbw:m fw:l">Docs</a>
 		<!--<a href="#" class="mr:m c:b:h pt:m pb:m">Components</a>-->
@@ -31,9 +31,9 @@
 		<p class="m:0 lh:m tt:u ls:l">Web and interface design in the <span class="c:red:h">blink</span> of an eye.</p>
 	</header>
 	<nav id="toc" class="mb:l p:l ox:a ws:nw bc:red c:b:s fs:l@XL">
-		<ul class="ls:n">
+		<ul class="ls:n m:0 p:0">
 			<li class="d:f mr>*:m mb>*:m"><b><a href="#typo">Typography</a></b>
-				<ul class="ls:n d:f mr>*:s">
+				<ul class="ls:n m:0 p:0 d:f mr>*:s">
 					<li><a href="#typo__font-family">font-family</a></li>
 					<li><a href="#typo__font-size">font-size</a></li>
 					<li><a href="#typo__line-height">line-height</a></li>
@@ -47,7 +47,7 @@
 				</ul>
 			</li>
 			<li class="d:f mr>*:m mb>*:m"><b><a href="#layout">Layout: Spacing &amp; dimensions</a></b>
-				<ul class="ls:n d:f mr>*:m">
+				<ul class="ls:n m:0 p:0 d:f mr>*:m">
 					<li><a href="#layout__margin">margin</a></li>
 					<!--<li><a href="#layout__margin_child">margin_child</a></li>-->
 					<li><a href="#layout__padding">padding</a></li>
@@ -57,7 +57,8 @@
 					<li><a href="#layout__box-sizing">box-sizing</a></li>
 				</ul>
 				<li class="d:f mr>*:m mb>*:m"><b><a href="#layout">Layout: Positioning</a></b>
-					<ul class="ls:n d:f mr>*:m">
+					<ul class="ls:n m:0 p:0 d:f mr>*:m">
+						<li><a href="#layout__column-count">column-count</a></li>
 						<li><a href="#layout__display">display</a></li>
 						<li><a href="#layout__position">position</a></li>
 						<li><a href="#layout__z-index">z-index</a></li>
@@ -75,7 +76,7 @@
 					</ul>
 				</li>
 				<li class="d:f mr>*:m mb>*:m"><b><a href="#layout__flexbox">Layout: Flexbox</a></b>
-					<ul class="ls:n d:f mr>*:m">
+					<ul class="ls:n m:0 p:0 d:f mr>*:m">
 						<li><a href="#layout__flex-direction">flex-direction</a></li>
 						<li><a href="#layout__flex-wrap">flex-wrap</a></li>
 						<li><a href="#layout__justify-content">justify-content</a></li>
@@ -88,7 +89,7 @@
 					</ul>
 				</li>
 				<li class="d:f mr>*:m"><b><a href="#theme">Theming</a></b>
-					<ul class="ls:n d:f mr>*:m">
+					<ul class="ls:n m:0 p:0 d:f mr>*:m">
 						<li><a href="#theme__border-width">border-width</a></li>
 						<li><a href="#theme__border-style">border-style</a></li>
 						<li><a href="#theme__border-radius">border-radius</a></li>
@@ -113,9 +114,9 @@
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">font-family</h3></header>
 				<div class="lh:xs">
-					<p><span class="ff:s fs:l fs:xl@XL">serif</span><code>ff:s</code></p>
-					<p><span class="ff:ss fs:l fs:xl@XL">sans-serif</span><code>ff:ss</code></p>
-					<p><span class="ff:m fs:l fs:xl@XL">monospace</span><code>ff:m</code></p>
+					<p><span class="ff:s fs:l fs:xl@XL">serif</span> <code>ff:s</code></p>
+					<p><span class="ff:ss fs:l fs:xl@XL">sans-serif</span> <code>ff:ss</code></p>
+					<p><span class="ff:m fs:l fs:xl@XL">monospace</span> <code>ff:m</code></p>
 				</div>
 			</article>
 			<article id="typo__font-size">
@@ -126,11 +127,11 @@
 				<div class="ox:a ws:nw pt:m pb:m mb>*:s" style="margin-right: -2rem">
 					<hint>The default font-size is set to 1rem in the base stylesheet.</hint>
 					<p class="lh:xs"><span class="fs:xxl">Huge (8rem)</span><code class="c:red">fs:xxl</code></p>
-					<p><span class="fs:xl">Extra large (4rem)</span><code>fs:xl</code></p>
-					<p><span class="fs:l">Large (2rem)</span><code>fs:l</code></p>
-					<p><span class="fs:m">Medium (1.5rem)</span><code>fs:m</code></p>
-					<p><span class="fs:s">Small (1rem)</span><code>fs:s</code></p>
-					<p><span class="fs:xs">Extra small (.875rem)</span><code>fs:xs</code></p>
+					<p><span class="fs:xl">Extra large (4rem)</span> <code>fs:xl</code></p>
+					<p><span class="fs:l">Large (2rem)</span> <code>fs:l</code></p>
+					<p><span class="fs:m">Medium (1.5rem)</span> <code>fs:m</code></p>
+					<p><span class="fs:s">Small (1rem)</span> <code>fs:s</code></p>
+					<p><span class="fs:xs">Extra small (.875rem)</span> <code>fs:xs</code></p>
 				</div>
 			</article>
 			<article id="typo__line-height">
@@ -152,11 +153,11 @@
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">font-weight</h3> </header>
 				<div class="ox:a ws:nw lh:xs  pt:m pb:m" style="margin-right: -2rem">
-					<p><span class="fw:xs fs:l fs:xl@XL">Extra small (100/thin)</span><code>fw:xs</code></p>
-					<p><span class="fw:s fs:l fs:xl@XL">Small (300/light)</span><code>fw:s</code></p>
-					<p><span class="fw:m fs:l fs:xl@XL">Medium (400/normal)</span><code>fw:m</code></p>
-					<p><span class="fw:l fs:l fs:xl@XL">Large (700/bold)</span><code>fw:l</code></p>
-					<p><span class="fw:xl fs:l fs:xl@XL">Extra large (900/ultra-bold)</span><code>fw:xl</code></p>
+					<p><span class="fw:xs fs:l fs:xl@XL">Extra small (100/thin)</span> <code>fw:xs</code></p>
+					<p><span class="fw:s fs:l fs:xl@XL">Small (300/light)</span> <code>fw:s</code></p>
+					<p><span class="fw:m fs:l fs:xl@XL">Medium (400/normal)</span> <code>fw:m</code></p>
+					<p><span class="fw:l fs:l fs:xl@XL">Large (700/bold)</span> <code>fw:l</code></p>
+					<p><span class="fw:xl fs:l fs:xl@XL">Extra large (900/ultra-bold)</span> <code>fw:xl</code></p>
 				</div>
 			</article>
 			<article id="typo__font-style">
@@ -164,7 +165,7 @@
 					<h3 class="d:ib ff:m bgc:b c:w p:m">font-style</h3></header>
 				<div class="lh:xs">
 					<p><em class="fs:n fs:l fs:xl@XL">normal</em><code>fs:n</code></p>
-					<p><span class="fs:i fs:l fs:xl@XL">italic</span><code>fs:i</code></p>
+					<p><span class="fs:i fs:l fs:xl@XL">italic</span> <code>fs:i</code></p>
 				</div>
 			</article>
 			<article id="typo__text-align">
@@ -173,32 +174,35 @@
 					<responsivestyles></responsivestyles>
 				</header>
 				<div class="lh:xs w:100%">
-					<p class="ta:l"><span class="fs:l fs:xl@XL">left</span><code>ta:l</code></p>
-					<p class="ta:j" style="hyphens:auto;"><span class="fs:l fs:xl@XL">justify <span class="c:b:s fw:xs">justify justify justify justify justify justify justify justify justify justify justify justify</span></span><code>ta:j</code></p>
-					<p class="ta:c"><span class="fs:l fs:xl@XL">center</span><code>ta:c</code></p>
-					<p class="ta:r"><span class="fs:l fs:xl@XL">right</span><code>ta:r</code></p>
+					<p class="ta:l"><span class="fs:l fs:xl@XL">left</span> <code>ta:l</code></p>
+					<p class="ta:j" style="hyphens:auto;"><span class="fs:l fs:xl@XL">justify <span class="c:b:s fw:xs">justify justify justify justify justify justify justify justify justify justify justify justify justify justify justify justify justify justify justify justify justify justify justify justify</span></span>
+						<code>ta:j</code></p>
+					<p class="ta:c"><span class="fs:l fs:xl@XL">center</span> <code>ta:c</code></p>
+					<p class="ta:r"><span class="fs:l fs:xl@XL">right</span> <code>ta:r</code></p>
 				</div>
 			</article>
 			<article id="typo__text-transform">
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">text-transform</h3></header>
-				<div><span class="fs:l fs:xl@XL tt:n">none</span><code>tt:n</code></div>
-				<div><span class="fs:l fs:xl@XL tt:u">uppercase</span><code>tt:u</code></div>
+				<div><span class="fs:l fs:xl@XL tt:n">none</span> <code>tt:n</code></div>
+				<div><span class="fs:l fs:xl@XL tt:u">uppercase</span> <code>tt:u</code></div>
 			</article>
 			<article id="typo__text-decoration">
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">text-decoration</h3></header>
 				<div><del class="fs:l fs:xl@XL td:n td:u:h bc:red">none</del><code>td:n</code></div>
-				<div><span class="fs:l fs:xl@XL td:u">underline</span><code>td:u</code> </div>
-				<div><span class="fs:l fs:xl@XL td:lt">line-through</span><code>td:lt</code></div>
+				<div><span class="fs:l fs:xl@XL td:u">underline</span> <code>td:u</code> </div>
+				<div><span class="fs:l fs:xl@XL td:lt">line-through</span> <code>td:lt</code></div>
 			</article>
 			<article id="typo__letter-spacing">
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">letter-spacing</h3></header>
 				<div class="fw:xs">
+					<div><span class="ls:xs fs:l fs:xl@XL tt:u">Extra small (-.125em)</span><code class="fw:m">ls:xs</code></div>
 					<div><span class="ls:s fs:l fs:xl@XL tt:u">Small (-.0625em)</span><code class="fw:m">ls:s</code></div>
 					<div><span class="ls:m fs:l fs:xl@XL tt:u">Medium (normal)</span><code class="fw:m">ls:m</code></div>
 					<div><span class="ls:l fs:l fs:xl@XL tt:u">Large (.125em)</span><code class="fw:m">ls:l</code></div>
+					<div><span class="ls:xl fs:l fs:xl@XL tt:u">Extra large (.25em)</span><code class="fw:m">ls:xl</code></div>
 				</div>
 			</article>
 			<article id="typo__list-style">
@@ -395,10 +399,6 @@
 					<h3 class="d:ib ff:m bgc:b c:w p:m">max-width</h3>
 					<responsivestyles></responsivestyles>
 				</header>
-				<div>
-					<hint>Similar to the width module:</hint> <code>mw:75%</code>= <code>max-width:75%</code></div>
-				<hr>
-				<h4>Additional classes:</h4>
 				<div class="mw:M c:w bgc:b p:m">Medium breakpoint (default: 40rem) <code>mw:M</code></div>
 				<div class="mw:L c:w bgc:b p:m mt:s">Large breakpoint (default: 80rem) <code>mw:L</code></div>
 				<div class="mw:XL c:w bgc:b p:m mt:s">Extra large breakpoint (default: 120rem) <code>mw:XL</code></div>
@@ -446,6 +446,20 @@
     <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
 </svg><a class="td:u" href="https://css-tricks.com/box-sizing/" target="_blank">Box Sizing explained</a></hint>
 			</article>
+			<article id="layout__column-count">
+				<header class="p:r">
+					<h3 class="d:ib ff:m bgc:b c:w p:m">column-count</h3>
+					<responsivestyles></responsivestyles>
+				</header>
+				<div class="cc:1 w:100%">1 <code>cc:1</code> <span class="c:b:s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea	takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+						et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</span></div>
+				<div class="cc:2 w:100%">2 <code>cc:2</code> <span class="c:b:s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea	takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+						et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</span></div>
+				<div class="cc:3 w:100%">3 <code>cc:3</code> <span class="c:b:s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea	takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+						et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</span></div>
+				<div class="cc:4 w:100%">4 <code>cc:4</code> <span class="c:b:s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea	takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+						et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</span> </div>
+			</article>
 			<article id="layout__display">
 				<header class="p:r">
 					<h3 class="d:ib ff:m bgc:b c:w p:m">display</h3>
@@ -477,11 +491,11 @@
 					<h3 class="d:ib ff:m bgc:b c:w p:m">position</h3>
 					<responsivestyles></responsivestyles>
 				</header>
-				<div><span class="p:st fs:l">static</span><code>p:st</code>
+				<div><span class="p:st fs:l">static</span> <code>p:st</code>
 					<hint>(p:s = padding: small)</hint>
 				</div>
-				<div><span class="p:r l:-m fs:l">relative</span><code>p:r</code></div>
-				<div><span class="p:a r:m fs:l">absolute</span><code>p:a</code></div>
+				<div><span class="p:r l:-m fs:l">relative</span> <code>p:r</code></div>
+				<div><span class="p:a r:m fs:l">absolute</span> <code>p:a</code></div>
 				<div>
 					<nav> <a class="p:f zi:l b:s r:s h:m w:m br:xl bgc:w:xl d:f ai:c jc:c bs:s bs:l:h o:l:h" href="#top" style="-webkit-backdrop-filter: blur(.125rem)"><svg data-icon="chevronUp" viewBox="0 0 32 32" class="h:xs w:xs">
 								<title>Arrow pointing upwards</title>
@@ -493,11 +507,11 @@
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">z-index</h3></header>
 				<div class="ta:c lh:s">
-					<div><span class="zi:xs p:xs bw:s bgc:b:l c:w fs:l">Extra small (-200)</span><code>zi:xs</code></div>
-					<div><span class="zi:s p:xs bw:s bgc:b:l c:w fs:l">Small (-100)</span><code>zi:s</code></div>
-					<div><span class="zi:m p:xs bw:s bgc:b:m c:w fs:l">Medium (0)</span><code>zi:m</code></div>
-					<div><span class="zi:l p:xs bw:s bgc:b:m c:w fs:l">Large (100)</span><code>zi:l</code></div>
-					<div><span class="zi:xl p:xs bw:s bgc:b:m c:w fs:l">Extra large (200)</span><code>zi:xl</code></div>
+					<div><span class="p:r zi:xl p:xs bw:s bgc:w fs:l">Extra large (200)</span> <code>zi:xl</code></div>
+					<div><span class="p:r zi:l p:xs bw:s bgc:b c:w fs:l">Large (100)</span> <code>zi:l</code></div>
+					<div><span class="p:r zi:m p:xs bw:s bgc:w fs:l">Medium (0)</span> <code>zi:m</code></div>
+					<div><span class="p:r zi:s p:xs bw:s bgc:b c:w fs:l">Small (-100)</span> <code>zi:s</code></div>
+					<div><span class="p:r zi:xs p:xs bw:s bgc:w fs:l">Extra small (-200)</span> <code>zi:xs</code></div>
 				</div>
 			</article>
 			<article id="layout__vertical-align">
@@ -507,7 +521,7 @@
 					<div><span class="fs:l">baseline (default)</span><code class="va:bl">va:bl</code></div>
 					<div><span class="fs:l">top</span><code class="va:t">va:t</code></div>
 					<div><span class="fs:l">middle</span><code class="va:m">va:m</code></div>
-					<div><span class="fs:l">bottom</span><code class="va:b">va:m</code></div>
+					<div><span class="fs:l">bottom</span><code class="va:b">va:b</code></div>
 					<div><span class="fs:l">super</span><code class="va:sup">va:sup</code></div>
 					<div><span class="fs:l">sub</span><code class="va:sub">va:sub</code></div>
 				</div>
@@ -517,51 +531,51 @@
 					<h3 class="d:ib ff:m bgc:b c:w p:m">top</h3></header>
 				<div class="ox:a ws:nw" style="margin-right: -2rem; padding:  8rem 0;">
 					<div class="p:a w:80% btw:s bc:cyan"></div>
-					<div class="btw:s d:ib p:r t:-xl p:s"><span>Neg. extra large (-8rem)</span><code>t:-xl</code></div>
-					<div class="btw:s d:ib p:r t:-l p:s"><span>Neg. large (-4rem)</span><code>t:-l</code></div>
-					<div class="btw:s d:ib p:r t:-m p:s"><span>Neg. medium (-2rem)</span><code>t:-m</code></div>
-					<div class="btw:s d:ib p:r t:-s p:s"><span>Neg. small (-1rem)</span><code>t:-s</code></div>
-					<div class="btw:s d:ib p:r t:-xs p:s"><span>Neg. extra small (-.5rem)</span><code>t:-xs</code></div>
-					<div class="btw:s d:ib p:r t:0 p:s"><span>0</span><code>t:0</code></div>
-					<div class="btw:s d:ib p:r t:xs p:s"><span>Extra small (.5rem)</span><code>t:xs</code></div>
-					<div class="btw:s d:ib p:r t:s p:s"><span>Small (1rem)</span><code>t:s</code></div>
-					<div class="btw:s d:ib p:r t:m p:s"><span>Medium (2rem)</span><code>t:m</code></div>
-					<div class="btw:s d:ib p:r t:l p:s"><span>Large (4rem)</span><code>t:l</code></div>
-					<div class="btw:s d:ib p:r t:xl p:s"><span>Extra large (8rem)</span><code>t:xl</code></div>
+					<div class="btw:s d:ib p:r t:-xl p:s"><span>Neg. extra large (-8rem)</span> <code>t:-xl</code></div>
+					<div class="btw:s d:ib p:r t:-l p:s"><span>Neg. large (-4rem)</span> <code>t:-l</code></div>
+					<div class="btw:s d:ib p:r t:-m p:s"><span>Neg. medium (-2rem)</span> <code>t:-m</code></div>
+					<div class="btw:s d:ib p:r t:-s p:s"><span>Neg. small (-1rem)</span> <code>t:-s</code></div>
+					<div class="btw:s d:ib p:r t:-xs p:s"><span>Neg. extra small (-.5rem)</span> <code>t:-xs</code></div>
+					<div class="btw:s d:ib p:r t:0 p:s"><span>0</span> <code>t:0</code></div>
+					<div class="btw:s d:ib p:r t:xs p:s"><span>Extra small (.5rem)</span> <code>t:xs</code></div>
+					<div class="btw:s d:ib p:r t:s p:s"><span>Small (1rem)</span> <code>t:s</code></div>
+					<div class="btw:s d:ib p:r t:m p:s"><span>Medium (2rem)</span> <code>t:m</code></div>
+					<div class="btw:s d:ib p:r t:l p:s"><span>Large (4rem)</span> <code>t:l</code></div>
+					<div class="btw:s d:ib p:r t:xl p:s"><span>Extra large (8rem)</span> <code>t:xl</code></div>
 				</div>
 			</article>
 			<article id="layout__right" style="overflow-x: hidden !important;">
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">right</h3></header>
 				<div class="d:ib brw:s bc:cyan ox:v ta:r">
-					<div class="brw:s p:r r:-xl p:s"><span>Neg. extra large (-8rem)</span><code>r:-xl</code></div>
-					<div class="brw:s p:r r:-l p:s"><span>Neg. large (-4rem)</span><code>r:-l</code></div>
-					<div class="brw:s p:r r:-m p:s"><span>Neg. medium (-2rem)</span><code>r:-m</code></div>
-					<div class="brw:s p:r r:-s p:s"><span>Neg. small (-1rem)</span><code>r:-s</code></div>
-					<div class="brw:s p:r r:-xs p:s"><span>Neg. extra small (-.5rem)</span><code>r:-xs</code></div>
-					<div class="brw:s p:r r:0 p:s"><span>0</span><code>r:0</code></div>
-					<div class="brw:s p:r r:xs p:s"><span>Extra small (.5rem)</span><code>r:xs</code></div>
-					<div class="brw:s p:r r:s p:s"><span>Small (1rem)</span><code>r:s</code></div>
-					<div class="brw:s p:r r:m p:s"><span>Medium (2rem)</span><code>r:m</code></div>
-					<div class="brw:s p:r r:l p:s"><span>Large (4rem)</span><code>r:l</code></div>
-					<div class="brw:s p:r r:xl p:s"><span>Extra Large (8rem)</span><code>r:xl</code></div>
+					<div class="brw:s p:r r:-xl p:s"><span>Neg. extra large (-8rem)</span> <code>r:-xl</code></div>
+					<div class="brw:s p:r r:-l p:s"><span>Neg. large (-4rem)</span> <code>r:-l</code></div>
+					<div class="brw:s p:r r:-m p:s"><span>Neg. medium (-2rem)</span> <code>r:-m</code></div>
+					<div class="brw:s p:r r:-s p:s"><span>Neg. small (-1rem)</span> <code>r:-s</code></div>
+					<div class="brw:s p:r r:-xs p:s"><span>Neg. extra small (-.5rem)</span> <code>r:-xs</code></div>
+					<div class="brw:s p:r r:0 p:s"><span>0</span> <code>r:0</code></div>
+					<div class="brw:s p:r r:xs p:s"><span>Extra small (.5rem)</span> <code>r:xs</code></div>
+					<div class="brw:s p:r r:s p:s"><span>Small (1rem)</span> <code>r:s</code></div>
+					<div class="brw:s p:r r:m p:s"><span>Medium (2rem)</span> <code>r:m</code></div>
+					<div class="brw:s p:r r:l p:s"><span>Large (4rem)</span> <code>r:l</code></div>
+					<div class="brw:s p:r r:xl p:s"><span>Extra Large (8rem)</span> <code>r:xl</code></div>
 				</div>
 			</article>
 			<article id="layout__bottom">
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">bottom</h3></header>
 				<div class="ox:a ws:nw" style="margin-right: -2rem; padding:  8rem 0;">
-					<div class="bbw:s d:ib p:r b:-xl p:s"><span>Neg. extra large (-8rem)</span><code>b:-xl</code></div>
-					<div class="bbw:s d:ib p:r b:-l p:s"><span>Neg. large (-4rem)</span><code>b:-l</code></div>
-					<div class="bbw:s d:ib p:r b:-m p:s"><span>Neg. medium (-2rem)</span><code>b:-m</code></div>
-					<div class="bbw:s d:ib p:r b:-s p:s"><span>Neg. small (-1rem)</span><code>b:-s</code></div>
-					<div class="bbw:s d:ib p:r b:-xs p:s"><span>Neg. extra small (-.5rem)</span><code>b:-xs</code></div>
-					<div class="bbw:s d:ib p:r b:0 p:s"><span>0</span><code>b:0</code></div>
-					<div class="bbw:s d:ib p:r b:xs p:s"><span>Extra small (.5rem)</span><code>b:xs</code></div>
-					<div class="bbw:s d:ib p:r b:s p:s"><span>Small (1rem)</span><code>b:s</code></div>
-					<div class="bbw:s d:ib p:r b:m p:s"><span>Medium (2rem)</span><code>b:m</code></div>
-					<div class="bbw:s d:ib p:r b:l p:s"><span>Large (4rem)</span><code>b:l</code></div>
-					<div class="bbw:s d:ib p:r b:xl p:s"><span>Extra large (8rem)</span><code>b:xl</code></div>
+					<div class="bbw:s d:ib p:r b:-xl p:s"><span>Neg. extra large (-8rem)</span> <code>b:-xl</code></div>
+					<div class="bbw:s d:ib p:r b:-l p:s"><span>Neg. large (-4rem)</span> <code>b:-l</code></div>
+					<div class="bbw:s d:ib p:r b:-m p:s"><span>Neg. medium (-2rem)</span> <code>b:-m</code></div>
+					<div class="bbw:s d:ib p:r b:-s p:s"><span>Neg. small (-1rem)</span> <code>b:-s</code></div>
+					<div class="bbw:s d:ib p:r b:-xs p:s"><span>Neg. extra small (-.5rem)</span> <code>b:-xs</code></div>
+					<div class="bbw:s d:ib p:r b:0 p:s"><span>0</span> <code>b:0</code></div>
+					<div class="bbw:s d:ib p:r b:xs p:s"><span>Extra small (.5rem)</span> <code>b:xs</code></div>
+					<div class="bbw:s d:ib p:r b:s p:s"><span>Small (1rem)</span> <code>b:s</code></div>
+					<div class="bbw:s d:ib p:r b:m p:s"><span>Medium (2rem)</span> <code>b:m</code></div>
+					<div class="bbw:s d:ib p:r b:l p:s"><span>Large (4rem)</span> <code>b:l</code></div>
+					<div class="bbw:s d:ib p:r b:xl p:s"><span>Extra large (8rem)</span> <code>b:xl</code></div>
 					<div class="p:a w:80% bbw:s bc:cyan"></div>
 				</div>
 			</article>
@@ -569,17 +583,17 @@
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">left</h3></header>
 				<div class="blw:s bc:cyan ox:v ml:xl">
-					<div class="blw:s p:r l:-xl p:s"><span>Neg. extra large (-8rem)</span><code>l:-xl</code></div>
-					<div class="blw:s p:r l:-l p:s"><span>Neg. large (-4rem)</span><code>l:-l</code></div>
-					<div class="blw:s p:r l:-m p:s"><span>Neg. medium (-2rem)</span><code>l:-m</code></div>
-					<div class="blw:s p:r l:-s p:s"><span>Neg. small (-1rem)</span><code>l:-s</code></div>
-					<div class="blw:s p:r l:-xs p:s"><span>Neg. extra small (-.5rem)</span><code>l:-xs</code></div>
-					<div class="blw:s p:r l:0 p:s"><span>0</span><code>l:0</code></div>
-					<div class="blw:s p:r l:xs p:s"><span>Extra small (.5rem)</span><code>l:xs</code></div>
-					<div class="blw:s p:r l:s p:s"><span>Small (1rem)</span><code>l:s</code></div>
-					<div class="blw:s p:r l:m p:s"><span>Medium (2rem)</span><code>l:m</code></div>
-					<div class="blw:s p:r l:l p:s"><span>Large (4rem)</span><code>l:l</code></div>
-					<div class="blw:s p:r l:xl p:s d:ib"><span>Extra large (8rem)</span><code>l:xl</code></div>
+					<div class="blw:s p:r l:-xl p:s"><span>Neg. extra large (-8rem)</span> <code>l:-xl</code></div>
+					<div class="blw:s p:r l:-l p:s"><span>Neg. large (-4rem)</span> <code>l:-l</code></div>
+					<div class="blw:s p:r l:-m p:s"><span>Neg. medium (-2rem)</span> <code>l:-m</code></div>
+					<div class="blw:s p:r l:-s p:s"><span>Neg. small (-1rem)</span> <code>l:-s</code></div>
+					<div class="blw:s p:r l:-xs p:s"><span>Neg. extra small (-.5rem)</span> <code>l:-xs</code></div>
+					<div class="blw:s p:r l:0 p:s"><span>0</span> <code>l:0</code></div>
+					<div class="blw:s p:r l:xs p:s"><span>Extra small (.5rem)</span> <code>l:xs</code></div>
+					<div class="blw:s p:r l:s p:s"><span>Small (1rem)</span> <code>l:s</code></div>
+					<div class="blw:s p:r l:m p:s"><span>Medium (2rem)</span> <code>l:m</code></div>
+					<div class="blw:s p:r l:l p:s"><span>Large (4rem)</span> <code>l:l</code></div>
+					<div class="blw:s p:r l:xl p:s d:ib"><span>Extra large (8rem)</span> <code>l:xl</code></div>
 				</div>
 			</article>
 			<article id="layout__float">
@@ -635,18 +649,18 @@
 			<article id="layout__white-space" class="o:h">
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">white-space</h3></header>
-				<div class="ws:n lh:xs"><span class="fs:l fs:xl@XL">normal</span><code>ws:n</code><span class="c:b:s fw:xs fs:l fs:xl@XL">normal normal normal normal normal normal normal</span></div>
-				<div class="ws:nw ox:a" style="margin-right: -2rem;"><span class="fs:l fs:xl@XL">nowrap</span><code>ws:nw</code><span class="c:b:s fw:xs fs:l fs:xl@XL">nowrap nowrap nowrap nowrap nowrap nowrap nowrap nowrap nowrap</span></div>
-				<div class="ws:p"><span class="fs:l fs:xl@XL">pre</span><code>ws:p</code><span class="c:b:s fw:xs fs:l fs:xl@XL">  &middot;   pre   &middot;   pre</span></div>
+				<div class="ws:n lh:xs"><span class="fs:l fs:xl@XL">normal</span> <code>ws:n</code><span class="c:b:s fw:xs fs:l fs:xl@XL">normal normal normal normal normal normal normal</span></div>
+				<div class="ws:nw ox:a" style="margin-right: -2rem;"><span class="fs:l fs:xl@XL">nowrap</span> <code>ws:nw</code><span class="c:b:s fw:xs fs:l fs:xl@XL">nowrap nowrap nowrap nowrap nowrap nowrap nowrap nowrap nowrap</span></div>
+				<div class="ws:p"><span class="fs:l fs:xl@XL">pre</span> <code>ws:p</code><span class="c:b:s fw:xs fs:l fs:xl@XL">  &middot;   pre   &middot;   pre</span></div>
 			</article>
 			<article id="layout__visibility">
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">visibility</h3></header>
-				<div><span class="v:v">visible</span><code>v:v</code></div>
-				<div><span class="v:h">hidden</span><code>v:h</code>
+				<div><span class="v:v">visible</span> <code>v:v</code></div>
+				<div><span class="v:h">hidden</span> <code>v:h</code>
 					<hint>(hidden – see source code)</hint>
 				</div>
-				<div><span class="v:h v:v:h t:medium">visible on hover</span><code>v:h</code>+ <code>v:v:h</code>
+				<div><span class="v:h v:v:h t:medium">visible on hover</span> <code>v:h</code>+ <code>v:v:h</code>
 					<hint>(visible on hover – see source code)</hint>
 				</div>
 			</article>
@@ -1047,8 +1061,11 @@
 			<article id="theme__color">
 				<header>
 					<h3 class="d:ib ff:m bgc:b c:w p:m">color</h3></header>
-				<!-- transparent -->
+				<!-- transparent and currentColor-->
 				<div class="p:m c:t bw:l fw:l ta:c"><span class="c:b">transparent <small>(applied to border)</small></span><br><code class="c:b">c:t</code></div>
+				<div class="c:red">
+					<div class="p:m c:cc bw:l fw:l ta:c">currentColor <small>(inherites color from parent element)</small><br><code>c:cc</code></div>
+				</div>
 				<div class="d:f@M fw:w fw:l">
 					<div class="p:m c:red bw:l fb:33% ta:c">red <br><code>c:red</code></div>
 					<div class="p:m c:orange bw:l fb:33% ta:c">orange <br><code>c:orange</code></div>
@@ -1280,13 +1297,13 @@
 					<hoverstyles></hoverstyles>
 				</header>
 				<div class="ta:c">
-					<div><span class="o:i o:0:h p:xs bw:s bgc:b c:w w:m fs:l">initial</span><code>o:i</code></div>
-					<div><span class="o:xl o:xs:h p:xs bw:s bgc:b c:w w:m fs:l">Extra large (.875)</span><code>o:xl</code></div>
-					<div><span class="o:l o:s:h p:xs bw:s bgc:b c:w fs:l">Large (.75)</span><code>o:l</code></div>
-					<div><span class="o:m o:xs:h p:xs bw:s bgc:b c:w fs:l">Medium (.5)</span><code>o:m</code></div>
-					<div><span class="o:s o:l:h p:xs bw:s bgc:b c:w fs:l">Small (.25)</span><code>o:s</code></div>
-					<div><span class="o:xs o:xl:h p:xs bw:s bgc:b c:w fs:l">Extra small (.125)</span><code>o:xs</code></div>
-					<div><span class="o:0 o:i:h t:medium p:xs bw:s bgi:red c:w fs:l">0</span><code>o:0</code></div>
+					<div><span class="o:i o:0:h p:xs bw:s bgc:b c:w w:m fs:l">initial</span> <code>o:i</code></div>
+					<div><span class="o:xl o:xs:h p:xs bw:s bgc:b c:w w:m fs:l">Extra large (.875)</span> <code>o:xl</code></div>
+					<div><span class="o:l o:s:h p:xs bw:s bgc:b c:w fs:l">Large (.75)</span> <code>o:l</code></div>
+					<div><span class="o:m o:xs:h p:xs bw:s bgc:b c:w fs:l">Medium (.5)</span> <code>o:m</code></div>
+					<div><span class="o:s o:l:h p:xs bw:s bgc:b c:w fs:l">Small (.25)</span> <code>o:s</code></div>
+					<div><span class="o:xs o:xl:h p:xs bw:s bgc:b c:w fs:l">Extra small (.125)</span> <code>o:xs</code></div>
+					<div><span class="o:0 o:i:h t:medium p:xs bw:s bgi:red c:w fs:l">0</span> <code>o:0</code></div>
 				</div>
 			</article>
 			<article id="theme__transition">
